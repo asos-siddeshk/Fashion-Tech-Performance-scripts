@@ -1,0 +1,468 @@
+2025-12-03 08:39:56,646 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-12-03 08:39:56,665 INFO o.a.j.JMeter: Loading user properties from: C:\Users\shaik.mohammad\.bzt\jmeter-taurus\5.5\bin\user.properties
+2025-12-03 08:39:56,666 INFO o.a.j.JMeter: Loading system properties from: C:\Users\shaik.mohammad\.bzt\jmeter-taurus\5.5\bin\system.properties
+2025-12-03 08:39:56,666 INFO o.a.j.JMeter: Loading additional properties from: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Peak_Hour_Test\2025-12-03_08-39-43.074841\jmeter-bzt.properties
+2025-12-03 08:39:56,691 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2025-12-03 08:39:56,691 INFO o.a.j.JMeter: Version 5.5
+2025-12-03 08:39:56,691 INFO o.a.j.JMeter: java.version=24.0.2
+2025-12-03 08:39:56,691 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2025-12-03 08:39:56,691 INFO o.a.j.JMeter: os.name=Windows Server 2012 R2
+2025-12-03 08:39:56,691 INFO o.a.j.JMeter: os.arch=amd64
+2025-12-03 08:39:56,691 INFO o.a.j.JMeter: os.version=6.3
+2025-12-03 08:39:56,692 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-12-03 08:39:56,692 INFO o.a.j.JMeter: java.awt.headless=true
+2025-12-03 08:39:56,692 INFO o.a.j.JMeter: Max memory     =15032385536
+2025-12-03 08:39:56,692 INFO o.a.j.JMeter: Available Processors =4
+2025-12-03 08:39:56,705 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-12-03 08:39:56,706 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-12-03 08:39:56,706 INFO o.a.j.JMeter: JMeterHome=C:\Users\shaik.mohammad\.bzt\jmeter-taurus\5.5
+2025-12-03 08:39:56,706 INFO o.a.j.JMeter: user.dir  =R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Peak_Hour_Test
+2025-12-03 08:39:56,706 INFO o.a.j.JMeter: PWD       =R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Peak_Hour_Test
+2025-12-03 08:39:56,708 INFO o.a.j.JMeter: IP: 10.98.96.20 Name: vm7pwu76ki0 FullName: vm7pwu76ki0.kingsway.asos.com
+2025-12-03 08:39:56,708 INFO o.a.j.JMeter: user.classpath=R:/Scripts/After_Data_Refresh_2025/Validating_working_Scripts/Wholesale/Peak_Hour_Test/2025-12-03_08-39-43.074841;R:/Scripts/After_Data_Refresh_2025/Validating_working_Scripts/Wholesale/Peak_Hour_Test
+2025-12-03 08:39:56,708 INFO o.a.j.JMeter: Adding to classpath and loader: R:/Scripts/After_Data_Refresh_2025/Validating_working_Scripts/Wholesale/Peak_Hour_Test/2025-12-03_08-39-43.074841
+2025-12-03 08:39:56,709 INFO o.a.j.JMeter: Adding to classpath and loader: R:/Scripts/After_Data_Refresh_2025/Validating_working_Scripts/Wholesale/Peak_Hour_Test
+2025-12-03 08:39:56,729 INFO o.a.j.s.FileServer: Default base='R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Peak_Hour_Test'
+2025-12-03 08:39:56,730 INFO o.a.j.s.FileServer: Set new base='R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Peak_Hour_Test'
+2025-12-03 08:39:57,123 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-12-03 08:39:57,163 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-12-03 08:39:57,166 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-12-03 08:39:57,170 INFO o.a.j.s.SaveService: Loading file: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Peak_Hour_Test\modified_Wholesale_All_Scenario-1.jmx
+2025-12-03 08:39:57,212 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2025-12-03 08:39:57,236 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-03 08:39:57,236 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-03 08:39:57,236 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-03 08:39:57,236 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-03 08:39:57,236 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-12-03 08:39:57,236 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-12-03 08:39:57,727 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-12-03 08:39:57,728 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-12-03 08:39:57,728 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-12-03 08:39:57,738 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-12-03 08:39:57,738 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-12-03 08:39:58,010 INFO o.a.j.JMeter: Running test (1764751198010)
+2025-12-03 08:39:58,067 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : SC01_WholeSale_Dashboard_Load
+2025-12-03 08:39:58,068 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group SC01_WholeSale_Dashboard_Load.
+2025-12-03 08:39:58,068 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,068 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=4 ramp-up=20 delayedStart=false
+2025-12-03 08:39:58,078 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-12-03 08:39:58,078 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : SC02_WholeSale_Dashboard_Enlarge
+2025-12-03 08:39:58,079 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group SC02_WholeSale_Dashboard_Enlarge.
+2025-12-03 08:39:58,079 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,079 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=4 ramp-up=20 delayedStart=false
+2025-12-03 08:39:58,085 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2025-12-03 08:39:58,085 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : SC03_WholeSale_Pre_Receipt_Variance
+2025-12-03 08:39:58,085 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group SC03_WholeSale_Pre_Receipt_Variance.
+2025-12-03 08:39:58,085 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,085 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=4 ramp-up=20 delayedStart=false
+2025-12-03 08:39:58,090 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2025-12-03 08:39:58,090 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : SC04_WholeSale_Slippage_Dashboard
+2025-12-03 08:39:58,090 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group SC04_WholeSale_Slippage_Dashboard.
+2025-12-03 08:39:58,090 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,090 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=4 ramp-up=20 delayedStart=false
+2025-12-03 08:39:58,097 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2025-12-03 08:39:58,097 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : SC05_Wholesale_Post_Receipt_variance
+2025-12-03 08:39:58,097 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group SC05_Wholesale_Post_Receipt_variance.
+2025-12-03 08:39:58,098 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,098 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=4 ramp-up=20 delayedStart=false
+2025-12-03 08:39:58,108 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2025-12-03 08:39:58,108 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : SC06_WholeSale_Sales_Order_Release_Dashboard
+2025-12-03 08:39:58,108 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group SC06_WholeSale_Sales_Order_Release_Dashboard.
+2025-12-03 08:39:58,108 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,108 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=4 ramp-up=20 delayedStart=false
+2025-12-03 08:39:58,115 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2025-12-03 08:39:58,115 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 7 : SC07_WholeSale_Unproductive_stock
+2025-12-03 08:39:58,115 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group SC07_WholeSale_Unproductive_stock.
+2025-12-03 08:39:58,115 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,115 INFO o.a.j.t.ThreadGroup: Starting thread group... number=7 threads=4 ramp-up=20 delayedStart=false
+2025-12-03 08:39:58,118 INFO o.a.j.t.ThreadGroup: Started thread group number 7
+2025-12-03 08:39:58,118 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 8 : SC08_Wholesale_SinglePO_Search
+2025-12-03 08:39:58,118 INFO o.a.j.e.StandardJMeterEngine: Starting 4 threads for group SC08_Wholesale_SinglePO_Search.
+2025-12-03 08:39:58,118 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,118 INFO o.a.j.t.ThreadGroup: Starting thread group... number=8 threads=4 ramp-up=20 delayedStart=false
+2025-12-03 08:39:58,122 INFO o.a.j.t.ThreadGroup: Started thread group number 8
+2025-12-03 08:39:58,122 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 9 : SC09_Wholesale_International_Size_Upload
+2025-12-03 08:39:58,122 INFO o.a.j.e.StandardJMeterEngine: Starting 3 threads for group SC09_Wholesale_International_Size_Upload.
+2025-12-03 08:39:58,122 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,122 INFO o.a.j.t.ThreadGroup: Starting thread group... number=9 threads=3 ramp-up=15 delayedStart=false
+2025-12-03 08:39:58,126 INFO o.a.j.t.ThreadGroup: Started thread group number 9
+2025-12-03 08:39:58,126 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 10 : SC10_Wholesale_International_Size_Download
+2025-12-03 08:39:58,126 INFO o.a.j.e.StandardJMeterEngine: Starting 3 threads for group SC10_Wholesale_International_Size_Download.
+2025-12-03 08:39:58,126 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,126 INFO o.a.j.t.ThreadGroup: Starting thread group... number=10 threads=3 ramp-up=15 delayedStart=false
+2025-12-03 08:39:58,128 INFO o.a.j.t.ThreadGroup: Started thread group number 10
+2025-12-03 08:39:58,129 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 11 : SC11_Wholesale_Report_Export
+2025-12-03 08:39:58,129 INFO o.a.j.e.StandardJMeterEngine: Starting 3 threads for group SC11_Wholesale_Report_Export.
+2025-12-03 08:39:58,129 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,129 INFO o.a.j.t.ThreadGroup: Starting thread group... number=11 threads=3 ramp-up=15 delayedStart=false
+2025-12-03 08:39:58,135 INFO o.a.j.t.ThreadGroup: Started thread group number 11
+2025-12-03 08:39:58,135 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 12 : SC12_Wholesale_MassSearch
+2025-12-03 08:39:58,136 INFO o.a.j.e.StandardJMeterEngine: Starting 3 threads for group SC12_Wholesale_MassSearch.
+2025-12-03 08:39:58,136 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,136 INFO o.a.j.t.ThreadGroup: Starting thread group... number=12 threads=3 ramp-up=15 delayedStart=false
+2025-12-03 08:39:58,143 INFO o.a.j.t.ThreadGroup: Started thread group number 12
+2025-12-03 08:39:58,143 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 13 : SC13_Wholesale_SalesOrderEdit
+2025-12-03 08:39:58,143 INFO o.a.j.e.StandardJMeterEngine: Starting 3 threads for group SC13_Wholesale_SalesOrderEdit.
+2025-12-03 08:39:58,143 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,143 INFO o.a.j.t.ThreadGroup: Starting thread group... number=13 threads=3 ramp-up=15 delayedStart=false
+2025-12-03 08:39:58,151 INFO o.a.j.t.ThreadGroup: Started thread group number 13
+2025-12-03 08:39:58,151 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 14 : SC14_SingleSalesOrderRelease
+2025-12-03 08:39:58,151 INFO o.a.j.e.StandardJMeterEngine: Starting 2 threads for group SC14_SingleSalesOrderRelease.
+2025-12-03 08:39:58,151 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,151 INFO o.a.j.t.ThreadGroup: Starting thread group... number=14 threads=2 ramp-up=10 delayedStart=false
+2025-12-03 08:39:58,155 INFO o.a.j.t.ThreadGroup: Started thread group number 14
+2025-12-03 08:39:58,155 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 15 : SC15_Wholesale_BulkSalesOrderRelease
+2025-12-03 08:39:58,155 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group SC15_Wholesale_BulkSalesOrderRelease.
+2025-12-03 08:39:58,155 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,155 INFO o.a.j.t.ThreadGroup: Starting thread group... number=15 threads=1 ramp-up=1 delayedStart=false
+2025-12-03 08:39:58,157 INFO o.a.j.t.ThreadGroup: Started thread group number 15
+2025-12-03 08:39:58,157 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 16 : SC15_Wholesale_BulkSalesOrderRelease
+2025-12-03 08:39:58,157 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group SC15_Wholesale_BulkSalesOrderRelease.
+2025-12-03 08:39:58,157 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,157 INFO o.a.j.t.ThreadGroup: Starting thread group... number=16 threads=1 ramp-up=1 delayedStart=false
+2025-12-03 08:39:58,159 INFO o.a.j.t.ThreadGroup: Started thread group number 16
+2025-12-03 08:39:58,159 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 17 : SC15_Wholesale_BulkSalesOrderRelease
+2025-12-03 08:39:58,159 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group SC15_Wholesale_BulkSalesOrderRelease.
+2025-12-03 08:39:58,159 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,159 INFO o.a.j.t.ThreadGroup: Starting thread group... number=17 threads=1 ramp-up=1 delayedStart=false
+2025-12-03 08:39:58,161 INFO o.a.j.t.ThreadGroup: Started thread group number 17
+2025-12-03 08:39:58,161 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 18 : SC15_Wholesale_BulkSalesOrderRelease
+2025-12-03 08:39:58,161 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group SC15_Wholesale_BulkSalesOrderRelease.
+2025-12-03 08:39:58,161 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,161 INFO o.a.j.t.ThreadGroup: Starting thread group... number=18 threads=1 ramp-up=1 delayedStart=false
+2025-12-03 08:39:58,163 INFO o.a.j.t.ThreadGroup: Started thread group number 18
+2025-12-03 08:39:58,163 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 19 : SC15_Wholesale_BulkSalesOrderRelease
+2025-12-03 08:39:58,163 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group SC15_Wholesale_BulkSalesOrderRelease.
+2025-12-03 08:39:58,163 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,164 INFO o.a.j.t.ThreadGroup: Starting thread group... number=19 threads=1 ramp-up=1 delayedStart=false
+2025-12-03 08:39:58,168 INFO o.a.j.t.ThreadGroup: Started thread group number 19
+2025-12-03 08:39:58,168 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 20 : SC16_Wholesale_Redistribute_Trade_ORC
+2025-12-03 08:39:58,168 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group SC16_Wholesale_Redistribute_Trade_ORC.
+2025-12-03 08:39:58,168 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,168 INFO o.a.j.t.ThreadGroup: Starting thread group... number=20 threads=5 ramp-up=25 delayedStart=false
+2025-12-03 08:39:58,186 INFO o.a.j.t.ThreadGroup: Started thread group number 20
+2025-12-03 08:39:58,186 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 21 : SC17_Wholesale_SOH_All_BizModel_Tile
+2025-12-03 08:39:58,186 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group SC17_Wholesale_SOH_All_BizModel_Tile.
+2025-12-03 08:39:58,186 INFO o.a.j.e.StandardJMeterEngine: Thread will start next loop on error
+2025-12-03 08:39:58,187 INFO o.a.j.t.ThreadGroup: Starting thread group... number=21 threads=5 ramp-up=25 delayedStart=false
+2025-12-03 08:39:58,193 INFO o.a.j.t.ThreadGroup: Started thread group number 21
+2025-12-03 08:39:58,193 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-12-03 08:39:58,225 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-12-03 08:39:58,225 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-12-03 08:39:58,225 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-12-03 08:39:58,226 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-12-03 08:39:58,246 INFO o.a.j.t.JMeterThread: Thread started: SC08_Wholesale_SinglePO_Search 8-1
+2025-12-03 08:39:58,249 INFO o.a.j.t.JMeterThread: Thread started: SC12_Wholesale_MassSearch 12-1
+2025-12-03 08:39:58,251 INFO o.a.j.t.JMeterThread: Thread started: SC09_Wholesale_International_Size_Upload 9-1
+2025-12-03 08:39:58,251 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC08_SinglePO_search_PO.csv
+2025-12-03 08:39:58,254 INFO o.a.j.t.JMeterThread: Thread started: SC07_WholeSale_Unproductive_stock 7-1
+2025-12-03 08:39:58,255 INFO o.a.j.t.JMeterThread: Thread started: SC16_Wholesale_Redistribute_Trade_ORC 20-1
+2025-12-03 08:39:58,257 INFO o.a.j.t.JMeterThread: Thread started: SC04_WholeSale_Slippage_Dashboard 4-1
+2025-12-03 08:39:58,258 INFO o.a.j.t.JMeterThread: Thread started: SC02_WholeSale_Dashboard_Enlarge 2-1
+2025-12-03 08:39:58,258 INFO o.a.j.t.JMeterThread: Thread started: SC10_Wholesale_International_Size_Download 10-1
+2025-12-03 08:39:58,259 INFO o.a.j.t.JMeterThread: Thread started: SC01_WholeSale_Dashboard_Load 1-1
+2025-12-03 08:39:58,260 INFO o.a.j.t.JMeterThread: Thread started: SC05_Wholesale_Post_Receipt_variance 5-1
+2025-12-03 08:39:58,261 INFO o.a.j.t.JMeterThread: Thread started: SC03_WholeSale_Pre_Receipt_Variance 3-1
+2025-12-03 08:39:58,262 INFO o.a.j.t.JMeterThread: Thread started: SC06_WholeSale_Sales_Order_Release_Dashboard 6-1
+2025-12-03 08:39:58,263 INFO o.a.j.t.JMeterThread: Thread started: SC14_SingleSalesOrderRelease 14-1
+2025-12-03 08:39:58,264 INFO o.a.j.t.JMeterThread: Thread started: SC11_Wholesale_Report_Export 11-1
+2025-12-03 08:39:58,267 INFO o.a.j.t.JMeterThread: Thread started: SC13_Wholesale_SalesOrderEdit 13-1
+2025-12-03 08:39:58,267 INFO o.a.j.t.JMeterThread: Thread started: SC17_Wholesale_SOH_All_BizModel_Tile 21-1
+2025-12-03 08:39:58,308 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC17_WholeSale_SOH_AllBizModels_Tile_Load_Credentials.csv
+2025-12-03 08:39:58,309 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC13_SalesOrderEdit_salesOrderNo.csv
+2025-12-03 08:39:58,338 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = vm7pwu76ki0
+2025-12-03 08:39:58,344 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-12-03 08:39:58,409 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-12-03 08:39:58,415 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-12-03 08:39:58,415 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-12-03 08:39:58,424 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC11_Wholesale_Report_Export_Partner_Loc.csv
+2025-12-03 08:39:58,472 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-12-03 08:39:58,475 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-12-03 08:39:58,475 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-12-03 08:39:58,489 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC11_Wholesale_Report_Export_Credentials.csv
+2025-12-03 08:39:58,503 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC14_SingleSalesOrderRelease_sorNoList.csv
+2025-12-03 08:39:58,539 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC14_Wholesale_SingleSalesOrder_Credentials.csv
+2025-12-03 08:39:58,547 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC06_WholeSale_Sales_Order_Release_Credentials.csv
+2025-12-03 08:39:58,548 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC03_Pre_Receipt_Variance_PO.csv
+2025-12-03 08:39:58,578 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC03_WholeSale_Pre_Receipt_Variance_Credentials.csv
+2025-12-03 08:39:58,587 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC05_Post_Receipt_Variance_PO.csv
+2025-12-03 08:39:58,628 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC01_WholeSale_Dashboard_Load_Credentials.csv
+2025-12-03 08:39:58,629 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC05_Wholesale_Post_Receipt_variance_Credentials.csv
+2025-12-03 08:39:58,635 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC10_Wholesale_International_Size_Download_Credentials.csv
+2025-12-03 08:39:58,666 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC02_WholeSale_Dashboard_Enlarge_Credentials.csv
+2025-12-03 08:39:58,673 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC04_Slippage_Dashboard_PO.csv
+2025-12-03 08:39:58,752 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC04_WholeSale_Slippage_Dashboard_Credentials.csv
+2025-12-03 08:39:58,768 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC16_WholeSale_Redistribute_ORC_Store_WH_Loc.csv
+2025-12-03 08:39:58,785 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC16_WholeSale_Redistribute_ORC_Load_Credentials.csv
+2025-12-03 08:39:58,803 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC07_WholeSale_Unproductive_stock_Credentials.csv
+2025-12-03 08:39:58,817 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC12_Wholesale_MassSearch_Partner_Loc.csv
+2025-12-03 08:39:58,846 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC12_Wholesale_MassSearch_Credentials.csv
+2025-12-03 08:39:58,848 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/Wholesale_International_Size_FilePath.csv
+2025-12-03 08:39:58,870 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC09_Wholesale_International_Size_Upload_Credentials.csv
+2025-12-03 08:39:58,890 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC13_Wholesale_SalesOrderEdit_Credentials.csv
+2025-12-03 08:39:58,897 INFO o.a.j.s.FileServer: Stored: R:/Scripts/Pradeep/Wholesale_DataFiles/SC08_Wholesale_SinglePO_Search_Credentials.csv
+2025-12-03 08:39:58,936 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-12-03 08:39:59,209 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2025-12-03 08:39:59,796 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [338:25] starting at token ' ' until [338:26] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 338, column 26.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2025-12-03 08:40:03,232 INFO o.a.j.t.JMeterThread: Thread started: SC09_Wholesale_International_Size_Upload 9-2
+2025-12-03 08:40:03,244 INFO o.a.j.t.JMeterThread: Thread started: SC07_WholeSale_Unproductive_stock 7-2
+2025-12-03 08:40:03,246 INFO o.a.j.t.JMeterThread: Thread started: SC11_Wholesale_Report_Export 11-2
+2025-12-03 08:40:03,249 INFO o.a.j.t.JMeterThread: Thread started: SC17_Wholesale_SOH_All_BizModel_Tile 21-2
+2025-12-03 08:40:03,259 INFO o.a.j.t.JMeterThread: Thread started: SC06_WholeSale_Sales_Order_Release_Dashboard 6-2
+2025-12-03 08:40:03,261 INFO o.a.j.t.JMeterThread: Thread started: SC01_WholeSale_Dashboard_Load 1-2
+2025-12-03 08:40:03,262 INFO o.a.j.t.JMeterThread: Thread started: SC16_Wholesale_Redistribute_Trade_ORC 20-2
+2025-12-03 08:40:03,281 INFO o.a.j.t.JMeterThread: Thread started: SC05_Wholesale_Post_Receipt_variance 5-2
+2025-12-03 08:40:03,282 INFO o.a.j.t.JMeterThread: Thread started: SC08_Wholesale_SinglePO_Search 8-2
+2025-12-03 08:40:03,287 INFO o.a.j.t.JMeterThread: Thread started: SC14_SingleSalesOrderRelease 14-2
+2025-12-03 08:40:03,288 INFO o.a.j.t.JMeterThread: Thread started: SC10_Wholesale_International_Size_Download 10-2
+2025-12-03 08:40:03,300 INFO o.a.j.t.JMeterThread: Thread started: SC03_WholeSale_Pre_Receipt_Variance 3-2
+2025-12-03 08:40:03,308 INFO o.a.j.t.JMeterThread: Thread started: SC04_WholeSale_Slippage_Dashboard 4-2
+2025-12-03 08:40:03,316 INFO o.a.j.t.JMeterThread: Thread started: SC02_WholeSale_Dashboard_Enlarge 2-2
+2025-12-03 08:40:03,317 INFO o.a.j.t.JMeterThread: Thread started: SC13_Wholesale_SalesOrderEdit 13-2
+2025-12-03 08:40:03,343 INFO o.a.j.t.JMeterThread: Thread started: SC12_Wholesale_MassSearch 12-2
+2025-12-03 08:40:08,238 INFO o.a.j.t.JMeterThread: Thread started: SC17_Wholesale_SOH_All_BizModel_Tile 21-3
+2025-12-03 08:40:08,241 INFO o.a.j.t.JMeterThread: Thread started: SC11_Wholesale_Report_Export 11-3
+2025-12-03 08:40:08,244 INFO o.a.j.t.JMeterThread: Thread started: SC01_WholeSale_Dashboard_Load 1-3
+2025-12-03 08:40:08,246 INFO o.a.j.t.JMeterThread: Thread started: SC06_WholeSale_Sales_Order_Release_Dashboard 6-3
+2025-12-03 08:40:08,251 INFO o.a.j.t.JMeterThread: Thread started: SC04_WholeSale_Slippage_Dashboard 4-3
+2025-12-03 08:40:08,253 INFO o.a.j.t.JMeterThread: Thread started: SC03_WholeSale_Pre_Receipt_Variance 3-3
+2025-12-03 08:40:08,256 INFO o.a.j.t.JMeterThread: Thread started: SC02_WholeSale_Dashboard_Enlarge 2-3
+2025-12-03 08:40:08,257 INFO o.a.j.t.JMeterThread: Thread started: SC08_Wholesale_SinglePO_Search 8-3
+2025-12-03 08:40:08,258 INFO o.a.j.t.JMeterThread: Thread started: SC07_WholeSale_Unproductive_stock 7-3
+2025-12-03 08:40:08,258 INFO o.a.j.t.JMeterThread: Thread started: SC16_Wholesale_Redistribute_Trade_ORC 20-3
+2025-12-03 08:40:08,263 INFO o.a.j.t.JMeterThread: Thread started: SC12_Wholesale_MassSearch 12-3
+2025-12-03 08:40:08,269 INFO o.a.j.t.JMeterThread: Thread started: SC10_Wholesale_International_Size_Download 10-3
+2025-12-03 08:40:08,283 INFO o.a.j.t.JMeterThread: Thread started: SC05_Wholesale_Post_Receipt_variance 5-3
+2025-12-03 08:40:08,297 INFO o.a.j.t.JMeterThread: Thread started: SC13_Wholesale_SalesOrderEdit 13-3
+2025-12-03 08:40:08,298 INFO o.a.j.t.JMeterThread: Thread started: SC09_Wholesale_International_Size_Upload 9-3
+2025-12-03 08:40:13,230 INFO o.a.j.t.JMeterThread: Thread started: SC16_Wholesale_Redistribute_Trade_ORC 20-4
+2025-12-03 08:40:13,242 INFO o.a.j.t.JMeterThread: Thread started: SC17_Wholesale_SOH_All_BizModel_Tile 21-4
+2025-12-03 08:40:13,249 INFO o.a.j.t.JMeterThread: Thread started: SC01_WholeSale_Dashboard_Load 1-4
+2025-12-03 08:40:13,252 INFO o.a.j.t.JMeterThread: Thread started: SC06_WholeSale_Sales_Order_Release_Dashboard 6-4
+2025-12-03 08:40:13,253 INFO o.a.j.t.JMeterThread: Thread started: SC03_WholeSale_Pre_Receipt_Variance 3-4
+2025-12-03 08:40:13,255 INFO o.a.j.t.JMeterThread: Thread started: SC05_Wholesale_Post_Receipt_variance 5-4
+2025-12-03 08:40:13,263 INFO o.a.j.t.JMeterThread: Thread started: SC08_Wholesale_SinglePO_Search 8-4
+2025-12-03 08:40:13,267 INFO o.a.j.t.JMeterThread: Thread started: SC04_WholeSale_Slippage_Dashboard 4-4
+2025-12-03 08:40:13,268 INFO o.a.j.t.JMeterThread: Thread started: SC02_WholeSale_Dashboard_Enlarge 2-4
+2025-12-03 08:40:13,269 INFO o.a.j.t.JMeterThread: Thread started: SC07_WholeSale_Unproductive_stock 7-4
+2025-12-03 08:40:18,229 INFO o.a.j.t.JMeterThread: Thread started: SC16_Wholesale_Redistribute_Trade_ORC 20-5
+2025-12-03 08:40:18,243 INFO o.a.j.t.JMeterThread: Thread started: SC17_Wholesale_SOH_All_BizModel_Tile 21-5
+2025-12-03 08:44:58,155 INFO o.a.j.t.JMeterThread: Thread started: SC15_Wholesale_BulkSalesOrderRelease 15-1
+2025-12-03 08:54:58,158 INFO o.a.j.t.JMeterThread: Thread started: SC15_Wholesale_BulkSalesOrderRelease 16-1
+2025-12-03 09:01:02,092 INFO o.a.j.t.JMeterThread: Thread is done: SC15_Wholesale_BulkSalesOrderRelease 15-1
+2025-12-03 09:01:02,092 INFO o.a.j.t.JMeterThread: Thread finished: SC15_Wholesale_BulkSalesOrderRelease 15-1
+2025-12-03 09:09:58,160 INFO o.a.j.t.JMeterThread: Thread started: SC15_Wholesale_BulkSalesOrderRelease 17-1
+2025-12-03 09:11:01,965 INFO o.a.j.t.JMeterThread: Thread is done: SC15_Wholesale_BulkSalesOrderRelease 16-1
+2025-12-03 09:11:01,965 INFO o.a.j.t.JMeterThread: Thread finished: SC15_Wholesale_BulkSalesOrderRelease 16-1
+2025-12-03 09:19:58,162 INFO o.a.j.t.JMeterThread: Thread started: SC15_Wholesale_BulkSalesOrderRelease 18-1
+2025-12-03 09:26:02,135 INFO o.a.j.t.JMeterThread: Thread is done: SC15_Wholesale_BulkSalesOrderRelease 17-1
+2025-12-03 09:26:02,135 INFO o.a.j.t.JMeterThread: Thread finished: SC15_Wholesale_BulkSalesOrderRelease 17-1
+2025-12-03 09:29:58,164 INFO o.a.j.t.JMeterThread: Thread started: SC15_Wholesale_BulkSalesOrderRelease 19-1
+2025-12-03 09:36:01,401 INFO o.a.j.t.JMeterThread: Thread is done: SC15_Wholesale_BulkSalesOrderRelease 18-1
+2025-12-03 09:36:01,401 INFO o.a.j.t.JMeterThread: Thread finished: SC15_Wholesale_BulkSalesOrderRelease 18-1
+2025-12-03 09:39:58,068 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC01_WholeSale_Dashboard_Load 1-1
+2025-12-03 09:39:58,068 INFO o.a.j.t.JMeterThread: Thread finished: SC01_WholeSale_Dashboard_Load 1-1
+2025-12-03 09:39:58,075 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC01_WholeSale_Dashboard_Load 1-2
+2025-12-03 09:39:58,075 INFO o.a.j.t.JMeterThread: Thread finished: SC01_WholeSale_Dashboard_Load 1-2
+2025-12-03 09:39:58,079 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC01_WholeSale_Dashboard_Load 1-4
+2025-12-03 09:39:58,079 INFO o.a.j.t.JMeterThread: Thread finished: SC01_WholeSale_Dashboard_Load 1-4
+2025-12-03 09:39:58,081 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC02_WholeSale_Dashboard_Enlarge 2-1
+2025-12-03 09:39:58,081 INFO o.a.j.t.JMeterThread: Thread finished: SC02_WholeSale_Dashboard_Enlarge 2-1
+2025-12-03 09:39:58,081 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC02_WholeSale_Dashboard_Enlarge 2-2
+2025-12-03 09:39:58,081 INFO o.a.j.t.JMeterThread: Thread finished: SC02_WholeSale_Dashboard_Enlarge 2-2
+2025-12-03 09:39:58,082 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC02_WholeSale_Dashboard_Enlarge 2-3
+2025-12-03 09:39:58,082 INFO o.a.j.t.JMeterThread: Thread finished: SC02_WholeSale_Dashboard_Enlarge 2-3
+2025-12-03 09:39:58,083 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC01_WholeSale_Dashboard_Load 1-3
+2025-12-03 09:39:58,083 INFO o.a.j.t.JMeterThread: Thread finished: SC01_WholeSale_Dashboard_Load 1-3
+2025-12-03 09:39:58,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC03_WholeSale_Pre_Receipt_Variance 3-1
+2025-12-03 09:39:58,088 INFO o.a.j.t.JMeterThread: Thread finished: SC03_WholeSale_Pre_Receipt_Variance 3-1
+2025-12-03 09:39:58,090 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC03_WholeSale_Pre_Receipt_Variance 3-4
+2025-12-03 09:39:58,090 INFO o.a.j.t.JMeterThread: Thread finished: SC03_WholeSale_Pre_Receipt_Variance 3-4
+2025-12-03 09:39:58,091 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC03_WholeSale_Pre_Receipt_Variance 3-3
+2025-12-03 09:39:58,091 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC04_WholeSale_Slippage_Dashboard 4-1
+2025-12-03 09:39:58,091 INFO o.a.j.t.JMeterThread: Thread finished: SC04_WholeSale_Slippage_Dashboard 4-1
+2025-12-03 09:39:58,091 INFO o.a.j.t.JMeterThread: Thread finished: SC03_WholeSale_Pre_Receipt_Variance 3-3
+2025-12-03 09:39:58,095 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC04_WholeSale_Slippage_Dashboard 4-3
+2025-12-03 09:39:58,095 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC04_WholeSale_Slippage_Dashboard 4-4
+2025-12-03 09:39:58,095 INFO o.a.j.t.JMeterThread: Thread finished: SC04_WholeSale_Slippage_Dashboard 4-3
+2025-12-03 09:39:58,095 INFO o.a.j.t.JMeterThread: Thread finished: SC04_WholeSale_Slippage_Dashboard 4-4
+2025-12-03 09:39:58,099 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC03_WholeSale_Pre_Receipt_Variance 3-2
+2025-12-03 09:39:58,099 INFO o.a.j.t.JMeterThread: Thread finished: SC03_WholeSale_Pre_Receipt_Variance 3-2
+2025-12-03 09:39:58,102 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC05_Wholesale_Post_Receipt_variance 5-2
+2025-12-03 09:39:58,102 INFO o.a.j.t.JMeterThread: Thread finished: SC05_Wholesale_Post_Receipt_variance 5-2
+2025-12-03 09:39:58,103 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC05_Wholesale_Post_Receipt_variance 5-1
+2025-12-03 09:39:58,103 INFO o.a.j.t.JMeterThread: Thread finished: SC05_Wholesale_Post_Receipt_variance 5-1
+2025-12-03 09:39:58,106 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC05_Wholesale_Post_Receipt_variance 5-3
+2025-12-03 09:39:58,106 INFO o.a.j.t.JMeterThread: Thread finished: SC05_Wholesale_Post_Receipt_variance 5-3
+2025-12-03 09:39:58,109 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC06_WholeSale_Sales_Order_Release_Dashboard 6-1
+2025-12-03 09:39:58,109 INFO o.a.j.t.JMeterThread: Thread finished: SC06_WholeSale_Sales_Order_Release_Dashboard 6-1
+2025-12-03 09:39:58,111 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC06_WholeSale_Sales_Order_Release_Dashboard 6-2
+2025-12-03 09:39:58,111 INFO o.a.j.t.JMeterThread: Thread finished: SC06_WholeSale_Sales_Order_Release_Dashboard 6-2
+2025-12-03 09:39:58,114 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC06_WholeSale_Sales_Order_Release_Dashboard 6-3
+2025-12-03 09:39:58,114 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC06_WholeSale_Sales_Order_Release_Dashboard 6-4
+2025-12-03 09:39:58,114 INFO o.a.j.t.JMeterThread: Thread finished: SC06_WholeSale_Sales_Order_Release_Dashboard 6-3
+2025-12-03 09:39:58,114 INFO o.a.j.t.JMeterThread: Thread finished: SC06_WholeSale_Sales_Order_Release_Dashboard 6-4
+2025-12-03 09:39:58,117 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC07_WholeSale_Unproductive_stock 7-3
+2025-12-03 09:39:58,117 INFO o.a.j.t.JMeterThread: Thread finished: SC07_WholeSale_Unproductive_stock 7-3
+2025-12-03 09:39:58,118 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC07_WholeSale_Unproductive_stock 7-2
+2025-12-03 09:39:58,118 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC07_WholeSale_Unproductive_stock 7-1
+2025-12-03 09:39:58,118 INFO o.a.j.t.JMeterThread: Thread finished: SC07_WholeSale_Unproductive_stock 7-2
+2025-12-03 09:39:58,118 INFO o.a.j.t.JMeterThread: Thread finished: SC07_WholeSale_Unproductive_stock 7-1
+2025-12-03 09:39:58,119 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC07_WholeSale_Unproductive_stock 7-4
+2025-12-03 09:39:58,119 INFO o.a.j.t.JMeterThread: Thread finished: SC07_WholeSale_Unproductive_stock 7-4
+2025-12-03 09:39:58,121 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC08_Wholesale_SinglePO_Search 8-3
+2025-12-03 09:39:58,121 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC08_Wholesale_SinglePO_Search 8-1
+2025-12-03 09:39:58,121 INFO o.a.j.t.JMeterThread: Thread finished: SC08_Wholesale_SinglePO_Search 8-3
+2025-12-03 09:39:58,121 INFO o.a.j.t.JMeterThread: Thread finished: SC08_Wholesale_SinglePO_Search 8-1
+2025-12-03 09:39:58,122 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC08_Wholesale_SinglePO_Search 8-4
+2025-12-03 09:39:58,122 INFO o.a.j.t.JMeterThread: Thread finished: SC08_Wholesale_SinglePO_Search 8-4
+2025-12-03 09:39:58,123 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC08_Wholesale_SinglePO_Search 8-2
+2025-12-03 09:39:58,123 INFO o.a.j.t.JMeterThread: Thread finished: SC08_Wholesale_SinglePO_Search 8-2
+2025-12-03 09:39:58,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC09_Wholesale_International_Size_Upload 9-1
+2025-12-03 09:39:58,124 INFO o.a.j.t.JMeterThread: Thread finished: SC09_Wholesale_International_Size_Upload 9-1
+2025-12-03 09:39:58,126 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC09_Wholesale_International_Size_Upload 9-2
+2025-12-03 09:39:58,126 INFO o.a.j.t.JMeterThread: Thread finished: SC09_Wholesale_International_Size_Upload 9-2
+2025-12-03 09:39:58,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC10_Wholesale_International_Size_Download 10-1
+2025-12-03 09:39:58,127 INFO o.a.j.t.JMeterThread: Thread finished: SC10_Wholesale_International_Size_Download 10-1
+2025-12-03 09:39:58,128 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC10_Wholesale_International_Size_Download 10-2
+2025-12-03 09:39:58,128 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC09_Wholesale_International_Size_Upload 9-3
+2025-12-03 09:39:58,128 INFO o.a.j.t.JMeterThread: Thread finished: SC09_Wholesale_International_Size_Upload 9-3
+2025-12-03 09:39:58,128 INFO o.a.j.t.JMeterThread: Thread finished: SC10_Wholesale_International_Size_Download 10-2
+2025-12-03 09:39:58,129 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC10_Wholesale_International_Size_Download 10-3
+2025-12-03 09:39:58,129 INFO o.a.j.t.JMeterThread: Thread finished: SC10_Wholesale_International_Size_Download 10-3
+2025-12-03 09:39:58,130 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC11_Wholesale_Report_Export 11-1
+2025-12-03 09:39:58,130 INFO o.a.j.t.JMeterThread: Thread finished: SC11_Wholesale_Report_Export 11-1
+2025-12-03 09:39:58,133 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC11_Wholesale_Report_Export 11-2
+2025-12-03 09:39:58,133 INFO o.a.j.t.JMeterThread: Thread finished: SC11_Wholesale_Report_Export 11-2
+2025-12-03 09:39:58,134 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC11_Wholesale_Report_Export 11-3
+2025-12-03 09:39:58,134 INFO o.a.j.t.JMeterThread: Thread finished: SC11_Wholesale_Report_Export 11-3
+2025-12-03 09:39:58,137 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC12_Wholesale_MassSearch 12-1
+2025-12-03 09:39:58,137 INFO o.a.j.t.JMeterThread: Thread finished: SC12_Wholesale_MassSearch 12-1
+2025-12-03 09:39:58,139 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC12_Wholesale_MassSearch 12-2
+2025-12-03 09:39:58,139 INFO o.a.j.t.JMeterThread: Thread finished: SC12_Wholesale_MassSearch 12-2
+2025-12-03 09:39:58,142 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC12_Wholesale_MassSearch 12-3
+2025-12-03 09:39:58,142 INFO o.a.j.t.JMeterThread: Thread finished: SC12_Wholesale_MassSearch 12-3
+2025-12-03 09:39:58,145 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC13_Wholesale_SalesOrderEdit 13-1
+2025-12-03 09:39:58,145 INFO o.a.j.t.JMeterThread: Thread finished: SC13_Wholesale_SalesOrderEdit 13-1
+2025-12-03 09:39:58,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC13_Wholesale_SalesOrderEdit 13-2
+2025-12-03 09:39:58,146 INFO o.a.j.t.JMeterThread: Thread finished: SC13_Wholesale_SalesOrderEdit 13-2
+2025-12-03 09:39:58,147 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC04_WholeSale_Slippage_Dashboard 4-2
+2025-12-03 09:39:58,147 INFO o.a.j.t.JMeterThread: Thread finished: SC04_WholeSale_Slippage_Dashboard 4-2
+2025-12-03 09:39:58,147 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC02_WholeSale_Dashboard_Enlarge 2-4
+2025-12-03 09:39:58,147 INFO o.a.j.t.JMeterThread: Thread finished: SC02_WholeSale_Dashboard_Enlarge 2-4
+2025-12-03 09:39:58,149 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC13_Wholesale_SalesOrderEdit 13-3
+2025-12-03 09:39:58,149 INFO o.a.j.t.JMeterThread: Thread finished: SC13_Wholesale_SalesOrderEdit 13-3
+2025-12-03 09:39:58,153 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC14_SingleSalesOrderRelease 14-1
+2025-12-03 09:39:58,153 INFO o.a.j.t.JMeterThread: Thread finished: SC14_SingleSalesOrderRelease 14-1
+2025-12-03 09:39:58,154 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC14_SingleSalesOrderRelease 14-2
+2025-12-03 09:39:58,154 INFO o.a.j.t.JMeterThread: Thread finished: SC14_SingleSalesOrderRelease 14-2
+2025-12-03 09:39:58,173 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC16_Wholesale_Redistribute_Trade_ORC 20-2
+2025-12-03 09:39:58,173 INFO o.a.j.t.JMeterThread: Thread finished: SC16_Wholesale_Redistribute_Trade_ORC 20-2
+2025-12-03 09:39:58,176 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC16_Wholesale_Redistribute_Trade_ORC 20-1
+2025-12-03 09:39:58,176 INFO o.a.j.t.JMeterThread: Thread finished: SC16_Wholesale_Redistribute_Trade_ORC 20-1
+2025-12-03 09:39:58,177 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC16_Wholesale_Redistribute_Trade_ORC 20-3
+2025-12-03 09:39:58,177 INFO o.a.j.t.JMeterThread: Thread finished: SC16_Wholesale_Redistribute_Trade_ORC 20-3
+2025-12-03 09:39:58,180 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC16_Wholesale_Redistribute_Trade_ORC 20-4
+2025-12-03 09:39:58,180 INFO o.a.j.t.JMeterThread: Thread finished: SC16_Wholesale_Redistribute_Trade_ORC 20-4
+2025-12-03 09:39:58,180 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC05_Wholesale_Post_Receipt_variance 5-4
+2025-12-03 09:39:58,180 INFO o.a.j.t.JMeterThread: Thread finished: SC05_Wholesale_Post_Receipt_variance 5-4
+2025-12-03 09:39:58,188 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC17_Wholesale_SOH_All_BizModel_Tile 21-1
+2025-12-03 09:39:58,188 INFO o.a.j.t.JMeterThread: Thread finished: SC17_Wholesale_SOH_All_BizModel_Tile 21-1
+2025-12-03 09:39:58,189 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC17_Wholesale_SOH_All_BizModel_Tile 21-2
+2025-12-03 09:39:58,189 INFO o.a.j.t.JMeterThread: Thread finished: SC17_Wholesale_SOH_All_BizModel_Tile 21-2
+2025-12-03 09:39:58,193 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC17_Wholesale_SOH_All_BizModel_Tile 21-4
+2025-12-03 09:39:58,193 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC17_Wholesale_SOH_All_BizModel_Tile 21-3
+2025-12-03 09:39:58,193 INFO o.a.j.t.JMeterThread: Thread finished: SC17_Wholesale_SOH_All_BizModel_Tile 21-4
+2025-12-03 09:39:58,193 INFO o.a.j.t.JMeterThread: Thread finished: SC17_Wholesale_SOH_All_BizModel_Tile 21-3
+2025-12-03 09:39:58,207 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC16_Wholesale_Redistribute_Trade_ORC 20-5
+2025-12-03 09:39:58,207 INFO o.a.j.t.JMeterThread: Thread finished: SC16_Wholesale_Redistribute_Trade_ORC 20-5
+2025-12-03 09:39:58,632 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: SC17_Wholesale_SOH_All_BizModel_Tile 21-5
+2025-12-03 09:39:58,632 INFO o.a.j.t.JMeterThread: Thread finished: SC17_Wholesale_SOH_All_BizModel_Tile 21-5
+2025-12-03 09:43:14,985 INFO o.a.j.JMeter: Command: Shutdown received from /127.0.0.1
+2025-12-03 09:43:14,987 INFO o.a.j.t.JMeterThread: Stopping: SC15_Wholesale_BulkSalesOrderRelease 19-1
+2025-12-03 09:43:19,986 INFO o.a.j.JMeter: Command: StopTestNow received from /127.0.0.1
+2025-12-03 09:43:19,987 INFO o.a.j.t.JMeterThread: Stopping: SC15_Wholesale_BulkSalesOrderRelease 19-1
+2025-12-03 09:43:19,988 WARN o.a.j.t.JMeterThread: Interrupting: SC15_Wholesale_BulkSalesOrderRelease 19-1 sampler: Wholesale_ThinkTime_SC15
+2025-12-03 09:43:19,988 INFO o.a.j.t.JMeterThread: Thread finished: SC15_Wholesale_BulkSalesOrderRelease 19-1
+2025-12-03 09:43:19,988 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-12-03 09:43:19,988 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC16_WholeSale_Redistribute_ORC_Load_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC07_WholeSale_Unproductive_stock_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC11_Wholesale_Report_Export_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC03_Pre_Receipt_Variance_PO.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC14_SingleSalesOrderRelease_sorNoList.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC04_WholeSale_Slippage_Dashboard_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC08_SinglePO_search_PO.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC03_WholeSale_Pre_Receipt_Variance_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC06_WholeSale_Sales_Order_Release_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC05_Wholesale_Post_Receipt_variance_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC01_WholeSale_Dashboard_Load_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC13_Wholesale_SalesOrderEdit_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC04_Slippage_Dashboard_PO.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC16_WholeSale_Redistribute_ORC_Store_WH_Loc.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC12_Wholesale_MassSearch_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC08_Wholesale_SinglePO_Search_Credentials.csv
+2025-12-03 09:43:19,989 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC17_WholeSale_SOH_AllBizModels_Tile_Load_Credentials.csv
+2025-12-03 09:43:19,990 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC09_Wholesale_International_Size_Upload_Credentials.csv
+2025-12-03 09:43:19,990 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC11_Wholesale_Report_Export_Partner_Loc.csv
+2025-12-03 09:43:19,990 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC13_SalesOrderEdit_salesOrderNo.csv
+2025-12-03 09:43:19,990 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC12_Wholesale_MassSearch_Partner_Loc.csv
+2025-12-03 09:43:19,990 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC10_Wholesale_International_Size_Download_Credentials.csv
+2025-12-03 09:43:19,990 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC14_Wholesale_SingleSalesOrder_Credentials.csv
+2025-12-03 09:43:19,990 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC05_Post_Receipt_Variance_PO.csv
+2025-12-03 09:43:19,990 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/Wholesale_International_Size_FilePath.csv
+2025-12-03 09:43:19,990 INFO o.a.j.s.FileServer: Close: R:/Scripts/Pradeep/Wholesale_DataFiles/SC02_WholeSale_Dashboard_Enlarge_Credentials.csv
+2025-12-03 09:43:19,991 INFO o.a.j.e.StandardJMeterEngine: Forced JVM shutdown requested at end of test

@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,success,bytes,grpThreads,allThreads,Latency,Hostname,Connect
+1747199062853,376,SC01_Dashboard_Load_TR01_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",SC01_WholeSale_Dashboard_Load 1-1,true,3737,1,1,0,vm7pwu76ki0,354
+1747199063331,25,SC01_Dashboard_Load_TR02_Login,401,"Number of samples in transaction : 1, number of failing samples : 1",SC01_WholeSale_Dashboard_Load 1-1,false,1976,1,1,0,vm7pwu76ki0,0

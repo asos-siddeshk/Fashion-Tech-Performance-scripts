@@ -1,0 +1,213 @@
+[2025-05-14 06:04:11,281 INFO root] Taurus CLI Tool v1.16.27
+[2025-05-14 06:04:11,281 DEBUG root] Build: 14578 Thu Dec 14 12:06:45 UTC 2023
+[2025-05-14 06:04:11,281 DEBUG root] Extended git info:  45e91487 pypi upload set to token
+[2025-05-14 06:04:11,281 DEBUG root] Command-line options: {'log': 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\24\\bzt_udeo73z1.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2025-05-14 06:04:11,281 DEBUG root] Python: CPython 3.10.0
+[2025-05-14 06:04:11,281 DEBUG root] OS: uname_result(system='Windows', node='vm7pwu76ki0', release='2012ServerR2', version='6.3.9600', machine='AMD64')
+[2025-05-14 06:04:11,281 DEBUG root] Path to interpreter: C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\python.exe
+[2025-05-14 06:04:11,281 DEBUG root] Path to packages: ['C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\bzt.exe', 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\python310.zip', 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\DLLs', 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib', 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310', 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages']
+[2025-05-14 06:04:11,297 DEBUG root] Default python: C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\python.EXE
+[2025-05-14 06:04:11,297 DEBUG root] Default python3: None
+[2025-05-14 06:04:11,297 DEBUG root] Adding JMX shorthand config for: ['Wholesale_All_Scenario.jmx']
+[2025-05-14 06:04:11,297 DEBUG root] Dumping JSON config into C:\Users\shaik.mohammad\AppData\Local\Temp\24\jmx_tq5_yee3.json
+[2025-05-14 06:04:11,297 DEBUG root] Using personal config: C:\Users\shaik.mohammad\.bzt-rc
+[2025-05-14 06:04:11,297 INFO root] Starting with configs: ['C:\\Users\\shaik.mohammad\\.bzt-rc', 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\24\\jmx_tq5_yee3.json']
+[2025-05-14 06:04:11,297 INFO Engine] Configuring...
+[2025-05-14 06:04:11,359 DEBUG Engine] Base configs list: ['C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\resources/10-base-config.yml']
+[2025-05-14 06:04:11,359 DEBUG Engine.Configuration] Configs: ['C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\resources/10-base-config.yml']
+[2025-05-14 06:04:11,375 DEBUG Engine.Configuration] Reading C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\lib\site-packages\bzt\resources/10-base-config.yml as YAML
+[2025-05-14 06:04:11,406 DEBUG Engine] User configs list: ['C:\\Users\\shaik.mohammad\\.bzt-rc', 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\24\\jmx_tq5_yee3.json']
+[2025-05-14 06:04:11,406 DEBUG Engine.Configuration] Configs: ['C:\\Users\\shaik.mohammad\\.bzt-rc', 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\24\\jmx_tq5_yee3.json']
+[2025-05-14 06:04:11,437 DEBUG Engine.Configuration] Reading C:\Users\shaik.mohammad\.bzt-rc as YAML
+[2025-05-14 06:04:11,453 DEBUG Engine.Configuration] Reading C:\Users\shaik.mohammad\AppData\Local\Temp\24\jmx_tq5_yee3.json as YAML
+[2025-05-14 06:04:11,453 DEBUG Engine.Configuration] Configs: ['C:\\Users\\shaik.mohammad\\.bzt-rc', 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\24\\jmx_tq5_yee3.json']
+[2025-05-14 06:04:11,453 DEBUG Engine.Configuration] Reading C:\Users\shaik.mohammad\.bzt-rc as YAML
+[2025-05-14 06:04:11,453 DEBUG Engine.Configuration] Reading C:\Users\shaik.mohammad\AppData\Local\Temp\24\jmx_tq5_yee3.json as YAML
+[2025-05-14 06:04:11,453 INFO HTTPClient] Proxy settings not set
+[2025-05-14 06:04:11,469 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.16.27&installID=windows-d3a20fa85
+[2025-05-14 06:04:11,469 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.16.27&installID=windows-d3a20fa85
+[2025-05-14 06:04:11,469 INFO Engine] Artifacts dir: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023
+[2025-05-14 06:04:11,469 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2025-05-14 06:04:11,469 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective
+[2025-05-14 06:04:11,469 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective.yml
+[2025-05-14 06:04:11,484 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective.json
+[2025-05-14 06:04:11,484 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\merged.yml
+[2025-05-14 06:04:11,500 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\merged.yml
+[2025-05-14 06:04:11,500 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\merged.json
+[2025-05-14 06:04:11,500 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\merged.json
+[2025-05-14 06:04:11,500 DEBUG Engine] Add existing artifact (move=False): C:\Users\shaik.mohammad\.bzt-rc
+[2025-05-14 06:04:11,500 DEBUG Engine] Copying C:\Users\shaik.mohammad\.bzt-rc to R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\.bzt-rc
+[2025-05-14 06:04:11,500 DEBUG Engine] Add existing artifact (move=False): C:\Users\shaik.mohammad\AppData\Local\Temp\24\jmx_tq5_yee3.json
+[2025-05-14 06:04:11,500 DEBUG Engine] Copying C:\Users\shaik.mohammad\AppData\Local\Temp\24\jmx_tq5_yee3.json to R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\jmx_tq5_yee3.json
+[2025-05-14 06:04:11,500 DEBUG Engine] Set PYTHONPATH to :
+	CURRENT: '' +
+	TEMP: 'R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\python-packages\3.10.0' +
+	USER: 'C:\Users\shaik.mohammad\.bzt\python-packages\3.10.0'
+[2025-05-14 06:04:11,500 DEBUG Engine] Content of user packages dir: []
+[2025-05-14 06:04:11,500 DEBUG Engine] OS env: OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+[2025-05-14 06:04:11,500 DEBUG Engine] OS env: TAURUS_ARTIFACTS_DIR=R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023
+[2025-05-14 06:04:11,500 DEBUG root] Closing log handler: C:\Users\shaik.mohammad\AppData\Local\Temp\24\bzt_udeo73z1.log
+[2025-05-14 06:04:11,531 DEBUG root] Switched writing logs to R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\bzt.log
+[2025-05-14 06:04:11,531 DEBUG root] Linting config
+[2025-05-14 06:04:11,531 INFO Engine] Preparing...
+[2025-05-14 06:04:11,531 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2025-05-14 06:04:11,531 DEBUG root] Importing module: bzt.modules.aggregator
+[2025-05-14 06:04:11,765 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\aggregator.py'>
+[2025-05-14 06:04:11,765 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2025-05-14 06:04:11,765 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2025-05-14 06:04:11,765 DEBUG root] Importing module: bzt.modules.monitoring
+[2025-05-14 06:04:11,765 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\monitoring.py'>
+[2025-05-14 06:04:11,765 INFO Engine.monitoring.LocalClient] Using StandardLocalMonitor for engine health monitoring
+[2025-05-14 06:04:11,765 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2025-05-14 06:04:11,765 DEBUG root] Importing module: bzt.modules.provisioning
+[2025-05-14 06:04:11,765 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\provisioning.py'>
+[2025-05-14 06:04:11,765 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler', 'mqtt': 'bzt.jmx.mqtt.MQTTProtocolHandler', 'grpc': 'bzt.jmx.grpc.GRPCProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}}
+[2025-05-14 06:04:11,765 DEBUG root] Importing module: bzt.modules.jmeter
+[2025-05-14 06:04:11,797 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\jmeter.py'>
+[2025-05-14 06:04:11,797 DEBUG Engine.local] Preparing executor: jmeter/20556546784
+[2025-05-14 06:04:11,797 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\jmeter.log
+[2025-05-14 06:04:11,797 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2025-05-14 06:04:11,797 DEBUG Engine.jmeter] Port 4445 is free
+[2025-05-14 06:04:11,797 DEBUG Engine.jmeter] Using port 4445 for management
+[2025-05-14 06:04:11,797 DEBUG Engine.jmeter] Extract {'script': 'Wholesale_All_Scenario.jmx'} into scenarios
+[2025-05-14 06:04:11,797 DEBUG Engine.jmeter] Getting Jmeter version.
+[2025-05-14 06:04:11,797 DEBUG Engine.jmeter] Autodetect version is enabled
+[2025-05-14 06:04:11,797 DEBUG Engine.jmeter] JMeter version: 5.5
+[2025-05-14 06:04:11,797 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jmeterengine.nongui.port': 4445, 'jmeterengine.nongui.maxport': 4445, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': 'R:/Scripts/After_Data_Refresh_2025/Validating_working_Scripts/Wholesale/Warmup_Test/2025-05-14_06-04-11.469023;R:/Scripts/After_Data_Refresh_2025/Validating_working_Scripts/Wholesale/Warmup_Test'}
+[2025-05-14 06:04:11,797 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\jmeter-bzt.properties
+[2025-05-14 06:04:11,797 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2025-05-14 06:04:11,797 DEBUG root] Executing shell: ['java', '-version'] at .
+[2025-05-14 06:04:12,002 DEBUG Engine.jmeter.JavaVM] JavaVM output: Picked up _JAVA_OPTIONS: -Xmx12288M
+java version "17" 2021-09-14 LTS
+Java(TM) SE Runtime Environment (build 17+35-LTS-2724)
+Java HotSpot(TM) 64-Bit Server VM (build 17+35-LTS-2724, mixed mode, sharing)
+
+[2025-05-14 06:04:12,002 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2025-05-14 06:04:12,002 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is not present
+[2025-05-14 06:04:12,002 DEBUG Engine.jmeter.TclLibrary] Tcl directory was found: C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\tcl\tcl8.6
+[2025-05-14 06:04:12,018 DEBUG Engine.jmeter.TclLibrary] Setting environment TCL_LIBRARY=C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\tcl\tcl8.6
+[2025-05-14 06:04:12,018 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2025-05-14 06:04:12,018 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is present
+[2025-05-14 06:04:12,018 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2025-05-14 06:04:12,283 DEBUG urllib3.connectionpool] https://gettaurus.org:443 "GET /updates/?version=1.16.27&installID=windows-d3a20fa85 HTTP/1.1" 200 40
+[2025-05-14 06:04:12,283 DEBUG Engine] Taurus updates info: "{'latest': '1.16.41', 'needsUpgrade': True}"
+[2025-05-14 06:04:12,283 WARNING Engine] There is newer version of Taurus 1.16.41 available, consider upgrading. What's new: http://gettaurus.org/docs/Changelog/
+[2025-05-14 06:04:12,283 DEBUG root] Executing shell: ['C:\\Users\\shaik.mohammad\\.bzt\\jmeter-taurus\\5.5\\bin\\jmeter.bat', '-j', 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\24\\jmeterp069wdnblog', '--version'] at .
+[2025-05-14 06:04:14,189 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.5
+
+Copyright (c) 1999-2022 The Apache Software Foundation
+
+ / Picked up _JAVA_OPTIONS: -Xmx12288M
+
+[2025-05-14 06:04:14,525 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\kpi.jtl
+[2025-05-14 06:04:14,525 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\error.jtl
+[2025-05-14 06:04:14,556 INFO Engine.jmeter] 1 obsolete CookieManagers are found and fixed
+[2025-05-14 06:04:14,556 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=None, throughput=None, ramp_up=None, hold=0, iterations=1, duration=None, steps=None)
+[2025-05-14 06:04:14,556 DEBUG Engine.jmeter.LoadSettingsProcessor] Thread group detection: duration not found, regular ThreadGroup will be used
+[2025-05-14 06:04:14,556 DEBUG Engine.jmeter.LoadSettingsProcessor] No iterations/concurrency/duration found, thread group modification is skipped
+[2025-05-14 06:04:14,556 DEBUG JMX] Saving JMX to: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\modified_Wholesale_All_Scenario.jmx
+[2025-05-14 06:04:14,587 DEBUG root] Executing shell: ['C:\\Users\\shaik.mohammad\\.bzt\\jmeter-taurus\\5.5\\bin\\PluginsManagerCMD.bat', 'install-for-jmx', 'R:\\Scripts\\After_Data_Refresh_2025\\Validating_working_Scripts\\Wholesale\\Warmup_Test\\modified_Wholesale_All_Scenario.jmx'] at .
+[2025-05-14 06:04:20,279 DEBUG Engine.jmeter.JMeter] Try to detect plugins for R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\modified_Wholesale_All_Scenario.jmx
+2025-05-14 06:04:15,950 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2025-05-14 06:04:16,075 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_server_2012_r2-4f2041eddf0ce33383943bfb6a14733f-nongui
+2025-05-14 06:04:18,060 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.2, jpgc-casutg=3.0, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.7, jpgc-tst=2.6, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2025-05-14 06:04:18,060 INFO o.j.r.PluginManagerCMD: Params line is: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\modified_Wholesale_All_Scenario.jmx
+2025-05-14 06:04:18,919 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-05-14 06:04:18,935 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-05-14 06:04:18,935 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-05-14 06:04:18,982 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2025-05-14 06:04:19,029 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-14 06:04:19,029 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-14 06:04:19,029 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-14 06:04:19,029 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-05-14 06:04:19,029 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-05-14 06:04:19,029 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-05-14 06:04:19,169 INFO o.j.r.PluginManager: Finishing without changes
+
+Picked up _JAVA_OPTIONS: -Xmx12288M
+
+[2025-05-14 06:04:20,279 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\jmeter.out
+[2025-05-14 06:04:20,279 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\jmeter.err
+[2025-05-14 06:04:20,279 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2025-05-14 06:04:20,279 DEBUG root] Importing module: bzt.modules.reporting
+[2025-05-14 06:04:20,310 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\reporting.py'>
+[2025-05-14 06:04:20,310 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter'}
+[2025-05-14 06:04:20,310 DEBUG root] Importing module: bzt.modules.console
+[2025-05-14 06:04:20,310 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\console.py'>
+[2025-05-14 06:04:20,310 DEBUG Engine.console] Can't use 'console' screen, trying 'gui'
+[2025-05-14 06:04:20,325 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective.yml
+[2025-05-14 06:04:20,341 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective.json
+[2025-05-14 06:04:20,341 INFO Engine] Starting...
+[2025-05-14 06:04:20,341 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x00000004C8B30940>
+[2025-05-14 06:04:20,341 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x00000004C8B308E0>
+[2025-05-14 06:04:20,341 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x00000004C8AA7820>
+[2025-05-14 06:04:20,341 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x00000004C8B2BC40>
+[2025-05-14 06:04:20,341 INFO Engine.console] Waiting for results...
+[2025-05-14 06:04:20,341 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x00000004C8B30A00>
+[2025-05-14 06:04:20,341 DEBUG Engine.local] Delay setup for jmeter/Wholesale_All_Scenario.jmx: 0(start-at) + 0(delay) = 0
+[2025-05-14 06:04:20,341 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective.yml
+[2025-05-14 06:04:20,357 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective.json
+[2025-05-14 06:04:20,357 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2025-05-14 06:04:20,357 DEBUG root] Leveled up log file verbosity
+[2025-05-14 06:04:20,357 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\GRACEFUL
+[2025-05-14 06:04:20,357 DEBUG root] Executing shell: ['C:\\Users\\shaik.mohammad\\.bzt\\jmeter-taurus\\5.5\\bin\\jmeter.bat', '-t', 'R:\\Scripts\\After_Data_Refresh_2025\\Validating_working_Scripts\\Wholesale\\Warmup_Test\\modified_Wholesale_All_Scenario.jmx', '-j', 'R:\\Scripts\\After_Data_Refresh_2025\\Validating_working_Scripts\\Wholesale\\Warmup_Test\\2025-05-14_06-04-11.469023\\jmeter.log', '-q', 'R:\\Scripts\\After_Data_Refresh_2025\\Validating_working_Scripts\\Wholesale\\Warmup_Test\\2025-05-14_06-04-11.469023\\jmeter-bzt.properties', '-n'] at R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test
+[2025-05-14 06:04:20,372 DEBUG Engine.local] Starting execution: jmeter/Wholesale_All_Scenario.jmx, rest of available slots: 9223372036854775806
+[2025-05-14 06:04:20,372 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2025-05-14 06:04:20,622 INFO Engine.console] Did not mute console logging
+[2025-05-14 06:04:21,532 INFO Engine.console] Waiting for finish...
+[2025-05-14 06:04:24,705 WARNING Engine] Please wait for graceful shutdown...
+[2025-05-14 06:04:24,705 DEBUG root] Leveled up log file verbosity
+[2025-05-14 06:04:24,705 INFO Engine] Shutting down...
+[2025-05-14 06:04:24,705 DEBUG Engine] Current stop reason: None
+[2025-05-14 06:04:24,705 DEBUG Engine.local] Shutdown jmeter/Wholesale_All_Scenario.jmx
+[2025-05-14 06:04:24,720 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2025-05-14 06:04:24,720 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective.yml
+[2025-05-14 06:04:24,736 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective.json
+[2025-05-14 06:04:24,736 INFO Engine] Post-processing...
+[2025-05-14 06:04:24,736 DEBUG Engine.local] Post-process jmeter/Wholesale_All_Scenario.jmx
+[2025-05-14 06:04:24,736 DEBUG Engine] Add existing artifact (move=True): R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\modified_Wholesale_All_Scenario.jmx
+[2025-05-14 06:04:24,736 DEBUG Engine] Moving R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\modified_Wholesale_All_Scenario.jmx to R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\modified_Wholesale_All_Scenario.jmx
+[2025-05-14 06:04:24,751 DEBUG Engine.jmeter.JTLReader] Buffer len: 2; Known errors count: 1
+[2025-05-14 06:04:24,751 DEBUG Engine.jmeter.JTLReader] Aggregating: 1747199062, 2 in buffer
+[2025-05-14 06:04:24,751 DEBUG Engine.jmeter.JTLReader] Aggregating: 1747199063, 1 in buffer
+[2025-05-14 06:04:24,751 DEBUG Engine.jmeter.JTLErrorsReader] Got error info for 1747199063, labels: dict_keys(['SC01_Dashboard_Load_TR02_Login', ''])
+[2025-05-14 06:04:24,751 DEBUG Engine.jmeter.JTLReader] Buffer len: 0; Known errors count: 1
+[2025-05-14 06:04:24,751 DEBUG Engine.consolidator] Consolidator buffer[2]: dict_keys([1747199062, 1747199063])
+[2025-05-14 06:04:24,751 DEBUG Engine.consolidator] Merging into 1747199062
+[2025-05-14 06:04:24,751 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2025-05-14 06:04:24,751 DEBUG Engine.consolidator] Processed datapoint: 1747199062/ConsolidatingAggregator@20547045600
+[2025-05-14 06:04:24,751 DEBUG Engine.consolidator] Merging into 1747199063
+[2025-05-14 06:04:24,751 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2025-05-14 06:04:24,767 DEBUG Engine.consolidator] Processed datapoint: 1747199063/ConsolidatingAggregator@20547045600
+[2025-05-14 06:04:24,767 INFO Engine.final-stats] Test duration: 0:00:04
+[2025-05-14 06:04:24,767 INFO Engine.final-stats] Samples count: 2, 50.00% failures
+[2025-05-14 06:04:24,767 INFO Engine.final-stats] Average times: total 0.201, latency 0.000, connect 0.177
+[2025-05-14 06:04:24,767 INFO Engine.final-stats] Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|           0.0 |         0.025 |
+|          50.0 |         0.025 |
+|          90.0 |         0.376 |
+|          95.0 |         0.376 |
+|          99.0 |         0.376 |
+|          99.9 |         0.376 |
+|         100.0 |         0.376 |
++---------------+---------------+
+[2025-05-14 06:04:24,767 INFO Engine.final-stats] Request label stats:
++---------------------------------+--------+---------+--------+---------------------------------------------------------------------+
+| label                           | status |    succ | avg_rt | error                                                               |
++---------------------------------+--------+---------+--------+---------------------------------------------------------------------+
+| SC01_Dashboard_Load_TR01_Launch |   OK   | 100.00% |  0.376 |                                                                     |
+| SC01_Dashboard_Load_TR02_Login  |  FAIL  |   0.00% |  0.025 | Number of samples in transaction : 1, number of failing samples : 1 |
++---------------------------------+--------+---------+--------+---------------------------------------------------------------------+
+[2025-05-14 06:04:24,767 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2025-05-14 06:04:24,767 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective.yml
+[2025-05-14 06:04:24,783 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\effective.json
+[2025-05-14 06:04:24,783 INFO root] Artifacts dir: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023
+[2025-05-14 06:04:24,783 INFO root] Done performing with code: 0
+[2025-05-14 06:04:24,783 DEBUG root] Closing log handler: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-05-14_06-04-11.469023\bzt.log

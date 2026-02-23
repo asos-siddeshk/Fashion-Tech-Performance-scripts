@@ -1,0 +1,178 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+SC08_SinglePO_Search_TR01_Launch,1706,25,4,25,76,528,1,1028,0.000%,.47400,1.73,0.00
+SC10_International_Size_Download_TR01_Launch,18,24,7,21,139,164,4,164,0.000%,.00543,0.02,0.00
+SC09_International_Size_Upload_TR01_Launch,12,101,14,225,225,767,5,767,0.000%,.00369,0.01,0.00
+SC02_Dashboard_Enlarge_TR01_Launch,1231,23,4,21,54,527,1,1141,0.000%,.34255,1.25,0.00
+SC07_Unproductive_Stock_TR01_Launch,1548,23,4,22,62,556,1,1064,0.000%,.43038,1.57,0.00
+SC17_Wholesale_SOH_All_BizModel_Tile_TR01_Launch_Application.,1445,21,4,22,47,479,1,1082,0.000%,.40159,1.47,0.00
+SC01_Dashboard_Load_TR01_Launch,3033,23,4,22,63,585,1,1082,0.000%,.84278,3.08,0.00
+SC03_Pre_Receipt_Variance_TR01_Launch,1362,20,4,24,59,462,1,840,0.000%,.37850,1.38,0.00
+SC12_MassSearch_TR01_Launch,1234,25,4,21,56,702,1,1978,0.000%,.34290,1.25,0.00
+SC11_Report_Export_TR01_Launch,263,34,10,36,79,541,3,1957,0.000%,.07311,0.27,0.00
+SC03_Pre_Receipt_Variance_TR02_Login,1361,142,85,266,427,1025,24,2222,0.000%,.37846,0.98,0.00
+SC01_Dashboard_Load_TR02_Login,3032,153,97,293,516,983,26,2294,0.000%,.84302,2.16,0.00
+SC02_Dashboard_Enlarge_TR02_Login,1231,150,99,284,473,890,25,2826,0.000%,.34255,0.88,0.00
+SC06_Sales_Order_Release_TR01_Launch,1627,296,227,525,790,1321,59,3920,0.000%,.45214,3.58,0.00
+SC07_Unproductive_Stock_TR02_Login,1548,181,104,304,566,972,24,30004,0.065%,.43038,1.11,0.00
+SC14_SingleSalesOrderRelease_TR01_Launch,1429,363,290,633,913,1413,93,3748,0.000%,.39720,4.50,0.00
+SC05_Post_Receipt_Variance_TR01_Launch,1377,288,203,567,806,1304,59,3748,0.000%,.38308,3.36,0.00
+SC13_SalesOrderEdit_TR01_Launch,818,368,271,708,975,1445,70,3806,0.000%,.22743,2.19,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR01_Launch Application,974,296,229,514,734,1385,67,4389,0.000%,.27058,2.14,0.00
+SC04_Slippage_Variance_TR01_Launch,1350,128,89,201,274,689,53,3902,0.000%,.37536,581.38,0.00
+SC06_Sales_Order_Release_TR02_Login,1625,134,74,257,467,1099,18,1793,0.000%,.45294,1.15,0.00
+SC04_Slippage_Variance_TR02_Login,1350,150,92,301,472,949,25,2083,0.000%,.37575,0.97,0.00
+SC04_Slippage_Variance_TR03_Refresh,1350,142,55,353,609,1158,14,2241,0.000%,.37576,0.57,0.00
+Login/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-106,1349,73,37,125,219,675,15,1611,0.000%,.37585,0.29,0.00
+Login/WholesalePortalRestServices/services/dashboards-141,1349,162,119,239,359,847,85,1641,0.000%,.37592,4.96,0.00
+SC14_SingleSalesOrderRelease_TR02_Login,1429,450,331,757,1089,1727,143,30005,0.070%,.39759,7.17,0.00
+SC11_Report_Export_TR02_Login,263,701,517,1157,1734,2257,239,6087,0.000%,.07314,1.45,0.00
+SC13_SalesOrderEdit_TR02_Login,818,511,390,937,1171,1961,169,4356,0.000%,.22765,4.28,0.00
+SC08_SinglePO_Search_TR02_Login,1705,645,491,1051,1430,2116,252,31279,0.059%,.47396,14.68,0.00
+SC17_Wholesale_SOH_All_BizModel_Tile_TR02_Login,1444,666,524,1185,1445,2033,132,8672,0.000%,.40132,8.11,0.00
+SC12_MassSearch_TR02_Login,1233,606,441,1076,1347,2132,217,30161,0.081%,.34332,6.95,0.00
+SC07_Unproductive_Stock_TR03_Refresh,1547,523,382,949,1217,1720,190,30012,0.065%,.43039,12.34,0.00
+Login/WholesalePortalRestServices/services/dashboards-146,1349,155,117,224,345,840,86,1312,0.000%,.37604,4.97,0.00
+Click Slippage dashboard/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-155,1349,54,36,107,122,481,9,1207,0.000%,.37605,0.29,0.00
+SC04_Slippage_Variance_TR04_Click Slippage dashboard,1349,54,36,107,122,481,9,1207,0.000%,.37605,0.29,0.00
+SC01_Dashboard_Load_TR03_Refresh,3032,496,385,910,1148,1658,119,4930,0.000%,.84353,23.95,0.00
+SC02_Dashboard_Enlarge_TR03_Refresh,1231,506,383,897,1210,1846,218,4995,0.000%,.34278,9.84,0.00
+SC03_Pre_Receipt_Variance_TR03_Refresh,1361,504,386,900,1163,1717,215,5081,0.000%,.37866,10.87,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR02_Login,973,1147,901,1829,2371,3570,467,30624,0.103%,.27075,7.04,0.00
+SC06_Sales_Order_Release_TR03_Refresh,1625,657,521,1150,1440,2092,317,4054,0.000%,.45285,18.98,0.00
+SC14_SingleSalesOrderRelease_TR03_Click_Enlarge_SOR,1428,187,140,309,553,1023,27,1736,0.000%,.39785,0.92,0.00
+SC05_Post_Receipt_Variance_TR02_Login,1377,877,702,1432,1718,2501,309,29634,0.000%,.38339,13.45,0.00
+SC11_Report_Export_TR03_Wholesale,261,135,86,245,437,759,19,1403,0.000%,.07333,0.11,0.00
+Enlarge SOR,818,61,36,118,175,599,8,1426,0.000%,.22793,0.17,0.00
+SC07_Unproductive_Stock_TR04_Click to Enlarge,1545,71,36,119,223,807,8,1650,0.000%,.43073,0.33,0.00
+SC17_Wholesale_SOH_All_BizModel_Tile_TR03_Click_SOH,1443,93,49,163,318,770,24,1311,0.000%,.40284,0.43,0.00
+SC08_SinglePO_Search_TR03_Wholesale,1703,91,38,120,225,760,8,30005,0.059%,.47463,0.36,0.00
+Manage_Sales,1232,129,82,235,407,832,18,1555,0.000%,.34363,0.53,0.00
+SC01_Dashboard_Load_TR04_Logout,3030,61,19,121,240,824,4,1717,0.000%,.84460,0.70,0.00
+expand rpre-recp/WholesalePortalRestServices/services/lovSearch/getPartnerLocLov-411,1231,90,39,184,355,837,15,1290,0.000%,.34325,1.27,0.00
+SC03_Pre_Receipt_Variance_TR04_Click to enlarge,1360,91,39,158,349,834,15,1993,0.000%,.37901,1.40,0.00
+SC12_MassSearch_TR03_Manage_SO,1232,282,210,536,744,1344,59,2046,0.000%,.34362,4.25,0.00
+SC04_Slippage_Variance_TR05_Click Slippage dashboard window,1349,205,137,441,711,1120,35,1598,0.000%,.37604,164.25,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR03_Clickon_Enlarge_SOR,971,65,37,110,161,646,15,1325,0.000%,.27069,0.21,0.00
+SC06_Sales_Order_Release_TR04_click to enlarge,1625,69,38,113,163,742,9,3638,0.000%,.45336,0.35,0.00
+SC14_SingleSalesOrderRelease_TR04_Select_SO,1427,425,316,813,1076,1609,103,3483,0.000%,.39781,46.23,0.00
+expand rpre-recp/WholesalePortalRestServices/services/unitsVariance/getSalesOrderHead-412,1231,153,102,244,413,924,66,1910,0.000%,.34324,348.06,0.00
+SC02_Dashboard_Enlarge_TR04_Pre-Receipt Enlarge,1231,207,162,315,446,870,97,1728,0.000%,.34327,4.80,0.00
+SC05_Post_Receipt_Variance_TR03_Enlarge_Post_Receipt,1377,418,315,797,1088,1499,112,2470,0.000%,.38391,51.25,0.00
+SC08_SinglePO_Search_TR04_Manage_SO,1701,173,94,392,616,1029,29,1695,0.000%,.47452,2.93,0.00
+SC07_Unproductive_Stock_TR05_Unproductive Stock Window,1545,181,112,341,576,993,47,2043,0.000%,.43071,0.72,0.00
+SC11_Report_Export_TR04_Manage Sales Order,261,346,243,664,1045,1564,83,1844,0.000%,.07332,0.84,0.00
+SC14_SingleSalesOrderRelease_TR05_Click_Release_SOR,1427,72,37,127,220,686,15,1486,0.000%,.39788,0.26,0.00
+SC13_SalesOrderEdit_TR03_Select SOR,816,540,421,979,1262,1851,181,2918,0.000%,.22792,19.44,0.00
+Click Slippage dashboard window/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-233,1349,64,38,111,152,648,8,1245,0.000%,.37608,0.29,0.00
+SC04_Slippage_Variance_TR06_Enter PO Number,1349,65,39,120,167,720,8,1365,0.000%,.37609,0.29,0.00
+SC12_MassSearch_TR04_Biz_Model,1232,219,142,377,557,993,41,30006,0.081%,.34363,2.13,0.00
+SC03_Pre_Receipt_Variance_TR05_Pre Receipt window,1359,217,151,409,640,1086,78,1504,0.000%,.37903,384.64,0.00
+SC06_Sales_Order_Release_TR05_Sales Order Window,1625,383,276,770,1035,1489,85,3689,0.000%,.45333,42.85,0.00
+Click SOR Tab,971,571,425,1121,1443,2007,168,2774,0.000%,.27068,49.16,0.00
+SC17_Wholesale_SOH_All_BizModel_Tile_TR04_Click_EnlargeSOH,1443,790,677,1119,1364,1856,590,30001,0.069%,.40274,4321.87,0.00
+expand slip/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-415,1231,87,37,121,171,612,8,30002,0.081%,.34328,0.26,0.00
+SC02_Dashboard_Enlarge_TR05_Slippage Enlarge,1230,216,164,333,523,994,98,1646,0.000%,.34300,4.79,0.00
+SC08_SinglePO_Search_TR05_Biz_Model,1701,78,39,133,228,722,15,1571,0.000%,.47453,2.21,0.00
+SC14_SingleSalesOrderRelease_TR06_Click_Ok,1427,100,54,185,345,790,23,1503,0.000%,.39789,0.26,0.00
+SC11_Report_Export_TR05_Select Business Model,261,178,98,422,598,855,31,1585,0.000%,.07333,0.68,0.00
+close-86,1544,170,120,251,428,941,88,1528,0.000%,.43052,5.69,0.00
+SC04_Slippage_Variance_TR07_Click Search,1348,77,39,164,284,574,15,1190,0.000%,.37589,0.23,0.00
+Partner,1492,97,48,198,354,882,15,2220,0.000%,.41617,0.45,0.00
+SC03_Pre_Receipt_Variance_TR06_Enter PO number,1359,138,83,270,445,968,26,1922,0.000%,.37905,2.05,0.00
+Partner_Location,1492,108,72,178,278,739,9,1280,0.000%,.41617,0.58,0.00
+SC14_SingleSalesOrderRelease_TR07_Click_Close,1427,160,117,234,375,936,87,1534,0.000%,.39793,5.25,0.00
+Sales order type,1231,136,85,251,388,833,29,1334,0.000%,.34337,0.58,0.00
+Close,3115,292,234,541,802,1294,86,2847,0.000%,.86871,17.49,0.00
+Sales order Status,2462,119,82,196,282,741,24,1350,0.000%,.68673,1.26,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR04_Select_Sales_order_type,970,153,87,297,561,1004,22,2137,0.000%,.27054,0.43,0.00
+SC02_Dashboard_Enlarge_TR06_Post-Receipt Enlarge,1229,278,224,423,720,1161,109,1495,0.000%,.34302,5.06,0.00
+close-87,1543,72,38,124,208,674,9,1040,0.000%,.43047,0.33,0.00
+SC14_SingleSalesOrderRelease_TR08_Logout,1426,119,62,231,450,908,14,2136,0.000%,.39791,0.63,0.00
+Sales_Order_Type,261,138,88,244,400,651,32,826,0.000%,.07333,0.12,0.00
+SC04_Slippage_Variance_TR08_Click On PO,1346,85,40,161,342,702,14,1174,0.000%,.37594,0.23,0.00
+SC03_Pre_Receipt_Variance_TR07_Search,1358,87,41,158,345,774,17,1216,0.000%,.37920,0.40,0.00
+SC08_SinglePO_Search_TR06_EnterPO_Search,1701,150,89,295,532,923,28,2026,0.000%,.47453,0.92,0.00
+Sales_Order_Status,261,235,189,406,605,936,69,1298,0.000%,.07333,0.27,0.00
+SC06_Sales_Order_Release_TR06_Logout,1625,123,62,234,454,993,19,1855,0.000%,.45336,0.72,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR05_Click_Search,969,80,38,152,283,755,15,1133,0.000%,.27088,0.35,0.00
+SC07_Unproductive_Stock_TR06_Logout,1542,66,19,145,282,810,4,1451,0.000%,.43059,0.36,0.00
+expand sales/WholesalePortalRestServices/services/lovSearch/getPartnerLocLov-421,1229,93,39,170,371,885,14,1454,0.000%,.34304,1.27,0.00
+expand sales/WholesalePortalRestServices/services/lovSearch/getAsosFCentreReleaseLov-422,1229,83,40,158,304,665,15,1454,0.000%,.34303,0.43,0.00
+expand sales/WholesalePortalRestServices/services/lovSearch/getFreightTypeLov-423,1229,76,38,141,248,635,13,1293,0.000%,.34302,0.26,0.00
+SC17_Wholesale_SOH_All_BizModel_Tile_TR05_Click_All_BizModels,1442,958,821,1387,1706,2276,619,2921,0.000%,.40249,5174.83,0.00
+expand sales/WholesalePortalRestServices/services/sorelease/getSalesOrderReleaseSearch-424,1229,74,40,125,221,670,15,1957,0.000%,.34302,0.21,0.00
+SC02_Dashboard_Enlarge_TR07_Sales Order Enlarge,1229,157,121,217,324,849,85,1447,0.000%,.34301,4.53,0.00
+close window/WholesalePortalRestServices/services/dashboards-237,1346,167,118,269,428,907,87,1390,0.000%,.37594,4.96,0.00
+cli-19,1358,68,39,119,199,655,9,1071,0.000%,.37920,0.29,0.00
+close window/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-238,1346,60,36,109,130,629,9,1265,0.000%,.37595,0.29,0.00
+SC04_Slippage_Variance_TR09_Logout,1346,52,18,113,184,478,4,1800,0.000%,.37594,0.31,0.00
+Reset/WholesalePortalRestServices/services/dashboards-398,1700,159,117,234,328,803,87,1724,0.000%,.47453,6.27,0.00
+Reset/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-399,1700,56,35,108,130,491,9,898,0.000%,.47453,0.36,0.00
+SC03_Pre_Receipt_Variance_TR08_Click On PO,1358,72,38,130,231,597,14,1114,0.000%,.37921,0.23,0.00
+SC08_SinglePO_Search_TR07_Logout,1700,52,18,118,219,534,4,1152,0.000%,.47454,0.39,0.00
+Debug Sampler,1623,0,0,1,1,1,0,78,0.000%,.45303,0.73,0.00
+expand unprod/WholesalePortalRestServices/services/lovSearch/getAsosFCentreUnprodLov-426,1229,93,49,160,304,829,24,1501,0.000%,.34302,0.37,0.00
+expand unprod/WholesalePortalRestServices/services/unproductivestock/getUnproductiveStockSearch-427,1229,88,48,158,276,733,22,1265,0.000%,.34302,0.21,0.00
+SC02_Dashboard_Enlarge_TR08_Unprod Stock Enlarge,1229,236,163,309,472,915,104,29198,0.000%,.34302,4.79,0.00
+close-21,1358,163,120,226,408,862,87,1362,0.000%,.37921,5.01,0.00
+SC03_Pre_Receipt_Variance_TR09_Logout,1358,52,16,115,227,539,4,1414,0.000%,.37922,0.31,0.00
+SC02_Dashboard_Enlarge_TR09_Logout,1226,56,18,128,231,619,4,1579,0.000%,.34297,0.28,0.00
+SC17_Wholesale_SOH_All_BizModel_Tile_TR06_Click_Export_to_Excel,1442,1632,1437,2319,2725,3279,1082,4580,0.000%,.40254,959.46,0.00
+SC13_SalesOrderEdit_TR04_Open sales order number,816,504,369,908,1225,2080,138,6667,0.000%,.22792,1.90,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR06_Click_Hyperlink_ORC,969,880,683,1619,1976,2877,353,6166,0.000%,.27085,3.01,0.00
+SC05_Post_Receipt_Variance_TR04_Click_PO,1377,1303,1038,2060,2626,3991,281,30636,0.145%,.38393,5.14,0.00
+SC13_SalesOrderEdit_TR05_Select Partner DC No,816,66,37,117,178,656,13,982,0.000%,.22828,0.17,0.00
+SC17_Wholesale_SOH_All_BizModel_Tile_TR07_Reset,1442,217,162,329,519,991,13,1672,0.000%,.40273,5.62,0.00
+SC12_MassSearch_TR05_Search,1231,416,297,603,747,1499,203,30002,0.081%,.34337,53.23,0.00
+SC11_Report_Export_TR06_Search,261,365,274,483,791,1327,35,5322,0.000%,.07333,10.00,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR07_Change_Units,969,73,36,118,209,824,14,1072,0.000%,.27109,0.21,0.00
+SC05_Post_Receipt_Variance_TR05_Click_Ok,1371,173,93,363,610,1159,31,1868,0.000%,.38391,0.58,0.00
+SC13_SalesOrderEdit_TR06_Select Partner Store No,816,90,40,179,363,737,0,1275,0.245%,.22828,0.15,0.00
+SC17_Wholesale_SOH_All_BizModel_Tile_TR08_Logout,1441,55,19,117,213,556,4,1065,0.000%,.40269,0.33,0.00
+SC11_Report_Export_TR07_Click Action,261,142,91,240,510,811,20,1210,0.000%,.07344,0.11,0.00
+SC12_MassSearch_TR06_Logout,1229,48,19,108,180,448,4,1255,0.000%,.34347,0.28,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR08_Click_Save,969,144,88,266,464,885,29,5025,0.000%,.27109,0.41,0.00
+SC05_Post_Receipt_Variance_TR06_Click_Close,1371,326,248,528,796,1240,178,1860,0.000%,.38388,10.14,0.00
+SC11_Report_Export_TR08_Click Export to Excel,261,394,303,764,1049,1341,88,1787,0.000%,.07344,1.34,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR09_Click_Ok,969,329,229,707,918,1422,74,2869,0.000%,.27108,1.39,0.00
+SC05_Post_Receipt_Variance_TR08_Logout,1371,55,19,111,231,707,4,1503,0.000%,.38391,0.32,0.00
+SC13_SalesOrderEdit_TR07_Save,814,146,89,265,493,907,15,1452,10.565%,.22779,0.34,0.00
+SC11_Report_Export_TR09_Logout,261,53,17,114,240,650,5,776,0.000%,.07344,0.06,0.00
+Click Close,969,87,44,159,294,731,18,944,0.000%,.27109,0.20,0.00
+Click Ok,728,89,42,166,331,759,18,1582,0.000%,.20373,0.15,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR10_Click_Ok_Exit,969,63,36,115,145,561,10,1337,0.000%,.27110,0.21,0.00
+SC13_SalesOrderEdit_TR08_Click_Close,728,175,117,284,511,843,87,5072,0.000%,.20372,2.69,0.00
+SC13_SalesOrderEdit_TR09_Logout,727,114,60,231,446,887,16,1342,0.000%,.20365,0.32,0.00
+Reset,968,539,451,831,1083,1605,284,2167,0.000%,.27102,10.94,0.00
+SC16_Wholesale_Redistribute_Trade_ORC_TR11_Logout,968,54,17,107,211,632,5,1350,0.000%,.27108,0.22,0.00
+SC10_International_Size_Download_TR02_Login,18,100,95,146,149,161,44,161,0.000%,.00543,0.01,0.00
+SC09_International_Size_Upload_TR02_Login,12,138,104,237,237,340,67,340,0.000%,.00369,0.01,0.00
+SC10_International_Size_Download_TR03_Refresh,18,482,398,686,719,980,258,980,0.000%,.00543,0.16,0.00
+SC09_International_Size_Upload_TR03_Refresh,12,622,511,1041,1041,1363,275,1363,0.000%,.00369,0.11,0.00
+Login/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-463,18,65,44,107,115,292,33,292,0.000%,.00543,0.00,0.00
+SC10_International_Size_Download_TR04_Wholesale,18,13,5,12,15,141,2,141,0.000%,.00543,0.05,0.00
+SC09_International_Size_Upload_TR04_Click Wholesale,12,66,40,113,113,241,23,241,0.000%,.00369,0.00,0.00
+SC15_BulkSalesOrderRelease_TR01_Launch,5,304,247,398,452,452,203,452,0.000%,.00185,0.02,0.00
+SC10_International_Size_Download_TR05_Upload Task,15,11,9,12,21,30,6,30,0.000%,.00565,0.01,0.00
+SC09_International_Size_Upload_TR05_Click Upload,9,83,55,118,246,246,31,246,0.000%,.00414,0.05,0.00
+SC15_BulkSalesOrderRelease_TR02_Login,5,407,406,415,440,440,377,440,0.000%,.00185,0.03,0.00
+SC10_International_Size_Download_TR06_Select Template,15,210,97,536,613,699,43,699,0.000%,.00565,0.01,0.00
+SC09_International_Size_Upload_TR06_Select International Size,9,41,28,68,111,111,15,111,0.000%,.00414,0.00,0.00
+SC15_BulkSalesOrderRelease_TR03_Enlarge_SOR,5,218,93,187,639,639,84,639,0.000%,.00185,0.00,0.00
+SC10_International_Size_Download_TR07_Click Download,15,147,118,249,410,458,22,458,0.000%,.00565,0.01,0.00
+SC09_International_Size_Upload_TR07_Click Add,9,155,75,428,533,533,17,533,0.000%,.00414,0.00,0.00
+close/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-476,15,46,42,56,86,146,14,146,0.000%,.00565,0.00,0.00
+close/WholesalePortalRestServices/services/dashboards-477,15,158,149,182,189,313,102,313,0.000%,.00565,0.07,0.00
+SC10_International_Size_Download_TR08_Logout,15,47,22,100,142,155,6,155,0.000%,.00565,0.00,0.00
+SC09_International_Size_Upload_TR08_Select File,9,127,43,121,777,777,23,777,0.000%,.00414,0.00,0.00
+Click SOR Dashboard,5,310,340,378,453,453,160,453,0.000%,.00185,0.01,0.00
+SC09_International_Size_Upload_TR09_Click upload,9,415,382,600,684,684,221,684,0.000%,.00414,0.07,0.00
+SC15_BulkSalesOrderRelease_TR04_Click_Release_SOR,5,56,56,69,76,76,34,76,0.000%,.00185,0.00,0.00
+SC09_International_Size_Upload_TR10_Click Confirm,9,199,57,438,911,911,33,911,0.000%,.00415,0.00,0.00
+SC15_BulkSalesOrderRelease_TR05_Click_Ok,5,913,907,1006,1164,1164,658,1164,0.000%,.00185,0.00,0.00
+SC09_International_Size_Upload_TR11_Click ok,9,38,32,63,70,70,14,70,0.000%,.00415,0.00,0.00
+close upload/WholesalePortalRestServices/services/dashboards-462,9,124,119,149,183,183,95,183,0.000%,.00415,0.05,0.00
+SC09_International_Size_Upload_TR12_Logout,9,113,28,95,759,759,7,759,0.000%,.00415,0.00,0.00
+SC15_BulkSalesOrderRelease_TR06_Click_Close,5,281,191,390,521,521,139,521,0.000%,.00185,0.02,0.00
+SC15_BulkSalesOrderRelease_TR07_Logout,5,95,63,125,200,200,43,200,0.000%,.00185,0.00,0.00
+TOTAL,186356,225,105,592,866,1605,0,31279,0.054%,48.50060,11701.30,0.00

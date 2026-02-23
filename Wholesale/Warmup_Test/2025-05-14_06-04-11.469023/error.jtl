@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="25" lt="0" ts="1747199063331" s="false" lb="SC01_Dashboard_Load_TR02_Login" rc="401" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="SC01_WholeSale_Dashboard_Load 1-1" dt="" de="" by="1976" ng="1" na="1">
+  <httpSample t="25" lt="25" ts="1747199063336" s="false" lb="Login/RetailAppsReSTServices/services/private/RetailIdentityStore/currentuser-171" rc="401" rm="Unauthorized" tn="SC01_WholeSale_Dashboard_Load 1-1" dt="text" de="UTF-8" by="1976" ng="1" na="1">
+    <responseHeader class="java.lang.String">HTTP/1.1 401 Unauthorized
+Date: Wed, 14 May 2025 05:04:23 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1468
+Connection: keep-alive
+X-ORACLE-DMS-ECID: 8f761af4-7903-4f34-abc0-2d49730b4acc-0002aa85
+X-Frame-Options: DENY
+X-ORACLE-DMS-RID: 0
+Set-Cookie: JSESSIONID=hVbNLfX1jkXxPyQ27Jp9_xHsywYkyZuAIBZ59Mj5Mm1wuq8jMKXw!-1753572259; path=/; HttpOnly
+X-Content-Type-Options: nosniff
+WWW-Authenticate: Negotiate
+WWW-Authenticate: Basic
+Content-Security-Policy: upgrade-insecure-requests
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+authorization: Basic VUZSRlUxUlZVMFZTTURBeE9reHZibVJ2YmpBeDoke1Bhc3N3b3JkfQ==
+Referer: https://vptpreuwortlgw.services.kingsway.asos.com/WholesaleWebApp/?ojr=Home
+Accept-Version: 1.4.0
+Accept-Language: en-US,en;q=0.9
+X-Requested-With: XMLHttpRequest
+Content-Type: application/json
+Accept-Encoding: gzip, deflate
+Accept: application/json
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+Content-Language: en-US
+Host: vptpreuwortlgw.services.kingsway.asos.com
+</requestHeader>
+    <responseData class="java.lang.String">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0 Draft//EN&quot;&gt;
+&lt;HTML&gt;
+&lt;HEAD&gt;
+&lt;TITLE&gt;Error 401--Unauthorized&lt;/TITLE&gt;
+&lt;/HEAD&gt;
+&lt;BODY bgcolor=&quot;white&quot;&gt;
+&lt;FONT FACE=Helvetica&gt;&lt;BR CLEAR=all&gt;
+&lt;TABLE border=0 cellspacing=5&gt;&lt;TR&gt;&lt;TD&gt;&lt;BR CLEAR=all&gt;
+&lt;FONT FACE=&quot;Helvetica&quot; COLOR=&quot;black&quot; SIZE=&quot;3&quot;&gt;&lt;H2&gt;Error 401--Unauthorized&lt;/H2&gt;
+&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;TABLE border=0 width=100% cellpadding=10&gt;&lt;TR&gt;&lt;TD VALIGN=top WIDTH=100% BGCOLOR=white&gt;&lt;FONT FACE=&quot;Courier New&quot;&gt;&lt;FONT FACE=&quot;Helvetica&quot; SIZE=&quot;3&quot;&gt;&lt;H3&gt;From RFC 2068 &lt;i&gt;Hypertext Transfer Protocol -- HTTP/1.1&lt;/i&gt;:&lt;/H3&gt;
+&lt;/FONT&gt;&lt;FONT FACE=&quot;Helvetica&quot; SIZE=&quot;3&quot;&gt;&lt;H4&gt;10.4.2 401 Unauthorized&lt;/H4&gt;
+&lt;/FONT&gt;&lt;P&gt;&lt;FONT FACE=&quot;Courier New&quot;&gt;The request requires user authentication. The response MUST include a WWW-Authenticate header field (section 14.46) containing a challenge applicable to the requested resource. The client MAY repeat the request with a suitable Authorization header field (section 14.8). If the request already included Authorization credentials, then the 401 response indicates that authorization has been refused for those credentials. If the 401 response contains the same challenge as the prior response, and the user agent has already attempted authentication at least once, then the user SHOULD be presented the entity that was given in the response, since that entity MAY include relevant diagnostic information. HTTP access authentication is explained in section 11.&lt;/FONT&gt;&lt;/P&gt;
+&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;/TABLE&gt;
+
+&lt;/BODY&gt;
+&lt;/HTML&gt;
+</responseData>
+    <cookies class="java.lang.String">WSALAppGWCookievptpreuwCORS=2d5f95b4b391406a2b846515dc2e99de; WSALAppGWCookievptpreuw=2d5f95b4b391406a2b846515dc2e99de</cookies>
+    <method class="java.lang.String">GET</method>
+    <queryString class="java.lang.String"></queryString>
+    <java.net.URL>https://vptpreuwortlgw.services.kingsway.asos.com/RetailAppsReSTServices/services/private/RetailIdentityStore/currentuser?_=1747199063329</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+</sample>
+
+</testResults>

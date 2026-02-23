@@ -1,0 +1,4 @@
+---
+execution:
+- scenario: 
+    script: Wholesale_All_Scenario.jmx  

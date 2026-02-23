@@ -1,0 +1,382 @@
+[2025-08-12 14:07:31,123 INFO root] Taurus CLI Tool v1.16.27
+[2025-08-12 14:07:31,124 DEBUG root] Build: 14578 Thu Dec 14 12:06:45 UTC 2023
+[2025-08-12 14:07:31,124 DEBUG root] Extended git info:  45e91487 pypi upload set to token
+[2025-08-12 14:07:31,124 DEBUG root] Command-line options: {'log': 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\2\\bzt_plafluuv.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2025-08-12 14:07:31,124 DEBUG root] Python: CPython 3.10.0
+[2025-08-12 14:07:31,124 DEBUG root] OS: uname_result(system='Windows', node='vm7pwu76ki0', release='2012ServerR2', version='6.3.9600', machine='AMD64')
+[2025-08-12 14:07:31,124 DEBUG root] Path to interpreter: C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\python.exe
+[2025-08-12 14:07:31,124 DEBUG root] Path to packages: ['C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\bzt.exe', 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\python310.zip', 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\DLLs', 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib', 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310', 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages']
+[2025-08-12 14:07:31,126 DEBUG root] Default python: C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\python.EXE
+[2025-08-12 14:07:31,127 DEBUG root] Default python3: None
+[2025-08-12 14:07:31,128 DEBUG root] Adding JMX shorthand config for: ['Wholesale_All_Scenario.jmx']
+[2025-08-12 14:07:31,128 DEBUG root] Dumping JSON config into C:\Users\shaik.mohammad\AppData\Local\Temp\2\jmx_p8xz91ye.json
+[2025-08-12 14:07:31,128 DEBUG root] Using personal config: C:\Users\shaik.mohammad\.bzt-rc
+[2025-08-12 14:07:31,128 INFO root] Starting with configs: ['C:\\Users\\shaik.mohammad\\.bzt-rc', 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\2\\jmx_p8xz91ye.json']
+[2025-08-12 14:07:31,129 INFO Engine] Configuring...
+[2025-08-12 14:07:31,166 DEBUG Engine] Base configs list: ['C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\resources/10-base-config.yml']
+[2025-08-12 14:07:31,166 DEBUG Engine.Configuration] Configs: ['C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\resources/10-base-config.yml']
+[2025-08-12 14:07:31,177 DEBUG Engine.Configuration] Reading C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\lib\site-packages\bzt\resources/10-base-config.yml as YAML
+[2025-08-12 14:07:31,193 DEBUG Engine] User configs list: ['C:\\Users\\shaik.mohammad\\.bzt-rc', 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\2\\jmx_p8xz91ye.json']
+[2025-08-12 14:07:31,193 DEBUG Engine.Configuration] Configs: ['C:\\Users\\shaik.mohammad\\.bzt-rc', 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\2\\jmx_p8xz91ye.json']
+[2025-08-12 14:07:31,203 DEBUG Engine.Configuration] Reading C:\Users\shaik.mohammad\.bzt-rc as YAML
+[2025-08-12 14:07:31,211 DEBUG Engine.Configuration] Reading C:\Users\shaik.mohammad\AppData\Local\Temp\2\jmx_p8xz91ye.json as YAML
+[2025-08-12 14:07:31,212 DEBUG Engine.Configuration] Configs: ['C:\\Users\\shaik.mohammad\\.bzt-rc', 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\2\\jmx_p8xz91ye.json']
+[2025-08-12 14:07:31,212 DEBUG Engine.Configuration] Reading C:\Users\shaik.mohammad\.bzt-rc as YAML
+[2025-08-12 14:07:31,215 DEBUG Engine.Configuration] Reading C:\Users\shaik.mohammad\AppData\Local\Temp\2\jmx_p8xz91ye.json as YAML
+[2025-08-12 14:07:31,215 INFO HTTPClient] Proxy settings not set
+[2025-08-12 14:07:31,216 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.16.27&installID=windows-d3a20fa85
+[2025-08-12 14:07:31,217 INFO Engine] Artifacts dir: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705
+[2025-08-12 14:07:31,217 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.16.27&installID=windows-d3a20fa85
+[2025-08-12 14:07:31,218 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective
+[2025-08-12 14:07:31,220 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2025-08-12 14:07:31,220 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective.yml
+[2025-08-12 14:07:31,235 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective.json
+[2025-08-12 14:07:31,236 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\merged.yml
+[2025-08-12 14:07:31,246 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\merged.yml
+[2025-08-12 14:07:31,246 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\merged.json
+[2025-08-12 14:07:31,247 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\merged.json
+[2025-08-12 14:07:31,247 DEBUG Engine] Add existing artifact (move=False): C:\Users\shaik.mohammad\.bzt-rc
+[2025-08-12 14:07:31,247 DEBUG Engine] Copying C:\Users\shaik.mohammad\.bzt-rc to R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\.bzt-rc
+[2025-08-12 14:07:31,248 DEBUG Engine] Add existing artifact (move=False): C:\Users\shaik.mohammad\AppData\Local\Temp\2\jmx_p8xz91ye.json
+[2025-08-12 14:07:31,248 DEBUG Engine] Copying C:\Users\shaik.mohammad\AppData\Local\Temp\2\jmx_p8xz91ye.json to R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\jmx_p8xz91ye.json
+[2025-08-12 14:07:31,249 DEBUG Engine] Set PYTHONPATH to :
+	CURRENT: '' +
+	TEMP: 'R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\python-packages\3.10.0' +
+	USER: 'C:\Users\shaik.mohammad\.bzt\python-packages\3.10.0'
+[2025-08-12 14:07:31,249 DEBUG Engine] Content of user packages dir: []
+[2025-08-12 14:07:31,250 DEBUG Engine] OS env: OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+[2025-08-12 14:07:31,250 DEBUG Engine] OS env: TAURUS_ARTIFACTS_DIR=R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705
+[2025-08-12 14:07:31,250 DEBUG root] Closing log handler: C:\Users\shaik.mohammad\AppData\Local\Temp\2\bzt_plafluuv.log
+[2025-08-12 14:07:31,265 DEBUG root] Switched writing logs to R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\bzt.log
+[2025-08-12 14:07:31,265 DEBUG root] Linting config
+[2025-08-12 14:07:31,267 INFO Engine] Preparing...
+[2025-08-12 14:07:31,267 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2025-08-12 14:07:31,267 DEBUG root] Importing module: bzt.modules.aggregator
+[2025-08-12 14:07:31,387 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\aggregator.py'>
+[2025-08-12 14:07:31,387 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2025-08-12 14:07:31,387 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2025-08-12 14:07:31,387 DEBUG root] Importing module: bzt.modules.monitoring
+[2025-08-12 14:07:31,389 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\monitoring.py'>
+[2025-08-12 14:07:31,389 INFO Engine.monitoring.LocalClient] Using StandardLocalMonitor for engine health monitoring
+[2025-08-12 14:07:31,390 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2025-08-12 14:07:31,390 DEBUG root] Importing module: bzt.modules.provisioning
+[2025-08-12 14:07:31,390 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\provisioning.py'>
+[2025-08-12 14:07:31,390 DEBUG Engine] Module config: jmeter {'class': 'bzt.modules.jmeter.JMeterExecutor', 'protocol-handlers': {'http': 'bzt.jmx.http.HTTPProtocolHandler', 'mqtt': 'bzt.jmx.mqtt.MQTTProtocolHandler', 'grpc': 'bzt.jmx.grpc.GRPCProtocolHandler'}, 'plugins': ['jpgc-casutg', 'jpgc-dummy', 'jpgc-ffw', 'jpgc-fifo', 'jpgc-functions', 'jpgc-json', 'jpgc-perfmon', 'jpgc-prmctl', 'jpgc-tst'], 'properties': {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': ''}}
+[2025-08-12 14:07:31,390 DEBUG root] Importing module: bzt.modules.jmeter
+[2025-08-12 14:07:31,399 DEBUG root] Loading class: 'JMeterExecutor' from <module 'bzt.modules.jmeter' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\jmeter.py'>
+[2025-08-12 14:07:31,400 DEBUG Engine.local] Preparing executor: jmeter/654937965232
+[2025-08-12 14:07:31,400 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\jmeter.log
+[2025-08-12 14:07:31,400 DEBUG Engine.jmeter] Checking if port 4445 is free
+[2025-08-12 14:07:31,400 DEBUG Engine.jmeter] Port 4445 is free
+[2025-08-12 14:07:31,400 DEBUG Engine.jmeter] Using port 4445 for management
+[2025-08-12 14:07:31,400 DEBUG Engine.jmeter] Extract {'script': 'Wholesale_All_Scenario.jmx'} into scenarios
+[2025-08-12 14:07:31,401 DEBUG Engine.jmeter] Getting Jmeter version.
+[2025-08-12 14:07:31,401 DEBUG Engine.jmeter] Autodetect version is enabled
+[2025-08-12 14:07:31,401 DEBUG Engine.jmeter] JMeter version: 5.5
+[2025-08-12 14:07:31,401 DEBUG Engine.jmeter] Additional properties: {'jmeter.save.saveservice.autoflush': 'true', 'jmeter.save.saveservice.connect_time': 'true', 'jmeterengine.force.system.exit': 'true', 'summariser.name': '', 'jmeterengine.nongui.port': 4445, 'jmeterengine.nongui.maxport': 4445, 'jmeter.save.saveservice.timestamp_format': 'ms', 'sampleresult.default.encoding': 'UTF-8', 'user.classpath': 'R:/Scripts/After_Data_Refresh_2025/Validating_working_Scripts/Wholesale/Warmup_Test/2025-08-12_14-07-31.216705;R:/Scripts/After_Data_Refresh_2025/Validating_working_Scripts/Wholesale/Warmup_Test'}
+[2025-08-12 14:07:31,401 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\jmeter-bzt.properties
+[2025-08-12 14:07:31,401 DEBUG Engine.jmeter.JavaVM] Trying JavaVM: ['java', '-version']
+[2025-08-12 14:07:31,402 DEBUG root] Executing shell: ['java', '-version'] at .
+[2025-08-12 14:07:31,639 DEBUG Engine.jmeter.JavaVM] JavaVM output: openjdk version "24.0.2" 2025-07-15
+OpenJDK Runtime Environment (build 24.0.2+12-54)
+OpenJDK 64-Bit Server VM (build 24.0.2+12-54, mixed mode, sharing)
+
+[2025-08-12 14:07:31,647 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2025-08-12 14:07:31,648 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is not present
+[2025-08-12 14:07:31,648 DEBUG Engine.jmeter.TclLibrary] Tcl directory was found: C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\tcl\tcl8.6
+[2025-08-12 14:07:31,649 DEBUG Engine.jmeter.TclLibrary] Setting environment TCL_LIBRARY=C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\tcl\tcl8.6
+[2025-08-12 14:07:31,649 DEBUG Engine.jmeter.TclLibrary] Checking if TCL_LIBRARY variable is present in environment
+[2025-08-12 14:07:31,649 DEBUG Engine.jmeter.TclLibrary] TCL_LIBRARY environment variable is present
+[2025-08-12 14:07:31,649 DEBUG Engine.jmeter.JMeter] Trying JMeter..
+[2025-08-12 14:07:31,649 DEBUG root] Executing shell: ['C:\\Users\\shaik.mohammad\\.bzt\\jmeter-taurus\\5.5\\bin\\jmeter.bat', '-j', 'C:\\Users\\shaik.mohammad\\AppData\\Local\\Temp\\2\\jmeternx_2cmlllog', '--version'] at .
+[2025-08-12 14:07:32,936 DEBUG Engine.jmeter.JMeter] JMeter check:     _    ____   _    ____ _   _ _____       _ __  __ _____ _____ _____ ____
+   / \  |  _ \ / \  / ___| | | | ____|     | |  \/  | ____|_   _| ____|  _ \
+  / _ \ | |_) / _ \| |   | |_| |  _|    _  | | |\/| |  _|   | | |  _| | |_) |
+ / ___ \|  __/ ___ \ |___|  _  | |___  | |_| | |  | | |___  | | | |___|  _ <
+/_/   \_\_| /_/   \_\____|_| |_|_____|  \___/|_|  |_|_____| |_| |_____|_| \_\ 5.5
+
+Copyright (c) 1999-2022 The Apache Software Foundation
+
+ / 
+[2025-08-12 14:07:33,247 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\kpi.jtl
+[2025-08-12 14:07:33,250 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\error.jtl
+[2025-08-12 14:07:33,264 INFO Engine.jmeter] 1 obsolete CookieManagers are found and fixed
+[2025-08-12 14:07:33,266 DEBUG Engine.jmeter.LoadSettingsProcessor] Load: LoadSpec(concurrency=None, throughput=None, ramp_up=None, hold=0, iterations=1, duration=None, steps=None)
+[2025-08-12 14:07:33,266 DEBUG Engine.jmeter.LoadSettingsProcessor] Thread group detection: duration not found, regular ThreadGroup will be used
+[2025-08-12 14:07:33,266 DEBUG Engine.jmeter.LoadSettingsProcessor] No iterations/concurrency/duration found, thread group modification is skipped
+[2025-08-12 14:07:33,266 DEBUG JMX] Saving JMX to: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\modified_Wholesale_All_Scenario.jmx
+[2025-08-12 14:07:33,281 DEBUG root] Executing shell: ['C:\\Users\\shaik.mohammad\\.bzt\\jmeter-taurus\\5.5\\bin\\PluginsManagerCMD.bat', 'install-for-jmx', 'R:\\Scripts\\After_Data_Refresh_2025\\Validating_working_Scripts\\Wholesale\\Warmup_Test\\modified_Wholesale_All_Scenario.jmx'] at .
+[2025-08-12 14:07:36,575 DEBUG Engine.jmeter.JMeter] Try to detect plugins for R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\modified_Wholesale_All_Scenario.jmx
+2025-08-12 14:07:34,214 INFO o.j.r.PluginManagerCMD: Command is: install-for-jmx
+2025-08-12 14:07:34,284 INFO o.j.r.JARSourceHTTP: Found cached repo
+2025-08-12 14:07:34,528 INFO o.j.r.PluginManager: Plugins Status: [jpgc-functions=2.2, jpgc-casutg=3.0, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-fifo=0.2, jpgc-json=2.7, jpgc-prmctl=0.4, jpgc-perfmon=2.1, jpgc-plugins-manager=1.7, jpgc-tst=2.6, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2025-08-12 14:07:34,530 INFO o.j.r.PluginManagerCMD: Params line is: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\modified_Wholesale_All_Scenario.jmx
+2025-08-12 14:07:35,291 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-08-12 14:07:35,307 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-08-12 14:07:35,311 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-08-12 14:07:35,366 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2025-08-12 14:07:35,388 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-08-12 14:07:35,388 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-08-12 14:07:35,388 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-08-12 14:07:35,388 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-08-12 14:07:35,388 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-08-12 14:07:35,389 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-08-12 14:07:35,476 INFO o.j.r.PluginManager: Finishing without changes
+
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider (file:/C:/Users/shaik.mohammad/.bzt/jmeter-taurus/5.5/lib/xstream-1.4.20.jar)
+WARNING: Please consider reporting this to the maintainers of class com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+
+[2025-08-12 14:07:36,575 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\jmeter.out
+[2025-08-12 14:07:36,576 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\jmeter.err
+[2025-08-12 14:07:36,587 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2025-08-12 14:07:36,587 DEBUG root] Importing module: bzt.modules.reporting
+[2025-08-12 14:07:36,601 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\reporting.py'>
+[2025-08-12 14:07:36,601 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter'}
+[2025-08-12 14:07:36,601 DEBUG root] Importing module: bzt.modules.console
+[2025-08-12 14:07:36,601 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from 'C:\\Users\\pradeep.surendran\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\bzt\\modules\\console.py'>
+[2025-08-12 14:07:36,602 DEBUG Engine.console] Can't use 'console' screen, trying 'gui'
+[2025-08-12 14:07:36,606 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective.yml
+[2025-08-12 14:07:36,617 DEBUG urllib3.connectionpool] https://gettaurus.org:443 "GET /updates/?version=1.16.27&installID=windows-d3a20fa85 HTTP/1.1" 500 1096
+[2025-08-12 14:07:36,617 DEBUG Engine] Failed to check for updates, server returned 5xx NoneType: None
+
+[2025-08-12 14:07:36,618 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective.json
+[2025-08-12 14:07:36,618 WARNING Engine] Failed to check for updates, server returned 5xx.
+[2025-08-12 14:07:36,619 INFO Engine] Starting...
+[2025-08-12 14:07:36,619 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x000000987CC70910>
+[2025-08-12 14:07:36,619 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x000000987CC708B0>
+[2025-08-12 14:07:36,619 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x000000987D5FF910>
+[2025-08-12 14:07:36,619 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x000000987D5FFD60>
+[2025-08-12 14:07:36,619 INFO Engine.console] Waiting for results...
+[2025-08-12 14:07:36,620 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x000000987CC709D0>
+[2025-08-12 14:07:36,620 DEBUG Engine.local] Delay setup for jmeter/Wholesale_All_Scenario.jmx: 0(start-at) + 0(delay) = 0
+[2025-08-12 14:07:36,621 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective.yml
+[2025-08-12 14:07:36,632 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective.json
+[2025-08-12 14:07:36,632 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2025-08-12 14:07:36,632 DEBUG root] Leveled up log file verbosity
+[2025-08-12 14:07:36,632 DEBUG Engine] New artifact filename: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\GRACEFUL
+[2025-08-12 14:07:36,632 DEBUG root] Executing shell: ['C:\\Users\\shaik.mohammad\\.bzt\\jmeter-taurus\\5.5\\bin\\jmeter.bat', '-t', 'R:\\Scripts\\After_Data_Refresh_2025\\Validating_working_Scripts\\Wholesale\\Warmup_Test\\modified_Wholesale_All_Scenario.jmx', '-j', 'R:\\Scripts\\After_Data_Refresh_2025\\Validating_working_Scripts\\Wholesale\\Warmup_Test\\2025-08-12_14-07-31.216705\\jmeter.log', '-q', 'R:\\Scripts\\After_Data_Refresh_2025\\Validating_working_Scripts\\Wholesale\\Warmup_Test\\2025-08-12_14-07-31.216705\\jmeter-bzt.properties', '-n'] at R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test
+[2025-08-12 14:07:36,640 DEBUG Engine.local] Starting execution: jmeter/Wholesale_All_Scenario.jmx, rest of available slots: 9223372036854775806
+[2025-08-12 14:07:36,640 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2025-08-12 14:07:36,896 INFO Engine.console] Did not mute console logging
+[2025-08-12 14:07:37,548 INFO Engine.console] Waiting for finish...
+[2025-08-12 14:07:44,664 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 8s
+[2025-08-12 14:07:51,704 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 16s
+[2025-08-12 14:08:00,711 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 11s
+[2025-08-12 14:08:01,002 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 9s
+[2025-08-12 14:08:01,436 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 7s
+[2025-08-12 14:08:02,617 INFO Engine.jmeter.JTLReader] Changed data analysis delay to 2s
+[2025-08-12 14:14:59,864 WARNING Engine] Please wait for graceful shutdown...
+[2025-08-12 14:14:59,865 DEBUG root] Leveled up log file verbosity
+[2025-08-12 14:14:59,865 INFO Engine] Shutting down...
+[2025-08-12 14:14:59,865 DEBUG Engine] Current stop reason: 
+[2025-08-12 14:14:59,866 DEBUG Engine.local] Shutdown jmeter/Wholesale_All_Scenario.jmx
+[2025-08-12 14:15:00,866 INFO Engine.jmeter] Sending Shutdown command to JMeter on port 4445...
+[2025-08-12 14:15:01,868 DEBUG Engine.jmeter] JMeter stopped on Shutdown command
+[2025-08-12 14:15:01,870 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2025-08-12 14:15:01,871 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective.yml
+[2025-08-12 14:15:01,882 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective.json
+[2025-08-12 14:15:01,883 WARNING root] Keyboard interrupt
+[2025-08-12 14:15:01,914 DEBUG root] KeyboardInterrupt: 
+  File "C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\lib\site-packages\bzt\cli.py", line 276, in perform
+    self.engine.run()
+  File "C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\lib\site-packages\bzt\engine\engine.py", line 277, in run
+    reraise(exc_info, exc_value)
+  File "C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\lib\site-packages\bzt\utils.py", line 111, in reraise
+    raise exc
+  File "C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\lib\site-packages\bzt\engine\engine.py", line 256, in run
+    self._wait()
+  File "C:\Users\pradeep.surendran\AppData\Local\Programs\Python\Python310\lib\site-packages\bzt\engine\engine.py", line 305, in _wait
+    time.sleep(delay)
+[2025-08-12 14:15:01,915 INFO Engine] Post-processing...
+[2025-08-12 14:15:01,915 DEBUG Engine.local] Post-process jmeter/Wholesale_All_Scenario.jmx
+[2025-08-12 14:15:01,915 DEBUG Engine] Add existing artifact (move=True): R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\modified_Wholesale_All_Scenario.jmx
+[2025-08-12 14:15:01,916 DEBUG Engine] Moving R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\modified_Wholesale_All_Scenario.jmx to R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\modified_Wholesale_All_Scenario.jmx
+[2025-08-12 14:15:01,916 DEBUG Engine.jmeter.JTLErrorsReader] Read bytes from error file: 17
+[2025-08-12 14:15:01,918 DEBUG Engine.jmeter.JTLReader.IncrementalCSVReader] Read: 299 lines / 54748 bytes (at speed 1048576)
+[2025-08-12 14:15:01,920 DEBUG Engine.jmeter.JTLReader] Buffer len: 3; Known errors count: 2
+[2025-08-12 14:15:01,920 DEBUG Engine.jmeter.JTLReader] Aggregating: 1755004498, 3 in buffer
+[2025-08-12 14:15:02,096 DEBUG Engine.jmeter.JTLReader] Aggregating: 1755004499, 2 in buffer
+[2025-08-12 14:15:02,281 DEBUG Engine.jmeter.JTLReader] Aggregating: 1755004500, 1 in buffer
+[2025-08-12 14:15:02,455 DEBUG Engine.jmeter.JTLReader] Buffer len: 0; Known errors count: 2
+[2025-08-12 14:15:02,455 DEBUG Engine.consolidator] Consolidator buffer[5]: dict_keys([1755004496, 1755004497, 1755004498, 1755004499, 1755004500])
+[2025-08-12 14:15:02,455 DEBUG Engine.consolidator] Merging into 1755004496
+[2025-08-12 14:15:02,456 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2025-08-12 14:15:02,541 DEBUG Engine.consolidator] Processed datapoint: 1755004496/ConsolidatingAggregator@654928447664
+[2025-08-12 14:15:02,541 DEBUG Engine.consolidator] Merging into 1755004497
+[2025-08-12 14:15:02,542 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2025-08-12 14:15:02,625 DEBUG Engine.consolidator] Processed datapoint: 1755004497/ConsolidatingAggregator@654928447664
+[2025-08-12 14:15:02,625 DEBUG Engine.consolidator] Merging into 1755004498
+[2025-08-12 14:15:02,626 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2025-08-12 14:15:02,710 DEBUG Engine.consolidator] Processed datapoint: 1755004498/ConsolidatingAggregator@654928447664
+[2025-08-12 14:15:02,710 DEBUG Engine.consolidator] Merging into 1755004499
+[2025-08-12 14:15:02,710 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2025-08-12 14:15:02,797 DEBUG Engine.consolidator] Processed datapoint: 1755004499/ConsolidatingAggregator@654928447664
+[2025-08-12 14:15:02,797 DEBUG Engine.consolidator] Merging into 1755004500
+[2025-08-12 14:15:02,797 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2025-08-12 14:15:02,879 DEBUG Engine.consolidator] Processed datapoint: 1755004500/ConsolidatingAggregator@654928447664
+[2025-08-12 14:15:02,879 INFO Engine.final-stats] Test duration: 0:07:25
+[2025-08-12 14:15:02,880 INFO Engine.final-stats] Samples count: 120789, 0.05% failures
+[2025-08-12 14:15:02,880 INFO Engine.final-stats] Average times: total 0.169, latency 0.023, connect 0.000
+[2025-08-12 14:15:02,881 INFO Engine.final-stats] Percentiles:
++---------------+---------------+
+| Percentile, % | Resp. Time, s |
++---------------+---------------+
+|           0.0 |           0.0 |
+|          50.0 |         0.089 |
+|          90.0 |         0.456 |
+|          95.0 |         0.588 |
+|          99.0 |         1.006 |
+|          99.9 |         2.204 |
+|         100.0 |          30.0 |
++---------------+---------------+
+[2025-08-12 14:15:02,889 INFO Engine.final-stats] Request label stats:
++-------------------------------------------------------------------------------------------------------------+--------+---------+--------+---------------------------------------------------------------------+
+| label                                                                                                       | status |    succ | avg_rt | error                                                               |
++-------------------------------------------------------------------------------------------------------------+--------+---------+--------+---------------------------------------------------------------------+
+| Click Ok                                                                                                    |   OK   | 100.00% |  0.079 |                                                                     |
+| Click Slippage dashboard window/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-233 |   OK   | 100.00% |  0.045 |                                                                     |
+| Click Slippage dashboard/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-155        |   OK   | 100.00% |  0.046 |                                                                     |
+| Close                                                                                                       |   OK   | 100.00% |  0.310 |                                                                     |
+| Debug Sampler                                                                                               |   OK   | 100.00% |  0.000 |                                                                     |
+| Enlarge SOR                                                                                                 |   OK   | 100.00% |  0.038 |                                                                     |
+| Login/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-106                           |   OK   | 100.00% |  0.050 |                                                                     |
+| Login/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-463                           |   OK   | 100.00% |  0.046 |                                                                     |
+| Login/WholesalePortalRestServices/services/dashboards-141                                                   |   OK   | 100.00% |  0.201 |                                                                     |
+| Login/WholesalePortalRestServices/services/dashboards-146                                                   |   OK   | 100.00% |  0.195 |                                                                     |
+| Manage_Sales                                                                                                |   OK   | 100.00% |  0.089 |                                                                     |
+| Partner                                                                                                     |   OK   | 100.00% |  0.119 |                                                                     |
+| Partner_Location                                                                                            |   OK   | 100.00% |  0.066 |                                                                     |
+| Reset/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-399                           |   OK   | 100.00% |  0.045 |                                                                     |
+| Reset/WholesalePortalRestServices/services/dashboards-398                                                   |   OK   | 100.00% |  0.195 |                                                                     |
+| SC01_Dashboard_Load_TR01_Launch                                                                             |   OK   | 100.00% |  0.007 |                                                                     |
+| SC01_Dashboard_Load_TR02_Login                                                                              |   OK   | 100.00% |  0.130 |                                                                     |
+| SC01_Dashboard_Load_TR03_Refresh                                                                            |   OK   | 100.00% |  0.567 |                                                                     |
+| SC01_Dashboard_Load_TR04_Logout                                                                             |   OK   | 100.00% |  0.056 |                                                                     |
+| SC02_Dashboard_Enlarge_TR01_Launch                                                                          |   OK   | 100.00% |  0.008 |                                                                     |
+| SC02_Dashboard_Enlarge_TR02_Login                                                                           |   OK   | 100.00% |  0.135 |                                                                     |
+| SC02_Dashboard_Enlarge_TR03_Refresh                                                                         |   OK   | 100.00% |  0.572 |                                                                     |
+| SC02_Dashboard_Enlarge_TR04_Pre-Receipt Enlarge                                                             |   OK   | 100.00% |  0.245 |                                                                     |
+| SC02_Dashboard_Enlarge_TR05_Slippage Enlarge                                                                |   OK   | 100.00% |  0.243 |                                                                     |
+| SC02_Dashboard_Enlarge_TR06_Post-Receipt Enlarge                                                            |   OK   | 100.00% |  0.282 |                                                                     |
+| SC02_Dashboard_Enlarge_TR07_Sales Order Enlarge                                                             |   OK   | 100.00% |  0.196 |                                                                     |
+| SC02_Dashboard_Enlarge_TR08_Unprod Stock Enlarge                                                            |   OK   | 100.00% |  0.243 |                                                                     |
+| SC02_Dashboard_Enlarge_TR09_Logout                                                                          |   OK   | 100.00% |  0.054 |                                                                     |
+| SC03_Pre_Receipt_Variance_TR01_Launch                                                                       |   OK   | 100.00% |  0.007 |                                                                     |
+| SC03_Pre_Receipt_Variance_TR02_Login                                                                        |   OK   | 100.00% |  0.134 |                                                                     |
+| SC03_Pre_Receipt_Variance_TR03_Refresh                                                                      |   OK   | 100.00% |  0.563 |                                                                     |
+| SC03_Pre_Receipt_Variance_TR04_Click to enlarge                                                             |   OK   | 100.00% |  0.079 |                                                                     |
+| SC03_Pre_Receipt_Variance_TR05_Pre Receipt window                                                           |   OK   | 100.00% |  0.195 |                                                                     |
+| SC03_Pre_Receipt_Variance_TR06_Enter PO number                                                              |   OK   | 100.00% |  0.118 |                                                                     |
+| SC03_Pre_Receipt_Variance_TR07_Search                                                                       |   OK   | 100.00% |  0.084 |                                                                     |
+| SC03_Pre_Receipt_Variance_TR08_Click On PO                                                                  |   OK   | 100.00% |  0.079 |                                                                     |
+| SC03_Pre_Receipt_Variance_TR09_Logout                                                                       |   OK   | 100.00% |  0.058 |                                                                     |
+| SC04_Slippage_Variance_TR01_Launch                                                                          |   OK   | 100.00% |  0.116 |                                                                     |
+| SC04_Slippage_Variance_TR02_Login                                                                           |   OK   | 100.00% |  0.131 |                                                                     |
+| SC04_Slippage_Variance_TR03_Refresh                                                                         |   OK   | 100.00% |  0.123 |                                                                     |
+| SC04_Slippage_Variance_TR04_Click Slippage dashboard                                                        |   OK   | 100.00% |  0.046 |                                                                     |
+| SC04_Slippage_Variance_TR05_Click Slippage dashboard window                                                 |   OK   | 100.00% |  0.193 |                                                                     |
+| SC04_Slippage_Variance_TR06_Enter PO Number                                                                 |   OK   | 100.00% |  0.041 |                                                                     |
+| SC04_Slippage_Variance_TR07_Click Search                                                                    |   OK   | 100.00% |  0.079 |                                                                     |
+| SC04_Slippage_Variance_TR08_Click On PO                                                                     |   OK   | 100.00% |  0.079 |                                                                     |
+| SC04_Slippage_Variance_TR09_Logout                                                                          |   OK   | 100.00% |  0.057 |                                                                     |
+| SC05_Post_Receipt_Variance_TR01_Launch                                                                      |   OK   | 100.00% |  0.259 |                                                                     |
+| SC05_Post_Receipt_Variance_TR02_Login                                                                       |   OK   | 100.00% |  0.935 |                                                                     |
+| SC05_Post_Receipt_Variance_TR03_Enlarge_Post_Receipt                                                        |   OK   | 100.00% |  0.439 |                                                                     |
+| SC05_Post_Receipt_Variance_TR04_Click_PO                                                                    |   OK   | 100.00% |  1.539 |                                                                     |
+| SC05_Post_Receipt_Variance_TR05_Click_Ok                                                                    |   OK   | 100.00% |  0.158 |                                                                     |
+| SC05_Post_Receipt_Variance_TR06_Click_Close                                                                 |   OK   | 100.00% |  0.396 |                                                                     |
+| SC05_Post_Receipt_Variance_TR08_Logout                                                                      |   OK   | 100.00% |  0.056 |                                                                     |
+| SC06_Sales_Order_Release_TR01_Launch                                                                        |   OK   | 100.00% |  0.267 |                                                                     |
+| SC06_Sales_Order_Release_TR02_Login                                                                         |   OK   | 100.00% |  0.117 |                                                                     |
+| SC06_Sales_Order_Release_TR03_Refresh                                                                       |   OK   | 100.00% |  0.760 |                                                                     |
+| SC06_Sales_Order_Release_TR04_click to enlarge                                                              |   OK   | 100.00% |  0.046 |                                                                     |
+| SC06_Sales_Order_Release_TR05_Sales Order Window                                                            |   OK   | 100.00% |  0.397 |                                                                     |
+| SC06_Sales_Order_Release_TR06_Logout                                                                        |   OK   | 100.00% |  0.106 |                                                                     |
+| SC07_Unproductive_Stock_TR01_Launch                                                                         |   OK   | 100.00% |  0.007 |                                                                     |
+| SC07_Unproductive_Stock_TR02_Login                                                                          |   OK   | 100.00% |  0.131 |                                                                     |
+| SC07_Unproductive_Stock_TR03_Refresh                                                                        |   OK   | 100.00% |  0.567 |                                                                     |
+| SC07_Unproductive_Stock_TR04_Click to Enlarge                                                               |   OK   | 100.00% |  0.046 |                                                                     |
+| SC07_Unproductive_Stock_TR05_Unproductive Stock Window                                                      |   OK   | 100.00% |  0.189 |                                                                     |
+| SC07_Unproductive_Stock_TR06_Logout                                                                         |   OK   | 100.00% |  0.057 |                                                                     |
+| SC08_SinglePO_Search_TR01_Launch                                                                            |   OK   | 100.00% |  0.009 |                                                                     |
+| SC08_SinglePO_Search_TR02_Login                                                                             |   OK   | 100.00% |  0.694 |                                                                     |
+| SC08_SinglePO_Search_TR03_Wholesale                                                                         |   OK   | 100.00% |  0.046 |                                                                     |
+| SC08_SinglePO_Search_TR04_Manage_SO                                                                         |   OK   | 100.00% |  0.159 |                                                                     |
+| SC08_SinglePO_Search_TR05_Biz_Model                                                                         |   OK   | 100.00% |  0.077 |                                                                     |
+| SC08_SinglePO_Search_TR06_EnterPO_Search                                                                    |   OK   | 100.00% |  0.129 |                                                                     |
+| SC08_SinglePO_Search_TR07_Logout                                                                            |   OK   | 100.00% |  0.055 |                                                                     |
+| SC09_International_Size_Upload_TR01_Launch                                                                  |   OK   | 100.00% |  0.007 |                                                                     |
+| SC09_International_Size_Upload_TR02_Login                                                                   |   OK   | 100.00% |  0.131 |                                                                     |
+| SC09_International_Size_Upload_TR03_Refresh                                                                 |   OK   | 100.00% |  0.570 |                                                                     |
+| SC09_International_Size_Upload_TR04_Click Wholesale                                                         |   OK   | 100.00% |  0.047 |                                                                     |
+| SC09_International_Size_Upload_TR05_Click Upload                                                            |   OK   | 100.00% |  0.095 |                                                                     |
+| SC09_International_Size_Upload_TR06_Select International Size                                               |   OK   | 100.00% |  0.043 |                                                                     |
+| SC09_International_Size_Upload_TR07_Click Add                                                               |   OK   | 100.00% |  0.037 |                                                                     |
+| SC09_International_Size_Upload_TR08_Select File                                                             |   OK   | 100.00% |  0.088 |                                                                     |
+| SC09_International_Size_Upload_TR09_Click upload                                                            |   OK   | 100.00% |  0.197 |                                                                     |
+| SC09_International_Size_Upload_TR10_Click Confirm                                                           |   OK   | 100.00% |  0.090 |                                                                     |
+| SC09_International_Size_Upload_TR11_Click ok                                                                |   OK   | 100.00% |  0.044 |                                                                     |
+| SC09_International_Size_Upload_TR12_Logout                                                                  |   OK   | 100.00% |  0.055 |                                                                     |
+| SC10_International_Size_Download_TR01_Launch                                                                |   OK   | 100.00% |  0.007 |                                                                     |
+| SC10_International_Size_Download_TR02_Login                                                                 |   OK   | 100.00% |  0.136 |                                                                     |
+| SC10_International_Size_Download_TR03_Refresh                                                               |   OK   | 100.00% |  0.565 |                                                                     |
+| SC10_International_Size_Download_TR04_Wholesale                                                             |   OK   | 100.00% |  0.007 |                                                                     |
+| SC10_International_Size_Download_TR05_Upload Task                                                           |   OK   | 100.00% |  0.006 |                                                                     |
+| SC10_International_Size_Download_TR06_Select Template                                                       |   OK   | 100.00% |  0.125 |                                                                     |
+| SC10_International_Size_Download_TR07_Click Download                                                        |   OK   | 100.00% |  0.081 |                                                                     |
+| SC10_International_Size_Download_TR08_Logout                                                                |   OK   | 100.00% |  0.052 |                                                                     |
+| SC11_Report_Export_TR01_Launch                                                                              |   OK   | 100.00% |  0.007 |                                                                     |
+| SC11_Report_Export_TR02_Login                                                                               |   OK   | 100.00% |  0.688 |                                                                     |
+| SC11_Report_Export_TR03_Wholesale                                                                           |   OK   | 100.00% |  0.087 |                                                                     |
+| SC11_Report_Export_TR04_Manage Sales Order                                                                  |   OK   | 100.00% |  0.322 |                                                                     |
+| SC11_Report_Export_TR05_Select Business Model                                                               |   OK   | 100.00% |  0.159 |                                                                     |
+| SC11_Report_Export_TR06_Search                                                                              |   OK   | 100.00% |  0.528 |                                                                     |
+| SC11_Report_Export_TR07_Click Action                                                                        |   OK   | 100.00% |  0.088 |                                                                     |
+| SC11_Report_Export_TR08_Click Export to Excel                                                               |   OK   | 100.00% |  0.461 |                                                                     |
+| SC11_Report_Export_TR09_Logout                                                                              |   OK   | 100.00% |  0.061 |                                                                     |
+| SC12_MassSearch_TR01_Launch                                                                                 |   OK   | 100.00% |  0.007 |                                                                     |
+| SC12_MassSearch_TR02_Login                                                                                  |   OK   | 100.00% |  0.631 |                                                                     |
+| SC12_MassSearch_TR03_Manage_SO                                                                              |   OK   | 100.00% |  0.335 |                                                                     |
+| SC12_MassSearch_TR04_Biz_Model                                                                              |   OK   | 100.00% |  0.175 |                                                                     |
+| SC12_MassSearch_TR05_Search                                                                                 |  FAIL  |  99.26% |  0.903 | Number of samples in transaction : 1, number of failing samples : 1 |
+| SC12_MassSearch_TR06_Logout                                                                                 |   OK   | 100.00% |  0.051 |                                                                     |
+| SC13_SalesOrderEdit_TR01_Launch                                                                             |   OK   | 100.00% |  0.307 |                                                                     |
+| SC13_SalesOrderEdit_TR02_Login                                                                              |   OK   | 100.00% |  0.537 |                                                                     |
+| SC13_SalesOrderEdit_TR03_Select SOR                                                                         |   OK   | 100.00% |  0.535 |                                                                     |
+| SC13_SalesOrderEdit_TR04_Open sales order number                                                            |   OK   | 100.00% |  0.581 |                                                                     |
+| SC13_SalesOrderEdit_TR05_Select Partner DC No                                                               |   OK   | 100.00% |  0.050 |                                                                     |
+| SC13_SalesOrderEdit_TR06_Select Partner Store No                                                            |  FAIL  |  99.60% |  0.079 | Number of samples in transaction : 1, number of failing samples : 1 |
+| SC13_SalesOrderEdit_TR07_Save                                                                               |  FAIL  |  88.87% |  0.126 | Number of samples in transaction : 2, number of failing samples : 1 |
+| SC13_SalesOrderEdit_TR08_Click_Close                                                                        |   OK   | 100.00% |  0.197 |                                                                     |
+| SC13_SalesOrderEdit_TR09_Logout                                                                             |   OK   | 100.00% |  0.100 |                                                                     |
+| Sales order Status                                                                                          |   OK   | 100.00% |  0.125 |                                                                     |
+| Sales order type                                                                                            |   OK   | 100.00% |  0.161 |                                                                     |
+| Sales_Order_Status                                                                                          |   OK   | 100.00% |  0.244 |                                                                     |
+| Sales_Order_Type                                                                                            |   OK   | 100.00% |  0.150 |                                                                     |
+| cli-19                                                                                                      |   OK   | 100.00% |  0.045 |                                                                     |
+| close upload/WholesalePortalRestServices/services/dashboards-462                                            |   OK   | 100.00% |  0.195 |                                                                     |
+| close window/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-238                    |   OK   | 100.00% |  0.046 |                                                                     |
+| close window/WholesalePortalRestServices/services/dashboards-237                                            |   OK   | 100.00% |  0.199 |                                                                     |
+| close-21                                                                                                    |   OK   | 100.00% |  0.198 |                                                                     |
+| close-86                                                                                                    |   OK   | 100.00% |  0.194 |                                                                     |
+| close-87                                                                                                    |   OK   | 100.00% |  0.047 |                                                                     |
+| close/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-476                           |   OK   | 100.00% |  0.044 |                                                                     |
+| close/WholesalePortalRestServices/services/dashboards-477                                                   |   OK   | 100.00% |  0.198 |                                                                     |
+| expand rpre-recp/WholesalePortalRestServices/services/lovSearch/getPartnerLocLov-411                        |   OK   | 100.00% |  0.085 |                                                                     |
+| expand rpre-recp/WholesalePortalRestServices/services/unitsVariance/getSalesOrderHead-412                   |   OK   | 100.00% |  0.146 |                                                                     |
+| expand sales/WholesalePortalRestServices/services/lovSearch/getAsosFCentreReleaseLov-422                    |   OK   | 100.00% |  0.082 |                                                                     |
+| expand sales/WholesalePortalRestServices/services/lovSearch/getFreightTypeLov-423                           |   OK   | 100.00% |  0.080 |                                                                     |
+| expand sales/WholesalePortalRestServices/services/lovSearch/getPartnerLocLov-421                            |   OK   | 100.00% |  0.079 |                                                                     |
+| expand sales/WholesalePortalRestServices/services/sorelease/getSalesOrderReleaseSearch-424                  |   OK   | 100.00% |  0.081 |                                                                     |
+| expand slip/RetailAppsReSTServices/services/private/Notifications/fetch/unreadcount-415                     |   OK   | 100.00% |  0.044 |                                                                     |
+| expand unprod/WholesalePortalRestServices/services/lovSearch/getAsosFCentreUnprodLov-426                    |   OK   | 100.00% |  0.101 |                                                                     |
+| expand unprod/WholesalePortalRestServices/services/unproductivestock/getUnproductiveStockSearch-427         |   OK   | 100.00% |  0.097 |                                                                     |
++-------------------------------------------------------------------------------------------------------------+--------+---------+--------+---------------------------------------------------------------------+
+[2025-08-12 14:15:02,906 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2025-08-12 14:15:02,907 DEBUG Engine.Configuration] Dumping YAML config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective.yml
+[2025-08-12 14:15:02,918 DEBUG Engine.Configuration] Dumping JSON config into R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\effective.json
+[2025-08-12 14:15:02,919 INFO root] Artifacts dir: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705
+[2025-08-12 14:15:02,920 WARNING root] Done performing with code: 1
+[2025-08-12 14:15:02,920 DEBUG root] Closing log handler: R:\Scripts\After_Data_Refresh_2025\Validating_working_Scripts\Wholesale\Warmup_Test\2025-08-12_14-07-31.216705\bzt.log
