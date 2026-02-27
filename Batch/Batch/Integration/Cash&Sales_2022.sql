@@ -1,0 +1,534 @@
+--truncate table CASHANDSALES_2022;
+select * from CASHANDSALES_2022_SOAK where STOCKREFERENCE = '890228125';
+select * from ADDR_CFA_EXT;
+
+
+
+SELECT STOCKREFERENCE, COUNT(*) FROM skumar.CASHANDSALES_2022 GROUP BY STOCKREFERENCE HAVING COUNT(*) > 2;
+
+
+select * from CASHANDSALES_2022  where ORDERID in (select * from (select distinct ORDERID from CASHANDSALES_2022) where rownum <= '5000');
+
+
+create table CASHANDSALES_2022 as select * from CASHANDSALES_ALL_CHK;
+
+create table CASHANDSALES_2022_FC06 as select * from CASHANDSALES_ALL_CHK where wlocation ='FC04';
+
+--drop table CASHANDSALES_2022_FC06;
+
+select * from CASHANDSALES_2022_FC06;
+
+begin
+UPDATE skumar.CASHANDSALES_2022_FC06 SET INVOICEREFERENCE = replace(INVOICEREFERENCE,'OCT04','OCT06'),
+    ORDERID = replace(ORDERID,'OCT04','OCT06'),
+    ORDERREFERENCE = replace(ORDERREFERENCE,'OCT04','OCT06'),
+    USER_DEF_TYPE_4 = replace(USER_DEF_TYPE_4,'OCT04','OCT06');
+UPDATE skumar.CASHANDSALES_2022_FC06 SET INVOICEREFERENCE = replace(INVOICEREFERENCE,'OCT05','OCT07'),
+    ORDERID = replace(ORDERID,'OCT05','OCT07'),
+    ORDERREFERENCE = replace(ORDERREFERENCE,'OCT05','OCT07'),
+    USER_DEF_TYPE_4 = replace(USER_DEF_TYPE_4,'OCT05','OCT07'),
+    WLOCATION ='FC06';
+
+Update CASHANDSALES_2022_FC06 set STOCKREFERENCE=replace(STOCKREFERENCE,'937','957');
+Update CASHANDSALES_2022_FC06 set STOCKREFERENCE=replace(STOCKREFERENCE,'938','958');
+Update CASHANDSALES_2022_FC06 set STOCKREFERENCE=replace(STOCKREFERENCE,'939','959');
+Update CASHANDSALES_2022_FC06 set STOCKREFERENCE=replace(STOCKREFERENCE,'947','967');
+Update CASHANDSALES_2022_FC06 set STOCKREFERENCE=replace(STOCKREFERENCE,'947','967');
+Update CASHANDSALES_2022_FC06 set DELIVERYCOUNTRYCODE ='GB',CURRENCYCODE='GBP';
+end;
+/
+
+
+DELETE FROM CASHANDSALES_2022_FC06 where STOCKREFERENCE in ( SELECT STOCKREFERENCE FROM (SELECT STOCKREFERENCE, COUNT(*) FROM skumar.CASHANDSALES_2022_FC06 GROUP BY STOCKREFERENCE HAVING COUNT(*) > 3));
+
+select * from CASHANDSALES_2022;
+
+Update CASHANDSALES_2022 set DELIVERYCOUNTRYCODE ='GB',CURRENCYCODE='GBP',WLOCATION='FC01'  where  
+   ORDERID in (select * from (select distinct ORDERID from CASHANDSALES_2022 where  WLOCATION ='FC06' and rownum <= '100'));
+
+
+
+
+select * from CASHANDSALES_2022;
+
+insert into CASHANDSALES_2022 
+select * from CASHANDSALES_2022_FC06;
+
+Update CASHANDSALES_2022 set DELIVERYCOUNTRYCODE ='GB',CURRENCYCODE='GBP',WLOCATION='FC01'  where  
+   ORDERID in (select * from (select distinct ORDERID from CASHANDSALES_2022 where  WLOCATION ='FC06') where  rownum <= '9000');
+
+SELECT STOCKREFERENCE, COUNT(*) FROM skumar.CASHANDSALES_2022 GROUP BY STOCKREFERENCE HAVING COUNT(*) > 5;
+
+select * from CASHANDSALES_2022;
+
+
+
+SELECT WLOCATION, COUNT(1)/3 FROM skumar.CASHANDSALES_2022 group by WLOCATION;
+SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022 group by ORDERID HAVING COUNT(*) < 5;
+
+SELECT SKU, WLOCATION, COUNT(1) FROM skumar.CASHANDSALES_2022 GROUP BY SKU,WLOCATION HAVING COUNT(*) > 5;
+
+select distinct ORDERID from CASHANDSALES_2022 ;
+select distinct SKU from CASHANDSALES_2022;
+select * from CASHANDSALES_2022;
+
+SELECT SKU, COUNT(1) FROM skumar.CASHANDSALES_2022 GROUP BY SKU HAVING COUNT(*) > 1;
+
+SELECT SKU, WLOCATION, COUNT(1) FROM skumar.CASHANDSALES_2022 GROUP BY SKU,WLOCATION HAVING COUNT(*) > 1;
+
+SELECT distinct ORDERID FROM CASHANDSALES_2022 where SKU in 
+ (SELECT SKU FROM (SELECT ORDERID,SKU, WLOCATION, COUNT(1) FROM skumar.CASHANDSALES_2022 GROUP BY ORDERID,SKU,WLOCATION HAVING COUNT(*) > 1));
+
+SELECT distinct ORDERID FROM CASHANDSALES_2022 where SKU in 
+ (SELECT SKU FROM (SELECT SKU, WLOCATION, COUNT(1) FROM skumar.CASHANDSALES_2022 GROUP BY SKU,WLOCATION HAVING COUNT(*) > 1));
+
+SELECT distinct ORDERID FROM CASHANDSALES_2022 where SKU in 
+ (SELECT SKU FROM (SELECT SKU, COUNT(1) FROM skumar.CASHANDSALES_2022 GROUP BY SKU HAVING COUNT(*) > 1));
+
+
+update CASHANDSALES_2022 set sl_no = rownum;
+
+
+select * from CASHANDSALES_2022_chk_script;
+--drop table CASHANDSALES_2022_CHK;
+create table CASHANDSALES_2022_CHK as
+select * from CASHANDSALES_2022  where ORDERID in (select * from (select distinct ORDERID from CASHANDSALES_2022) where rownum <= '100');
+
+select * from CASHANDSALES_2022_CHK;
+
+drop tablE ITEM_S ;
+crEatE tablE ITEM_S as
+SELECT * from (
+SELECT il.ITEM as SKU
+  FROM ITEM_LOC il, rms.item_master im
+   WHERE il.LOC = '1001'
+     AND il.CREATE_ID = 'ORACNV' and im.item_level = '2' and im.tran_level = '2' and im.item = il.item 
+     and not exists (select 1 from skumar.CASHANDSALES_2022 im2 where im2.SKU = il.item) 
+     and ROWNUM <= '200000');
+
+SELECT *  FROM ITEM_S;
+
+set serveroutput on;
+set timing on;
+
+declare
+     l_ORDERID              skumar.CASHANDSALES_2022.ORDERID%type;
+     COUNTER_COMMIT  NUMBER(8)     := 1;
+     
+cursor c_order is 
+    select ORDERID from (SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022 group by ORDERID HAVING COUNT(*) < 5);
+
+Begin
+for k in c_order loop
+     l_ORDERID              := k.ORDERID;
+
+INSERT INTO CASHANDSALES_2022 (ORDERID, WLOCATION, SKU)
+SELECT * from (
+ SELECT cs.ORDERID, cs.WLOCATION, il.SKU
+  FROM ITEM_S il, CASHANDSALES_2022 cs 
+   WHERE cs.ORDERID= l_ORDERID
+     and not exists (select 1 from skumar.CASHANDSALES_2022 im2 where im2.SKU = il.sku and WLOCATION = cs.WLOCATION) 
+     and  ROWNUM <= '2');
+
+        COUNTER_COMMIT :=COUNTER_COMMIT + 1;
+			   IF MOD(COUNTER_COMMIT, 50) = 0 THEN
+				COMMIT;
+			   END IF;	
+
+end loop; 
+commit;
+
+EXCEPTION
+WHEN OTHERS THEN
+    dbms_output.put_line('Exception blcok'||dbms_utility.FORMAT_ERROR_BACKTRACE||dbms_utility.format_error_stack);
+END;
+/
+
+
+SELECT * from CASHANDSALES_2022 cs WHERE sl_no is null;
+dELETe from CASHANDSALES_2022 cs WHERE sl_no is null;
+
+INSERT INTO CASHANDSALES_2022 (ORDERID, WLOCATION, SKU)
+SELECT * from (
+SELECT cs.ORDERID, cs.WLOCATION, il.SKU
+  FROM ITEM_S il, CASHANDSALES_2022 cs 
+   WHERE cs.ORDERID= 'OCT040833378'
+     and not exists (select 1 from skumar.CASHANDSALES_2022 im2 where im2.SKU = il.sku and WLOCATION = 'FC01') 
+     and  ROWNUM <= '2');
+
+SELECT * from ITEM_S;
+
+SELECT  count(1) from (SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022 group by ORDERID HAVING COUNT(*) = 5);
+
+SELECT * fROM CASHANDSALES_2022 WHERE ORDERID ='OCT047826391';
+UPDATE CASHANDSALES_2022 SET SL_NO=null WHERE INVOICEREFERENCE  is null;
+
+update  CASHANDSALES_2022 t 
+ set     (t.INVOICEREFERENCE, t.PAYMENTREFERENCE, t.DISCOUNTTOTALAMOUNT, t.DISCOUNTCODE, t.DISCOUNTTYPE, t.DISCOUNTVALUE, t.WLOCATION, t.STOCKREFERENCE, t.QUANTITY, t.CURRENTPRICE, t.TOTALPRICE, t.TOTALQTY, t.DELIVERYCOUNTRYCODE, t.ORDERREFERENCE, t.IDORCONVERSIONID, t.CURRENCYCODE, t.ACTION, t.CODE, t.RETURNQTY, t.USER_DEF_TYPE_4, t.LOCK_CODE, t.ORDERTYPE, t.PRICEVERSIONID) = 
+(SELECT  t1.INVOICEREFERENCE, t1.PAYMENTREFERENCE, t1.DISCOUNTTOTALAMOUNT, t1.DISCOUNTCODE, t1.DISCOUNTTYPE, t1.DISCOUNTVALUE, t1.WLOCATION, t1.STOCKREFERENCE,t1.QUANTITY, t1.CURRENTPRICE, t1.TOTALPRICE, t1.TOTALQTY, t1.DELIVERYCOUNTRYCODE, t1.ORDERREFERENCE, t1.IDORCONVERSIONID, t1.CURRENCYCODE, t1.ACTION, t1.CODE, t1.RETURNQTY, t1.USER_DEF_TYPE_4, t1.LOCK_CODE, t1.ORDERTYPE, t1.PRICEVERSIONID
+        FROM    CASHANDSALES_2022 t1
+        WHERE   t1.ORDERID ='OCT047826425'
+        and sl_no is not null and rownum <= '1' )
+where t.sl_no is null
+and  ORDERID ='OCT047826425';
+
+SELECT * FROM skumar.CASHANDSALES_2022 where   ORDERID ='OCT047826425';
+SELECT * FROM skumar.CASHANDSALES_2022 WHERE INVOICEREFERENCE  is null;
+
+UPDATE CASHANDSALES_2022 SET SL_NO=null WHERE INVOICEREFERENCE  is null;
+DELETE FROM skumar.CASHANDSALES_2022 where   ORDERID ='OCT047826425';
+SELECT  count(1) from (SELECT ORDERID, sku,COUNT(1) FROM skumar.CASHANDSALES_2022 group by ORDERID,sku HAVING COUNT(*) > 1);
+
+
+SELECT  * from (SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022 group by ORDERID HAVING COUNT(*) = 5);
+SELECT  count(1) from (SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022 group by ORDERID HAVING COUNT(*) = 5);
+SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022 group by ORDERID;
+SELECT * FROM skumar.CASHANDSALES_2022 where   ORDERID ='OCT047826425';
+update CASHANDSALES_2022 set sl_no = rownum;
+
+SELECT  count(1) from (SELECT ORDERID, sku,COUNT(1) FROM skumar.CASHANDSALES_2022 group by ORDERID,sku HAVING COUNT(*) > 1);
+
+
+SELECT  * from (SELECT ORDERID, sku,COUNT(1) FROM skumar.CASHANDSALES_2022 group by ORDERID,sku HAVING COUNT(*) > 1);
+select ORDERID from (SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022 where INVOICEREFERENCE is not null group by ORDERID HAVING COUNT(*) = 5);
+
+
+SELECT  count(1) from (SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022 where INVOICEREFERENCE is null group by ORDERID);
+
+set serveroutput on;
+set timing on;
+
+declare
+     l_ORDERID              skumar.CASHANDSALES_2022.ORDERID%type;
+     COUNTER_COMMIT  NUMBER(8)     := 1;
+     
+cursor c_order is 
+    select ORDERID from (SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022 WHERE INVOICEREFERENCE is null  group by ORDERID);
+
+Begin
+for k in c_order loop
+     l_ORDERID              := k.ORDERID;
+
+update  CASHANDSALES_2022 t 
+set     (t.INVOICEREFERENCE, t.PAYMENTREFERENCE, t.DISCOUNTTOTALAMOUNT, t.DISCOUNTCODE, t.DISCOUNTTYPE, t.DISCOUNTVALUE, t.WLOCATION, t.STOCKREFERENCE, t.QUANTITY, t.CURRENTPRICE, t.TOTALPRICE, t.TOTALQTY, t.DELIVERYCOUNTRYCODE, t.ORDERREFERENCE, t.IDORCONVERSIONID, t.CURRENCYCODE, t.ACTION, t.CODE, t.RETURNQTY, t.USER_DEF_TYPE_4, t.LOCK_CODE, t.ORDERTYPE, t.PRICEVERSIONID) = 
+(SELECT  t1.INVOICEREFERENCE, t1.PAYMENTREFERENCE, t1.DISCOUNTTOTALAMOUNT, t1.DISCOUNTCODE, t1.DISCOUNTTYPE, t1.DISCOUNTVALUE, t1.WLOCATION, t1.STOCKREFERENCE,t1.QUANTITY, t1.CURRENTPRICE, t1.TOTALPRICE, t1.TOTALQTY, t1.DELIVERYCOUNTRYCODE, t1.ORDERREFERENCE, t1.IDORCONVERSIONID, t1.CURRENCYCODE, t1.ACTION, t1.CODE, t1.RETURNQTY, t1.USER_DEF_TYPE_4, t1.LOCK_CODE, t1.ORDERTYPE, t1.PRICEVERSIONID
+        FROM    CASHANDSALES_2022 t1
+        WHERE   t1.ORDERID = l_ORDERID
+        and sl_no is not null and rownum <= '1' )
+ where t.sl_no is null
+ and  ORDERID = l_ORDERID;
+
+        COUNTER_COMMIT :=COUNTER_COMMIT + 1;
+			   IF MOD(COUNTER_COMMIT, 50) = 0 THEN
+				COMMIT;
+			   END IF;	
+
+end loop; 
+update CASHANDSALES_2022 set sl_no = rownum;
+commit;
+
+EXCEPTION
+WHEN OTHERS THEN
+    dbms_output.put_line('Exception blcok'||dbms_utility.FORMAT_ERROR_BACKTRACE||dbms_utility.format_error_stack);
+END;
+/
+
+
+SELECT  * FROM skumar.CASHANDSALES_2022 ORDER BY ORDERID;
+SELECT  count(1)  FROM skumar.CASHANDSALES_2022 ORDER BY ORDERID;
+
+create table CASHANDSALES_2022_chk as
+SELECT  * FROM skumar.CASHANDSALES_2022;
+
+create table CASHANDSALES_2022_chk_script as
+SELECT * FROM skumar.CASHANDSALES_2022_chk where   ORDERID  in ('OCT047762750','OCT040788064','OCT044751969','OCT067828361');
+
+
+TRUNCATE TABLE CASHANDSALES_2022_chk;
+DROP  TABLE CASHANDSALES_2022_chk;
+
+DESC CASHANDSALES_2022;
+
+SELECT  * FROM skumar.CASHANDSALES_2022;
+
+DISCOUNTTOTALAMOUNT, DISCOUNTCODE, DISCOUNTTYPE, DISCOUNTVALUE,CURRENTPRICE, TOTALPRICE, TOTALQTY,ACTION, CODE, RETURNQTY, USER_DEF_TYPE_4, LOCK_CODE, ORDERTYPE
+--alter table CASHANDSALES_2022_chk drop (DISCOUNTTOTALAMOUNT, DISCOUNTCODE, DISCOUNTTYPE, DISCOUNTVALUE,CURRENTPRICE, TOTALPRICE, TOTALQTY,ACTION, CODE, RETURNQTY, USER_DEF_TYPE_4, LOCK_CODE, ORDERTYPE);
+
+SELECT  * FROM skumar.CASHANDSALES_2022;
+ALTER TABLE CASHANDSALES_2022 
+ADD (
+    CountryCode VARCHAR2(4)  ,
+    CountryStateProvinceAreaCode VARCHAR2(25),
+    Locality VARCHAR2(50),
+    CountyStateProvinceArea VARCHAR2(50),
+    CountryName VARCHAR2(25),
+    CustomerId VARCHAR2(25)    
+);
+
+SELECT  * FROM skumar.CASHANDSALES_2022_chk;
+
+
+update  CASHANDSALES_2022 t 
+   set COUNTRYCODE = 'GB', COUNTRYSTATEPROVINCEAREACODE= null, LOCALITY= 'Burnley', COUNTYSTATEPROVINCEAREA= 'Lancs', COUNTRYNAME= 'UK', CUSTOMERID= ORDERID
+ where WLOCATION = 'FC01';
+
+update  CASHANDSALES_2022 t 
+   set COUNTRYCODE = 'US', COUNTRYSTATEPROVINCEAREACODE= 'US-IN', LOCALITY= 'Elkhart', COUNTYSTATEPROVINCEAREA= 'Indiana', COUNTRYNAME= 'US', CUSTOMERID= ORDERID
+ where WLOCATION = 'FC03';
+
+update  CASHANDSALES_2022 t 
+   set COUNTRYCODE = 'DE', COUNTRYSTATEPROVINCEAREACODE= Null, LOCALITY= 'Essen', COUNTYSTATEPROVINCEAREA= 'Nordrhein-Westfalen', COUNTRYNAME= 'Deutschland', CUSTOMERID= ORDERID
+ where WLOCATION = 'FC04';
+
+update  CASHANDSALES_2022 t 
+   set COUNTRYCODE = 'UK', COUNTRYSTATEPROVINCEAREACODE= Null, LOCALITY= 'Manchester', COUNTYSTATEPROVINCEAREA= null, COUNTRYNAME= 'UK', CUSTOMERID= ORDERID
+ where WLOCATION = 'FC06';
+
+SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022_chk group by ORDERID;
+
+
+SELECT * FROM skumar.CASHANDSALES_2022_chk where   ORDERID  in ('OCT047762750','OCT040788064','OCT044751969','OCT067828361');
+
+
+SELECT cs.*,sku as Variants, COUNTRYCODE as Store, COUNTRYCODE as BrowseCountry  FROM skumar.CASHANDSALES_2022_chk cs 
+where ORDERID  in ('OCT047762750','OCT040788064','OCT044751969','OCT067828361')
+order by ORDERID;
+
+ALTER TABLE CASHANDSALES_2022 
+ADD (
+    CountryCode VARCHAR2(4)  ,
+    CountryStateProvinceAreaCode VARCHAR2(25),
+    Locality VARCHAR2(50),
+    CountyStateProvinceArea VARCHAR2(50),
+    CountryName VARCHAR2(25),
+    CustomerId VARCHAR2(25)    
+);
+
+
+ALTER TABLE CASHANDSALES_2022 
+ADD ( PriceToPay NUMBER(20,4), 
+      PriceCurrent NUMBER(20,4),
+      LanguageCode VARCHAR2(20),
+      BrowseCountry VARCHAR2(2)
+      );
+      
+ALTER TABLE CASHANDSALES_2022_CHK 
+ADD ( PriceToPay NUMBER(20,4), 
+      PriceCurrent NUMBER(20,4),
+      LanguageCode VARCHAR2(20),
+      BrowseCountry VARCHAR2(2)
+      );
+
+update  CASHANDSALES_2022 t  set BROWSECOUNTRY = DELIVERYCOUNTRYCODE;
+update  CASHANDSALES_2022 t  set LanguageCode = 'en-AU';
+update  CASHANDSALES_2022 t  set LanguageCode = 'fr-FR' where wlocation = 'FC04';
+update  CASHANDSALES_2022 t  set LanguageCode = 'en-GB' where wlocation = 'FC06';
+en-GB
+
+
+update  CASHANDSALES_2022_CHK_SCRIPT t  set BROWSECOUNTRY = DELIVERYCOUNTRYCODE;
+update  CASHANDSALES_2022_CHK_SCRIPT t  set LanguageCode = 'en-AU';
+
+ALTER TABLE CASHANDSALES_2022_CHK_SCRIPT  ADD ( Ean VARCHAR2(25));
+ALTER TABLE CASHANDSALES_2022 ADD ( Ean VARCHAR2(25));
+SELECT  * from  CASHANDSALES_2022;
+SELECT  * from (SELECT ORDERID, COUNT(1) FROM skumar.CASHANDSALES_2022 group by ORDERID HAVING COUNT(*) = 5);
+
+SELECT * FROM CASHANDSALES_2022_CHK_SCRIPT order by ORDERID;
+
+
+
+create table item_sku as
+SELECT  item,item_parent from item_master where item_parent in (SELECT distinct sku FROM CASHANDSALES_2022) and PRIMARY_REF_ITEM_IND= 'Y';
+
+MERGE INTO CASHANDSALES_2022  cs
+USING (SELECT  item,item_parent from item_sku) iss
+ON (iss.item_parent = cs.sku)
+    WHEN MATCHED THEN
+        UPDATE SET cs.Ean = iss.item;
+
+drop table item_pric;
+create table item_pric as
+SELECT  ITEM, 'FC01' as  WLOC, REGULAR_UNIT_RETAIL, SELLING_UNIT_RETAIL from item_loc where loc = '1001' and item in (SELECT distinct sku FROM CASHANDSALES_2022 where wlocation = 'FC01');
+insert into item_pric
+SELECT  ITEM, 'FC03' as  WLOC, REGULAR_UNIT_RETAIL, SELLING_UNIT_RETAIL from item_loc where loc = '3001' and item in (SELECT distinct sku FROM CASHANDSALES_2022 where wlocation = 'FC03');
+insert into item_pric
+SELECT  ITEM, 'FC04' as  WLOC, REGULAR_UNIT_RETAIL, SELLING_UNIT_RETAIL from item_loc where loc = '4001' and item in (SELECT distinct sku FROM CASHANDSALES_2022 where wlocation = 'FC04');
+insert into item_pric
+SELECT  ITEM, 'FC06' as  WLOC, REGULAR_UNIT_RETAIL, SELLING_UNIT_RETAIL from item_loc where loc = '1001' and item in (SELECT distinct sku FROM CASHANDSALES_2022 where wlocation = 'FC06');
+
+SELECT  ITEM, LOC, REGULAR_UNIT_RETAIL, SELLING_UNIT_RETAIL from item_loc where loc = '1003'; 
+
+ALTER TABLE CASHANDSALES_2022   ADD ( Previous NUMBER(20,4));
+
+ALTER TABLE CASHANDSALES_2022   ADD ( DISCOUNTMethod VARCHAR2(20));
+
+desc CASHANDSALES_2022;
+
+MERGE INTO CASHANDSALES_2022 cs
+USING (SELECT  ITEM, WLOC, REGULAR_UNIT_RETAIL, SELLING_UNIT_RETAIL from item_pric) iss
+ON (iss.item = cs.sku and iss.wloc= cs.wlocation)
+    WHEN MATCHED THEN
+        UPDATE SET cs.CURRENTPRICE = iss.REGULAR_UNIT_RETAIL,
+                  cs.PRICECURRENT = null,
+                  cs.Previous = iss.SELLING_UNIT_RETAIL;
+
+
+SELECT wlocation, COUNT(1)/5 FROM skumar.CASHANDSALES_2022 group by wlocation ;
+
+set serveroutput on;
+set timing on;
+
+declare
+     l_ORDERID              skumar.CASHANDSALES_2022.ORDERID%type;
+     COUNTER_COMMIT  NUMBER(8)     := 1;
+     
+cursor c_order is 
+--    select ORDERID from (SELECT ORDERID,COUNT(1) FROM skumar.CASHANDSALES_2022 WHERE WLOCATION ='FC04' group by ORDERID) WHERE  rownum <= '7000'
+  --  union 
+    select ORDERID from (SELECT ORDERID,COUNT(1) FROM skumar.CASHANDSALES_2022 WHERE WLOCATION ='FC03' group by ORDERID) WHERE  rownum <= '10000'
+    union 
+    select ORDERID from (SELECT ORDERID,COUNT(1) FROM skumar.CASHANDSALES_2022 WHERE WLOCATION ='FC01' group by ORDERID) WHERE  rownum <= '15000'
+    union 
+    select ORDERID from (SELECT ORDERID,COUNT(1) FROM skumar.CASHANDSALES_2022 WHERE WLOCATION ='FC06' group by ORDERID) WHERE  rownum <= '2000';
+
+Begin
+for k in c_order loop
+     l_ORDERID              := k.ORDERID;
+
+update  CASHANDSALES_2022 t 
+set     PRICETOPAY ='1', PRICECURRENT ='1'
+ where ORDERID = l_ORDERID;
+
+end loop; 
+commit;
+
+EXCEPTION
+WHEN OTHERS THEN
+    dbms_output.put_line('Exception blcok'||dbms_utility.FORMAT_ERROR_BACKTRACE||dbms_utility.format_error_stack);
+END;
+/
+
+SELECT  * from CASHANDSALES_2022 where PRICETOPAY is not null;
+PRICETOPAY, PRICECURRENT
+
+SELECT wlocation, COUNT(1)/5 FROM skumar.CASHANDSALES_2022 group by wlocation ;
+SELECT ORDERID, COUNT(1)/5 FROM skumar.CASHANDSALES_2022 group by ORDERID;
+        
+
+update  CASHANDSALES_2022 t  set DISCOUNTVALUE = CURRENTPRICE/10,DISCOUNTMethod ='Product';
+
+
+set serveroutput on;
+set timing on;
+
+declare
+     l_ORDERID              skumar.CASHANDSALES_2022.ORDERID%type;
+     COUNTER_COMMIT  NUMBER(8)     := 1;
+     
+cursor c_order is 
+    select ORDERID from (SELECT ORDERID,COUNT(1) FROM skumar.CASHANDSALES_2022 WHERE WLOCATION ='FC04' group by ORDERID) WHERE  rownum <= '4000';
+
+Begin
+for k in c_order loop
+     l_ORDERID              := k.ORDERID;
+
+update  CASHANDSALES_2022 t 
+   set     wlocation = 'FC01'
+ where ORDERID = l_ORDERID and rownum <= '2';
+
+end loop; 
+commit;
+
+EXCEPTION
+WHEN OTHERS THEN
+    dbms_output.put_line('Exception blcok'||dbms_utility.FORMAT_ERROR_BACKTRACE||dbms_utility.format_error_stack);
+END;
+/
+
+
+
+
+SELECT distinct INVOICEREFERENCE as OrderReference, ORDERID, CUSTOMERID, PAYMENTREFERENCE, STOCKREFERENCE,  
+TO_CHAR(systimestamp,'YYYY-MM-DD\"T\"HH24:MI:SS') AS EstimatedDeliveryDate,COUNTRYCODE as storE,BrowseCountry ,CurrencyCode, LanguageCode, 
+LOCALITY, COUNTYSTATEPROVINCEAREA,COUNTRYSTATEPROVINCEAREACODE, COUNTRYCODE, COUNTRYNAME, 
+TO_CHAR(systimestamp,'YYYY-MM-DD\"T\"HH24:MI:SS') AS BookedDateUtc , null as DiscountReference, DISCOUNTCODE, DISCOUNTTYPE, DISCOUNTMETHOD, 10 as DISCOUNTVALUE
+FROM skumar.CASHANDSALES_2022 order by ORDERID;
+
+sELECT distinct ORDERID, sku as  ProductId, sku as  VariantId,   sku, QUANTITY, Ean, CURRENTPRICE, Previous,'0.0' as RRP , 'true' as  IsMarkedDown, 'false' as IsOutletPrice, PriceVersionId, IDORCONVERSIONID as ConversionId, wlocation as Warehouse
+FROM skumar.CASHANDSALES_2022 order by ORDERID;
+
+SELECT distinct ORDERID, sum(PriceToPay) as PriceToPay, sum(PriceCurrent) as PriceCurrent, null SalesTax, null Discounted,'39.0' as Subscription_price,  
+sum(CURRENTPRICE) as ItemsTotal, 
+sum(PRICETOPAY) as DeliveryTotal,
+sum(DISCOUNTVALUE) as DiscountTotal,
+sum(CURRENTPRICE + PRICETOPAY) as GrandTotal, 
+sum(CURRENTPRICE)+'39.0' as OrderTotal,  
+null SalesTaxTotal   
+FROM skumar.CASHANDSALES_2022 group by ORDERID order by ORDERID;
+
+SELECT  * from CASHANDSALES_2022_chk_script;
+ALTER TABLE CASHANDSALES_2022 ADD ( SellerId VARCHAR2(25));
+
+create table CASHANDSALES_2022_chk_script as 
+SELECT * FROM skumar.CASHANDSALES_2022 where   ORDERID  in ('OCT047762750','OCT040788064','OCT044751969','OCT067828361');
+
+SELECT  * from rpm_clearance where CLEARANCE_ID ='231275646';
+SELECT  * from rms.item_master where ITEM_PARENT='100946837'; 11525788
+
+CLRP0000020003
+000000231275646
+
+"PriceVersionId": "CLRP0000020003000000231275646",
+
+                "Current": 67.2,
+                "Previous": 84.0,
+SELLING_UNIT_RETAIL
+REGULAR_UNIT_RETAIL, 
+
+SELECT  * from rms.item_loc where ITEM='11525788';
+
+PRMP000002000200000004687087620220322020000
+
+        "Current": 19.5,
+        "Previous": 52,
+
+PROMO_RETAIL
+REGULAR_UNIT_RETAIL, 
+SELECT  * from rms.rpm_promo_item_loc_expl where PROMO_DTL_ID ='46870876';
+SELECT  * from rms.item_master where ITEM_PARENT='100946837';
+SELECT  * from rms.item_loc where ITEM='9493856';
+
+
+SELECT  * from rpm_zone;
+SELECT  * from rpm_zone_location;
+SELECT  * from store;
+
+
+
+drop table item_pric;
+create table item_pric as
+SELECT  ITEM, 'FC01' as  WLOC, SELLING_UNIT_RETAIL,REGULAR_UNIT_RETAIL from item_loc where loc = '1001' and item in (SELECT distinct sku FROM CASHANDSALES_2022 where wlocation = 'FC01');
+insert into item_pric
+SELECT  ITEM, 'FC03' as  WLOC, REGULAR_UNIT_RETAIL,SELLING_UNIT_RETAIL from item_loc where loc = '3001' and item in (SELECT distinct sku FROM CASHANDSALES_2022 where wlocation = 'FC03');
+insert into item_pric
+SELECT  ITEM, 'FC04' as  WLOC, REGULAR_UNIT_RETAIL,SELLING_UNIT_RETAIL from item_loc where loc = '4001' and item in (SELECT distinct sku FROM CASHANDSALES_2022 where wlocation = 'FC04');
+insert into item_pric
+SELECT  ITEM, 'FC06' as  WLOC, REGULAR_UNIT_RETAIL,SELLING_UNIT_RETAIL from item_loc where loc = '1001' and item in (SELECT distinct sku FROM CASHANDSALES_2022 where wlocation = 'FC06');
+
+SELECT  ITEM, LOC, REGULAR_UNIT_RETAIL, SELLING_UNIT_RETAIL from item_loc where loc = '3001'; 
+
+ALTER TABLE CASHANDSALES_2022   ADD ( Previous NUMBER(20,4));
+ALTER TABLE CASHANDSALES_2022   ADD ( DISCOUNTMethod VARCHAR2(20));
+
+desc CASHANDSALES_2022;
+
+MERGE INTO CASHANDSALES_2022 cs
+USING (SELECT  ITEM, WLOC, REGULAR_UNIT_RETAIL, SELLING_UNIT_RETAIL from item_pric) iss
+ON (iss.item = cs.sku and iss.wloc= cs.wlocation)
+    WHEN MATCHED THEN
+        UPDATE SET cs.CURRENTPRICE = iss.REGULAR_UNIT_RETAIL,
+                  cs.PRICECURRENT = null,
+                  cs.Previous = iss.SELLING_UNIT_RETAIL;
+
+

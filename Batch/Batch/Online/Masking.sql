@@ -1,0 +1,45 @@
+create table addr1 as SELECT * from addr;
+create table sups1 as SELECT * from sups;
+
+SELECT * FROM sups1 s1, sups s2 WHERE s1.SUPPLIER = s2.SUPPLIER;
+
+SELECT s2.SUPPLIER, s2.SUP_NAME, s1.SUP_NAME as SUP_NAME_before, s2.CONTACT_PHONE,s1.CONTACT_PHONE as CONTACT_PHONE_before, s1.CONTACT_NAME,s2.CONTACT_NAME as CONTACT_NAME_before FROM sups1 s1, sups s2 
+ WHERE s1.SUPPLIER = s2.SUPPLIER; AND s1.CONTACT_PHONE != s2.CONTACT_PHONE;
+  
+SELECT  a1.ADDR_KEY, a1.MODULE, a1.KEY_VALUE_1, a1.ADD_1, a1.CITY, a1.ADD_2, a1.CONTACT_NAME, a1.CONTACT_PHONE, a1.CONTACT_EMAIL  ,a2.ADD_1, a2.CITY, a2.ADD_2, a2.CONTACT_NAME, a2.CONTACT_PHONE, a2.CONTACT_EMAIL
+from addr1 a1,addr a2
+WHERE a1.ADDR_KEY = a2.ADDR_KEY; AND a1.CONTACT_PHONE != a2.CONTACT_PHONE;
+ 
+
+GRANT SELECT,INSERT,UPDATE,DELETE ON SKUMAR.BSINGH_ITEM_MASTER TO BSINGH; 
+
+ 
+SELECT * from sups;
+
+MERGE INTO sups cs
+USING (SELECT  SUPPLIER, SUP_NAME, CONTACT_NAME, CONTACT_PHONE from sups1) iss
+ON (iss.SUPPLIER = cs.SUPPLIER)
+    WHEN MATCHED THEN
+        UPDATE SET cs.SUP_NAME = iss.SUP_NAME,
+                  cs.CONTACT_NAME = iss.CONTACT_NAME,
+                  cs.CONTACT_PHONE = iss.CONTACT_PHONE;
+                  
+
+MERGE INTO addr cs
+USING (SELECT  ADDR_KEY, ADD_1, CITY, ADD_2, CONTACT_NAME, CONTACT_PHONE, CONTACT_EMAIL from addr1) iss
+ON (iss.ADDR_KEY = cs.ADDR_KEY)
+    WHEN MATCHED THEN
+        UPDATE SET cs.ADD_1 = iss.ADD_1,
+                  cs.ADD_2 = iss.ADD_2,
+                  cs.CONTACT_NAME = iss.CONTACT_NAME,
+                  cs.CITY = iss.CITY,
+                  cs.CONTACT_PHONE = iss.CONTACT_PHONE;
+                  
+                  
+create table BSINGH_ITEM_MASTER as
+select * from rms.ITEM_MASTER WHERE ITEM_GRANDPARENT in ('101314682','100300989') or ITEM_PARENT in ('101314682','100300989')or ITEM in ('101314682','100300989');
+
+select * from rms.ITEM_MASTER WHERE ITEM in (select ITEM from BSINGH_ITEM_MASTER);
+select * from rms.ITEM_SUPPLIER WHERE ITEM in (select ITEM from BSINGH_ITEM_MASTER);
+select * from rms.ITEM_LOC WHERE ITEM in (select ITEM from  BSINGH_ITEM_MASTER);
+select * from rms.UDA_ITEM_LOV WHERE ITEM in (select ITEM from  BSINGH_ITEM_MASTER);
