@@ -1,0 +1,124 @@
+Avg Response time,,Count,%,
+Total Txn Count,,117,,
+Count Txn if <2s,,114,97.40,
+Count Txn if <5s,,117,100.00,
+,,,,
+,,,,
+Transactions,,Count,Response time,90%
+SC01_Dashboard_Load_TR01_Launch,,3039,0.004,0.004
+SC01_Dashboard_Load_TR02_Login,,3039,0.082,0.146
+SC01_Dashboard_Load_TR03_Refresh,,3038,0.609,0.704
+SC01_Dashboard_Load_TR04_Logout,,3036,0.02,0.03
+SC02_Dashboard_Enlarge_TR01_Launch,,1210,0.005,0.005
+SC02_Dashboard_Enlarge_TR02_Login,,1210,0.081,0.139
+SC02_Dashboard_Enlarge_TR03_Refresh,,1210,0.609,0.703
+SC02_Dashboard_Enlarge_TR04_Pre-Receipt Enlarge,,1210,0.306,0.371
+SC02_Dashboard_Enlarge_TR05_Slippage Enlarge,,1209,0.302,0.364
+SC02_Dashboard_Enlarge_TR06_Post-Receipt Enlarge,,1209,0.359,0.451
+SC02_Dashboard_Enlarge_TR07_Sales Order Enlarge,,1208,0.252,0.312
+SC02_Dashboard_Enlarge_TR08_Unprod Stock Enlarge,,1208,0.308,0.374
+SC02_Dashboard_Enlarge_TR09_Logout,,1206,0.019,0.03
+SC03_Pre_Receipt_Variance_TR01_Launch,,1373,0.005,0.005
+SC03_Pre_Receipt_Variance_TR02_Login,,1372,0.083,0.145
+SC03_Pre_Receipt_Variance_TR03_Refresh,,1372,0.61,0.704
+SC03_Pre_Receipt_Variance_TR04_Click to enlarge,,1372,0.053,0.111
+SC03_Pre_Receipt_Variance_TR05_Pre Receipt window,,1372,0.166,0.23
+SC03_Pre_Receipt_Variance_TR06_Enter PO number,,1370,0.099,0.163
+SC03_Pre_Receipt_Variance_TR07_Search,,1370,0.053,0.115
+SC03_Pre_Receipt_Variance_TR08_Click On PO,,1370,0.053,0.115
+SC03_Pre_Receipt_Variance_TR09_Logout,,1369,0.019,0.03
+SC04_Slippage_Variance_TR01_Launch,,1366,0.1,0.119
+SC04_Slippage_Variance_TR02_Login,,1366,0.082,0.143
+SC04_Slippage_Variance_TR03_Refresh,,1366,0.049,0.107
+SC04_Slippage_Variance_TR04_Click Slippage dashboard,,1364,0.052,0.115
+SC04_Slippage_Variance_TR05_Click Slippage dashboard window,,1364,0.119,0.182
+SC04_Slippage_Variance_TR06_Enter PO Number,,1364,0.054,0.119
+SC04_Slippage_Variance_TR07_Click Search,,1364,0.052,0.111
+SC04_Slippage_Variance_TR08_Click On PO,,1364,0.053,0.113
+SC04_Slippage_Variance_TR09_Logout,,1363,0.019,0.03
+SC05_Post_Receipt_Variance_TR01_Launch,,1428,0.161,0.257
+SC05_Post_Receipt_Variance_TR02_Login,,1427,0.889,1.027
+SC05_Post_Receipt_Variance_TR03_Enlarge_Post_Receipt,,1426,0.313,0.428
+SC05_Post_Receipt_Variance_TR04_Click_PO,,1426,1.053,1.25
+SC05_Post_Receipt_Variance_TR05_Click_Ok,,1426,0.113,0.169
+SC05_Post_Receipt_Variance_TR06_Click_Close,,1425,0.502,0.574
+SC05_Post_Receipt_Variance_TR08_Logout,,1425,0.019,0.029
+SC06_Sales_Order_Release_TR01_Launch,,1540,0.007,0.017
+SC06_Sales_Order_Release_TR02_Login,,1540,0.083,0.147
+SC06_Sales_Order_Release_TR03_Refresh,,1540,0.608,0.706
+SC06_Sales_Order_Release_TR04_click to enlarge,,1540,0.053,0.115
+SC06_Sales_Order_Release_TR05_Sales Order Window,,1540,0.23,0.326
+SC06_Sales_Order_Release_TR06_Logout,,1536,0.02,0.03
+SC07_Unproductive_Stock_TR01_Launch,,1549,0.005,0.005
+SC07_Unproductive_Stock_TR02_Login,,1549,0.084,0.151
+SC07_Unproductive_Stock_TR03_Refresh,,1549,0.61,0.709
+SC07_Unproductive_Stock_TR04_Click to Enlarge,,1548,0.053,0.115
+SC07_Unproductive_Stock_TR05_Unproductive Stock Window,,1547,0.182,0.241
+SC07_Unproductive_Stock_TR06_Logout,,1545,0.019,0.031
+SC08_SinglePO_Search_TR01_Launch,,1719,0.004,0.004
+SC08_SinglePO_Search_TR02_Login,,1719,0.697,0.818
+SC08_SinglePO_Search_TR03_Wholesale,,1719,0.052,0.115
+SC08_SinglePO_Search_TR04_Manage_SO,,1718,0.103,0.16
+SC08_SinglePO_Search_TR05_Biz_Model,,1716,0.053,0.111
+SC08_SinglePO_Search_TR06_EnterPO_Search,,1716,0.108,0.168
+SC08_SinglePO_Search_TR07_Logout,,1715,0.019,0.029
+SC09_International_Size_Upload_TR01_Launch,,795,0.005,0.004
+SC09_International_Size_Upload_TR02_Login,,795,0.086,0.151
+SC09_International_Size_Upload_TR03_Refresh,,795,0.607,0.703
+SC09_International_Size_Upload_TR04_Click Wholesale,,795,0.053,0.117
+SC09_International_Size_Upload_TR05_Click Upload,,794,0.069,0.127
+SC09_International_Size_Upload_TR06_Select International Size,,794,0.051,0.115
+SC09_International_Size_Upload_TR07_Click Add,,794,0.044,0.115
+SC09_International_Size_Upload_TR08_Select File,,794,0.066,0.127
+SC09_International_Size_Upload_TR09_Click upload,,793,0.167,0.235
+SC09_International_Size_Upload_TR10_Click Confirm,,792,0.057,0.118
+SC09_International_Size_Upload_TR11_Click ok,,792,0.051,0.117
+SC09_International_Size_Upload_TR12_Logout,,792,0.022,0.071
+SC10_International_Size_Download_TR01_Launch,,1161,0.005,0.005
+SC10_International_Size_Download_TR02_Login,,1161,0.085,0.146
+SC10_International_Size_Download_TR03_Refresh,,1161,0.61,0.702
+SC10_International_Size_Download_TR04_Wholesale,,1161,0.003,0.005
+SC10_International_Size_Download_TR05_Upload Task,,1161,0.014,0.019
+SC10_International_Size_Download_TR06_Select Template,,1159,0.106,0.167
+SC10_International_Size_Download_TR07_Click Download,,1159,0.055,0.114
+SC10_International_Size_Download_TR08_Logout,,1158,0.019,0.03
+SC11_Report_Export_TR01_Launch,,664,0.006,0.005
+SC11_Report_Export_TR02_Login,,664,0.112,0.202
+SC11_Report_Export_TR03_Refresh,,664,0.578,0.674
+SC11_Report_Export_TR04_Manage Sales Order,,664,0.177,0.272
+SC11_Report_Export_TR05_Select Business Model,,664,0.054,0.111
+SC11_Report_Export_TR06_Search,,664,2.333,2.442
+SC11_Report_Export_TR07_Click Action,,663,0.053,0.118
+SC11_Report_Export_TR08_Click Export to Excel,,662,3.648,3.798
+SC11_Report_Export_TR09_Logout,,661,0.022,0.055
+SC12_MassSearch_TR01_Launch,,1125,0.006,0.004
+SC12_MassSearch_TR02_Login,,1125,0.696,0.815
+SC12_MassSearch_TR03_Manage_SO,,1125,0.159,0.254
+SC12_MassSearch_TR04_Biz_Model,,1125,0.055,0.114
+SC12_MassSearch_TR05_Search,,1124,2.379,2.511
+SC12_MassSearch_TR06_Logout,,1122,0.02,0.03
+SC13_SalesOrderEdit_TR01_Launch,,828,0.005,0.004
+SC13_SalesOrderEdit_TR02_Login,,828,0.693,0.803
+SC13_SalesOrderEdit_TR03_Manage_SO,,828,0.155,0.25
+SC13_SalesOrderEdit_TR04_Biz_Model,,828,0.053,0.112
+SC13_SalesOrderEdit_TR05_PO_Search,,827,0.103,0.164
+SC13_SalesOrderEdit_TR05_Click_SO,,827,0.395,0.514
+SC13_SalesOrderEdit_TR06_Partner_PO,,826,0.151,0.22
+SC13_SalesOrderEdit_TR07_Save,,825,0.059,0.12
+SC13_SalesOrderEdit_TR08_Click_Close,,825,0.058,0.118
+SC13_SalesOrderEdit_TR09_Logout,,825,0.019,0.032
+SC14_SingleSalesOrderRelease_TR01_Launch,,722,0.005,0.005
+SC14_SingleSalesOrderRelease_TR02_Login,,722,0.548,0.672
+SC14_SingleSalesOrderRelease_TR03_Wholesale,,721,0.206,0.298
+SC14_SingleSalesOrderRelease_TR04_Select_SO,,721,0.054,0.116
+SC14_SingleSalesOrderRelease_TR05_Click_Release_SOR,,720,0.106,0.164
+SC14_SingleSalesOrderRelease_TR06_Click_Ok,,720,0.224,0.318
+SC14_SingleSalesOrderRelease_TR07_Click_Close,,720,0.504,0.582
+SC14_SingleSalesOrderRelease_TR08_Logout,,720,0.021,0.03
+SC15_BulkSalesOrderRelease_TR01_Launch,,5,0.015,0.016
+SC15_BulkSalesOrderRelease_TR02_Login,,5,0.552,0.658
+SC15_BulkSalesOrderRelease_TR03_Enlarge_SOR,,5,0.521,0.539
+SC15_BulkSalesOrderRelease_TR04_Click_Release_SOR,,5,0.036,0.035
+SC15_BulkSalesOrderRelease_TR05_Click_Ok,,5,0.216,0.253
+SC15_BulkSalesOrderRelease_TR06_Click_Close,,1,0.481,0.481
+SC15_BulkSalesOrderRelease_TR07_Logout,,1,0.022,0.022

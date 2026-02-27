@@ -1,0 +1,157 @@
+Pre-authentication banner message from server:
+| ======================= ** W A R N I N G ** =======================
+| This is an ASOS Inc. system, restricted to authorized individuals
+| All connections are monitored and recorded
+| Unauthorized users, access, and/or modification will be prosecuted
+|
+|               WARNING: ASOS PRODUCTION SYSTEM
+|                          _____  ____   _____
+|                   /\    / ____|/ __ \ / ____|
+|                  /  \  | (___ | |  | | (___
+|                 / /\ \  \___ \| |  | |\___ \
+|                / ____ \ ____) | |__| |____) |
+|               /_/    \_\_____/ \____/|_____/
+|
+|                        www.asos.com
+| ===================================================================
+End of banner message from server
+siddeshk@vptpreuwwsald01's password:
+     ┌────────────────────────────────────────────────────────────────────┐
+     │                        • MobaXterm 20.6 •                          │
+     │            (SSH client, X-server and networking tools)             │
+     │                                                                    │
+     │ ➤ SSH session to siddeshk@vptpreuwwsald01.kingsway.asos.com        │
+     │   • SSH compression : ✔                                            │
+     │   • SSH-browser     : ✔                                            │
+     │   • X11-forwarding  : ✔  (remote display is forwarded through SSH) │
+     │   • DISPLAY         : ✔  (automatically set on remote server)      │
+     │                                                                    │
+     │ ➤ For more info, ctrl+click on help or visit our website           │
+     └────────────────────────────────────────────────────────────────────┘
+
+Last login: Tue Jul 19 12:35:55 2022 from 10.177.100.50
+[siddeshk@vptpreuwwsald01 ~]$ sudo su - oracle
+Last login: Tue Jul 19 12:36:04 BST 2022 on pts/0
+
+"*** Running profile from /home/oracle/linuxprofile ***"
+
+The Oracle base remains unchanged with value /orabin/app/oracle
+
+Setting ORACLE_SID = VPTWSAL1
+
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/home/oracle $cat env.sh
+
+export RETAIL_HOME=/orabin/app/oracle/product/retail/database
+
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/home/oracle $cd /orabin/app/oracle/product/retail/database
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database $ls -ltr
+total 32
+drwxr-x--x. 14 oracle oinstall 4096 Jan 11  2022 orpatch
+drwxr-xr-x.  3 oracle oinstall 4096 Jan 12  2022 dbsql_int_asosdas
+drwxr-xr-x.  5 oracle oinstall 4096 May 25 14:00 wholesale_db_batch
+drwxr-x--x.  3 oracle oinstall 4096 Jun 15 09:53 dbsql_rmsdas
+drwxr-xr-x.  3 oracle oinstall 4096 Jun 30 09:23 dbsql_ma_asosdas
+drwxr-x---.  3 oracle oinstall 4096 Jul  6 10:31 support
+drwxr-x---. 42 oracle oinstall 4096 Jul  6 10:34 backups
+drwxr-xr-x. 13 oracle oinstall 4096 Jul  6 10:34 dbsql_wholesaledas
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database $. .\wholesale_db_batch
+-bash: .wholesale_db_batch: No such file or directory
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database $wholesale_db_batch
+-bash: wholesale_db_batch: command not found
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database $. ./wholesale_db_batch
+-bash: .: ./wholesale_db_batch: is a directory
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database $cd wholesale_db_batch
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $ls -ltr
+total 24
+drwxr-xr-x. 2 oracle oinstall 4096 Jan 11  2022 error
+drwxr-xr-x. 2 oracle oinstall 4096 Jan 11  2022 log
+-rw-r--r--. 1 oracle oinstall  600 Jan 11  2022 batch_das_asos.profile
+-rw-r--r--. 1 oracle oinstall  606 Jan 11  2022 batch_wholesale.profile
+drwxr-xr-x. 2 oracle oinstall 4096 May 25 14:00 wholesale_bin
+-rw-r--r--. 1 oracle oinstall  888 May 25 14:00 env_manifest.csv
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $^C
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $^C
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $^C
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $. .\batch_wholesale.profile
+-bash: .batch_wholesale.profile: No such file or directory
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $. ./batch_wholesale.profile
+
+This file will export the variables needed to run batch.
+
+You have new mail in /var/spool/mail/oracle
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $ls -ltr
+total 24
+drwxr-xr-x. 2 oracle oinstall 4096 Jan 11  2022 error
+drwxr-xr-x. 2 oracle oinstall 4096 Jan 11  2022 log
+-rw-r--r--. 1 oracle oinstall  600 Jan 11  2022 batch_das_asos.profile
+-rw-r--r--. 1 oracle oinstall  606 Jan 11  2022 batch_wholesale.profile
+drwxr-xr-x. 2 oracle oinstall 4096 May 25 14:00 wholesale_bin
+-rw-r--r--. 1 oracle oinstall  888 May 25 14:00 env_manifest.csv
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $cd wholesale_bin
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/wholesale_bin $ls -ltr
+total 56
+-rwxr-xr-x. 1 oracle oinstall 1697 Apr 21 12:09 wp_refresh_mv.ksh
+-rwxr-xr-x. 1 oracle oinstall 4539 Apr 21 12:09 wp_so_import.ksh
+-rwxr-xr-x. 1 oracle oinstall 6015 Apr 21 12:09 wp_refresh_result.ksh
+-rwxr-xr-x. 1 oracle oinstall 6826 Apr 27 13:33 nb_wtso_imp_error_report.ksh
+-rwxr-xr-x. 1 oracle oinstall 4781 May 11 08:36 wp_so_import_arch_purge.ksh
+-rwxr-xr-x. 1 oracle oinstall 9978 May 11 08:36 wp_so_import_pre.ksh
+-rwxr-xr-x. 1 oracle oinstall 5680 May 25 14:00 nb_wtso_cancel_so.ksh
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/wholesale_bin $cd /orabin/app/oracle/product/retail/database/wholesale_db_batch
+You have new mail in /var/spool/mail/oracle
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $ls -ltr
+total 24
+-rw-r--r--. 1 oracle oinstall  600 Jan 11  2022 batch_das_asos.profile
+-rw-r--r--. 1 oracle oinstall  606 Jan 11  2022 batch_wholesale.profile
+drwxr-xr-x. 2 oracle oinstall 4096 May 25 14:00 wholesale_bin
+-rw-r--r--. 1 oracle oinstall  888 Jul 19 14:57 env_manifest.csv
+drwxr-xr-x. 2 oracle oinstall 4096 Jul 26 09:27 log
+drwxr-xr-x. 2 oracle oinstall 4096 Jul 26 09:27 error
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $cd log
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/log $ls -ltr
+total 12
+-rw-rw-rw-. 1 oracle oinstall 2840 Jul 19 12:58 Jul_19.log
+-rw-rw-rw-. 1 oracle oinstall 1820 Jul 20 08:45 Jul_20.log
+-rw-rw-rw-. 1 oracle oinstall 1420 Jul 26 09:27 Jul_26.log
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/log $cat Jul_26.log
+Tue Jul 26 09:27:35 Program: wp_refresh_result: PID=31568: wp_refresh_result.ksh SOR - Started by wholesale_rms
+Tue Jul 26 09:27:35 Program: wp_refresh_result: PID=31576: wp_refresh_result.ksh MANAGE_SALES_ORDERS - Started by wholesale_rms
+Tue Jul 26 09:27:35 Program: wp_refresh_result: PID=31597: wp_refresh_result.ksh POST_RECEIPT_UV - Started by wholesale_rms
+Tue Jul 26 09:27:35 Program: wp_refresh_result: PID=31605: wp_refresh_result.ksh UNITS_VARIANCE - Started by wholesale_rms
+Tue Jul 26 09:27:35 Program: wp_refresh_result: PID=31613: wp_refresh_result.ksh DELIVERY_VARIANCE - Started by wholesale_rms
+Tue Jul 26 09:27:35 Program: wp_refresh_result: PID=31624: wp_refresh_result.ksh UP - Started by wholesale_rms
+Tue Jul 26 09:27:35 Program: wp_refresh_result: PID=31630: wp_refresh_result.ksh EDIT_SO - Started by wholesale_rms
+Tue Jul 26 09:27:35 Program: wp_refresh_result: PID=31576: Aborted in EXEC_SQL
+Tue Jul 26 09:27:35 Program: wp_refresh_result: PID=31630: Aborted in EXEC_SQL
+Tue Jul 26 09:27:37 Program: wp_refresh_result: PID=31624: Successfully Completed
+Tue Jul 26 09:27:37 Program: wp_refresh_result: PID=31568: Successfully Completed
+Tue Jul 26 09:27:37 Program: wp_refresh_result: PID=31613: Successfully Completed
+Tue Jul 26 09:27:37 Program: wp_refresh_result: PID=31605: Successfully Completed
+Tue Jul 26 09:27:39 Program: wp_refresh_result: PID=31597: Successfully Completed
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/log $cd error
+-bash: cd: error: No such file or directory
+You have new mail in /var/spool/mail/oracle
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/log $cd /orabin/app/oracle/product/retail/database/wholesale_db_batch
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch $cd error
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/error $ls -ltr
+total 12
+-rw-rw-rw-. 1 oracle oinstall 760 Jul 19 12:58 err.wp_refresh_result.Jul_19
+-rw-rw-rw-. 1 oracle oinstall 760 Jul 20 08:45 err.wp_refresh_result.Jul_20
+-rw-rw-rw-. 1 oracle oinstall 380 Jul 26 09:27 err.wp_refresh_result.Jul_26
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/error $cat err.wp_refresh_result.Jul_26
+wp_refresh_result~20220726092735~EXEC_SQL~Looking for synonyms for: MANAGE_SALES_ORDERS, process mode: FULL That area does not exist - User-Defined Exception
+WP_REFRESH_PROCESS_SQL.PROCESS Failed
+wp_refresh_result~20220726092735~EXEC_SQL~Looking for synonyms for: EDIT_SO, process mode: FULL That area does not exist - User-Defined Exception
+WP_REFRESH_PROCESS_SQL.PROCESS Failed
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/error $cd /orabin/app/oracle/product/retail/database/wholesale_db_batch/wholesale_bin
+You have new mail in /var/spool/mail/oracle
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/wholesale_bin $ls -ltr
+total 56
+-rwxr-xr-x. 1 oracle oinstall 1697 Apr 21 12:09 wp_refresh_mv.ksh
+-rwxr-xr-x. 1 oracle oinstall 4539 Apr 21 12:09 wp_so_import.ksh
+-rwxr-xr-x. 1 oracle oinstall 6015 Apr 21 12:09 wp_refresh_result.ksh
+-rwxr-xr-x. 1 oracle oinstall 4781 May 11 08:36 wp_so_import_arch_purge.ksh
+-rwxr-xr-x. 1 oracle oinstall 9978 May 11 08:36 wp_so_import_pre.ksh
+-rwxr-xr-x. 1 oracle oinstall 5680 May 25 14:00 nb_wtso_cancel_so.ksh
+-rwxr-xr-x. 1 oracle oinstall 7641 Jul 19 14:57 nb_wtso_imp_error_report.ksh
+[oracle@vptpreuwwsald01.kingsway.asos.com][VPTWSAL1]/orabin/app/oracle/product/retail/database/wholesale_db_batch/wholesale_bin $cat wp_so_import_pre.ksh

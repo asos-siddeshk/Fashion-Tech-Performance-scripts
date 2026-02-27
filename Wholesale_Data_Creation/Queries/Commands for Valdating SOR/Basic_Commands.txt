@@ -1,0 +1,90 @@
+Set-Cookie: JSESSIONID=m7hs4uYLwshEqmMYgbB5YWI9brqGtENWRGNdIqz92m4UAAee59sI!-1156416986;
+
+Set-Cookie: JSESSIONID=(.*?);
+
+log.info("***************************"+vars.get("JSESSIONID"))
+
+JSESSIONID=(.*); path=/;
+
+Set-Cookie: JSESSIONID=(.*); path=/;
+
+
+REFRESH Command to view dashboard:
+
+sudo su – oracle /// Skip this command if directly running above
+
+cd /home/oracle
+. env.sh
+cd $RETAIL_HOME/wholesale_db_batch
+. batch_wholesale.profile
+cd $RETAIL_HOME/wholesale_db_batch/wholesale_bin
+
+
+
+./wp_refresh_result.ksh $UP A UNITS_VARIANCE
+./wp_refresh_result.ksh $UP A DELIVERY_VARIANCE
+./wp_refresh_result.ksh $UP A POST_RECEIPT_UV
+./wp_refresh_result.ksh $UP A SOR
+./wp_refresh_result.ksh $UP A UP
+./wp_refresh_result.ksh $UP A MANAGE_SALES_ORDERS
+
+
+select * from wholesale.store; where store = 'xxx'
+
+- Check for PO:
+select ORDER_NO, VARCHAR2_3  from ordhead_cfa_ext where order_no in (select order_no from rms.ordhead
+     where CREATE_DATETIME>= to_date('01-SEP-2022 5.00', 'DD-MON-YYYY hh24:mi'));
+
+- Check for ASN
+select * from rms.shipment where order_no ='500021655792'  
+
+- To create Red tail in pre variance
+- PO-- SO-->> ASN-->> FC carrier booking -- refresh
+Update rms.NB_SHIPMENT_CFA_EXT set date_24 = to_date ('22-DEC-2020', 'DD-MON-YY') ,date_25= null
+where shipment = ( select shipment from rms.Shipment where asn = '12853117148757'); 
+commit;
+
+- After runnig import batch we can check whether the file is processed using the below query:
+select * from wholesale.wp_so_import_arch where order_row_code = '#WWWW01'
+
+- To chcek stores:
+select * from wholesale.store;
+
+- To tag international sku's
+insert into wholesale.WP_SKU_INT_SIZES
+select item,DIFF_2,DIFF_2,DIFF_2,user,sysdate,user,sysdate from das.item_master where item_parent ='123408344';
+commit;
+
+- To view the data in DB
+select * from WHOLESALE.wp_refresh_config;
+
+- Data query for batch peak hour volume
+select * from das.V_CFA_PO_DATE_G where WHOLESALE_IND is not null;
+
+- To check sales order released or not:
+select * from wholesale.WP_V_R_MANAGE_SALES_ORDER where sales_order_no=802;
+
+------ To check the file data how many got processed and how many it got failed:
+select * from wholesale.WP_SO_FILE_UPLD order by 3 desc;
+select * from wholesale.WP_SO_IMPORT_STG;
+select INT_STATUS, INT_ERROR_MSG,count(1) from wholesale.WP_SO_IMPORT_ARCH where batch_seq_no = '20220728891752' group by INT_STATUS, INT_ERROR_MSG;
+
+
+-----------To change date
+update rms.shipment set receive_date = '15-AUGUST-2022' where order_no = '500017594005';
+commit;
+
+
+select * from item_loc_soh where item_parent ='123538344' and loc in ('1002','30029');
+select * from tran_data where item ='123538345' and location in ('1002','30029');
+select * from tran_data where item ='123538346' and location in ('1002','30029');
+select * from wf_order_head order by 1 desc;select * from wf_order_detail  where item ='123538346' order by 1 desc;
+select * from alloc_header where item ='123538346';
+select * from alloc_detail where alloc_no in (select alloc_no from alloc_header where item ='123538346');
+
+
+
+
+WF.WP_SO_REFRESH
+wp_so_import
+WF.WSAL_WTSO_IMP_EXP_REPORT 
