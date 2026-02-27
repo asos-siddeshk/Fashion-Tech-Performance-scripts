@@ -1,0 +1,163 @@
+/*                                         
+---------------------------Batch name:RMS.NB_PO_RECALC----------------------------------
+
+1.Bulk inserted the records to the tables								      :rms.svc_cost_susp_sup_head,rms.svc_cost_susp_sup_detail,
+                                                                              rms.SVC_PROCESS_TRACKER (Transaction volume:*** records)
+2.PL/SQL script execution that will insert the records to the staging table   :rms.svc_cost_susp_sup_head,rms.svc_cost_susp_sup_detail,
+                                                                               rms.SVC_PROCESS_TRACKER
+3.Batch execution 															  :RMS.nb_po_recalc via Automic&Putty.
+----------------------------------------------------------------------------------------------*/
+
+update rms.COST_EVENT_RUN_TYPE_CONFIG set EVENT_RUN_TYPE ='BATCH' where event_type ='CC';
+
+
+----This script create shipment------------------------------
+
+Note:After this script excution created records in rms.cost_susp_sup_head,rms.cost_susp_sup_detail with status 'A'
+
+--
+alter session set current_schema=rms;
+
+set serveroutput on;
+set timing on;
+
+declare
+
+l_PROCESS_ID                rms.svc_cost_susp_sup_head.PROCESS_ID%type;
+l_CHUNK_ID                  rms.svc_cost_susp_sup_head.CHUNK_ID%type:=1;
+l_ROW_SEQ                   rms.svc_cost_susp_sup_head.ROW_SEQ%type:=1;
+l_ACTION                    rms.svc_cost_susp_sup_head.ACTION%type:='NEW';
+l_PROCESS$STATUS            rms.svc_cost_susp_sup_head.PROCESS$STATUS%type:='N';
+l_COST_CHANGE               rms.svc_cost_susp_sup_head.COST_CHANGE%type;
+l_COST_CHANGE_DESC          rms.svc_cost_susp_sup_head.COST_CHANGE_DESC%type:='COST_CHANGE';
+l_REASON				    rms.svc_cost_susp_sup_head.REASON%type:=10;
+l_ACTIVE_DATE				rms.svc_cost_susp_sup_head.ACTIVE_DATE%type;
+l_STATUS                    rms.svc_cost_susp_sup_head.STATUS%type:='A';
+l_COST_CHANGE_ORIGIN        rms.svc_cost_susp_sup_head.COST_CHANGE_ORIGIN%type:='SUP';
+l_SUPPLIER                  rms.svc_cost_susp_sup_detail.SUPPLIER%type;
+l_ORIGIN_COUNTRY_ID         rms.svc_cost_susp_sup_detail.ORIGIN_COUNTRY_ID%type;
+l_ITEM                      rms.svc_cost_susp_sup_detail.ITEM%type;
+l_UNIT_COST                 rms.svc_cost_susp_sup_detail.UNIT_COST%type;
+l_COST_CHANGE_TYPE          rms.svc_cost_susp_sup_detail.COST_CHANGE_TYPE%type:='F';
+I_RECALC_ORD_IND            rms.svc_cost_susp_sup_detail.RECALC_ORD_IND%type:='Y';
+I_DEFAULT_BRACKET_IND       rms.svc_cost_susp_sup_detail.DEFAULT_BRACKET_IND%TYPE:='N';
+I_TEMPLATE_KEY              rms.SVC_PROCESS_TRACKER.TEMPLATE_KEY%TYPE:='CCOST';
+I_ACTION_TYPE               rms.SVC_PROCESS_TRACKER.ACTION_TYPE%TYPE:='U';
+I_USER_ID                   rms.SVC_PROCESS_TRACKER.USER_ID%TYPE:='PTUSER';
+L_error_message             VARCHAR2(3200);
+
+cursor c_upload is
+select		RMS.CORESVC_COSTCHG_PSEQ.nextval    as PROCESS_ID,
+            RMS.cc_sequence.NEXTVAL             as  COST_CHANGE, 
+            oo.unit_cost+5                      as unit_cost,            
+            oh.SUPPLIER                         as SUPPLIER,
+            oo.MANU_COUNTRY_ID                  as ORIGIN_COUNTRY_ID,
+            oo.OPTION_ID                        as item            
+            from                 
+                 ma_asos.ma_stg_order oh, 
+                 ma_asos.ma_stg_order_option oo 
+           where 
+          oh.master_order_no = oo.master_order_no          
+          and oh.status in ('W','S')   
+          and not exists (SELECT 1 from rms.svc_cost_susp_sup_detail cssd where cssd.item = oo.OPTION_ID)
+          AND ROWNUM<=2000;
+          
+begin
+
+
+
+select vdate+1 into l_ACTIVE_DATE from rms.period;
+
+for i in c_upload loop
+l_PROCESS_ID                    :=i.PROCESS_ID;
+l_COST_CHANGE                   :=i.COST_CHANGE;
+l_SUPPLIER                      :=i.SUPPLIER;
+l_ORIGIN_COUNTRY_ID             :=i.ORIGIN_COUNTRY_ID;     
+l_ITEM                          :=i.ITEM;
+l_UNIT_COST                     :=i.UNIT_COST; 
+
+begin
+Insert into rms.svc_cost_susp_sup_head (PROCESS_ID,CHUNK_ID,ROW_SEQ,ACTION,PROCESS$STATUS,COST_CHANGE,COST_CHANGE_DESC,REASON,ACTIVE_DATE,STATUS,
+										COST_CHANGE_ORIGIN,APPROVAL_DATE,APPROVAL_ID,CREATE_ID,CREATE_DATETIME,LAST_UPD_ID,LAST_UPD_DATETIME)
+								values (l_PROCESS_ID,
+										l_CHUNK_ID,
+										l_ROW_SEQ,
+										l_ACTION,
+										l_PROCESS$STATUS,
+										l_COST_CHANGE,
+										l_COST_CHANGE_DESC ||': '||l_COST_CHANGE,
+										l_REASON,
+										l_ACTIVE_DATE,
+										l_STATUS,
+										l_COST_CHANGE_ORIGIN,
+										SYSDATE,
+										'PTUSER',
+										'PTUSER',
+										SYSDATE,
+										'PTUSER',
+										SYSDATE);
+                                              
+Insert into rms.svc_cost_susp_sup_detail (PROCESS_ID,CHUNK_ID,ROW_SEQ,ACTION,PROCESS$STATUS,COST_CHANGE,SUPPLIER,ORIGIN_COUNTRY_ID,ITEM,UNIT_COST,COST_CHANGE_TYPE,
+										COST_CHANGE_VALUE,RECALC_ORD_IND,DEFAULT_BRACKET_IND,CREATE_ID,CREATE_DATETIME,LAST_UPD_ID,LAST_UPD_DATETIME) 
+										values (l_PROCESS_ID,
+										l_CHUNK_ID,
+										l_ROW_SEQ,
+										l_ACTION,
+										l_PROCESS$STATUS,
+										l_COST_CHANGE,
+										l_SUPPLIER,
+										l_ORIGIN_COUNTRY_ID,
+										l_ITEM,
+										l_UNIT_COST,
+										l_COST_CHANGE_TYPE,
+										l_UNIT_COST,
+										I_RECALC_ORD_IND,
+										I_DEFAULT_BRACKET_IND,
+										'PTUSER',
+										SYSDATE,
+										'PTUSER',
+										SYSDATE);	
+
+
+INSERT INTO rms.SVC_PROCESS_TRACKER(PROCESS_ID, PROCESS_DESC, TEMPLATE_KEY,ACTION_TYPE,ACTION_DATE,STATUS,USER_ID)
+										VALUES ( l_PROCESS_ID,
+										l_COST_CHANGE_DESC,
+										I_TEMPLATE_KEY,
+										I_ACTION_TYPE,
+										SYSDATE,
+										'PS',
+										I_USER_ID);
+
+
+
+     DBMS_OUTPUT.PUT_LINE('process_id:'||l_PROCESS_ID);
+
+        begin
+        if RMS.CORESVC_COSTCHG.PROCESS(L_error_message,l_PROCESS_ID)=true then
+            dbms_output.put_line ('Completed' ||l_PROCESS_ID);   
+        else 
+           dbms_output.put_line ('Failed:' ||L_error_message);
+        end if; 
+        END;
+END;
+
+end loop;   
+end loop;   
+commit;
+
+
+
+exception	
+when others then
+    dbms_output.put_line('Exception blcok'||dbms_utility.FORMAT_ERROR_BACKTRACE||dbms_utility.format_error_stack);
+      ROLLBACK;
+end;
+/
+
+/* TESTING;
+-------
+SELECT * from rms.svc_cost_susp_sup_head ; 
+SELECT * from rms.svc_cost_susp_sup_detail where item in (100176505,100722521);
+SELECT * from rms.CORESVC_COSTCHG_ERR; 
+SELECT *  FROM rms.cost_susp_sup_head;
+SELECT *  FROM rms.cost_susp_sup_detail; */

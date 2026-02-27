@@ -1,0 +1,105 @@
+SELECT TO_CHAR(POC.EXPECTED_DATE_FIRST_LOC,'YYYYMMDD') EXPECTED_DATE_FIRST_FC,
+                   TO_CHAR(POC.EXPECTED_DATE_FINAL_LOC,'YYYYMMDD') EXPECTED_DATE_FINAL_FC,
+                   POC.FIRST_LOC FIRST_FC,
+                   POC.FINAL_LOC FINAL_ID,
+                   POC.ITEM SKU_ID,
+                   ITM.DIFF_2 SIZE_CODE,
+                   ITM2.DIFF_2 SIZE_GROUP,
+                   ITM.ITEM_PARENT OPTION_ID,
+                   OH.SUPPLIER SUPPLIER,
+                   POC.ORDER_NO ORDER_NO,
+                   POC.MASTER_PO_NO MASTER_PO_NO,
+                   POC.ASN ASN,
+                   TO_CHAR(SUM(NVL(POC.COMMITMENT_UNITS, 0)),'FM999999990.0000') COMMITMENT_UNITS,
+                   TO_CHAR(SUM(NVL(POC.COMMITMENT_COST_FIRST_LOC, 0)),'FM99999999999999990.0000') COMMITMENT_COST_FIRST_FC,
+                   TO_CHAR(SUM(NVL(POC.COMMITMENT_COST_FINAL_LOC, 0)),'FM99999999999999990.0000') COMMITMENT_COST_FINAL_FC,
+                   TO_CHAR(SUM(NVL(POC.COMMITMENT_BUY_VALUE_FIRST_LOC, 0)),'FM99999999999999990.0000') COMMITMENT_BUY_VALUE_FIRST_FC,
+                   TO_CHAR(SUM(NVL(POC.COMMITMENT_BUY_VALUE_FINAL_LOC, 0)),'FM99999999999999990.0000') COMMITMENT_BUY_VALUE_FINAL_FC,
+                   POC.CARRIER_BOOKED_IND,
+                   POC.FC_BOOKED_IND,
+                   POC.OVERDUE_IND OUTDATE_IND,
+                   TO_CHAR(SUM(NVL(POC.PENDING_ALLOC_OUT_UNITS, 0)),'FM999999990.0000') PENDING_ALLOC_OUT_UNITS,
+                   TO_CHAR(SUM(NVL(POC.PENDING_ALLOC_OUT_COST, 0)),'FM99999999999999990.0000') PENDING_ALLOC_OUT_COST,
+                   TO_CHAR(SUM(NVL(POC.PENDING_ALLOC_OUT_BUY_VALUE, 0)),'FM99999999999999990.0000') PENDING_ALLOC_OUT_BUY_VALUE,
+                   TO_CHAR(SUM(NVL(POC.PENDING_ALLOC_IN_UNITS, 0)),'FM999999990.0000') PENDING_ALLOC_IN_UNITS,
+                   TO_CHAR(SUM(NVL(POC.PENDING_ALLOC_IN_COST, 0)),'FM99999999999999990.0000') PENDING_ALLOC_IN_COST,
+                   TO_CHAR(SUM(NVL(POC.PENDING_ALLOC_IN_BUY_VALUE, 0)),'FM99999999999999990.0000') PENDING_ALLOC_IN_BUY_VALUE,
+                   TO_CHAR(SUM(NVL(POC.IN_TRANSIT_UNITS, 0)),'FM999999990.0000') IN_TRANSIT_ALLOC_UNITS,
+                   TO_CHAR(SUM(NVL(POC.IN_TRANSIT_COST, 0)),'FM99999999999999990.0000') IN_TRANSIT_ALLOC_COST,
+                   TO_CHAR(SUM(NVL(POC.IN_TRANSIT_BUY_VALUE, 0)),'FM99999999999999990.0000') IN_TRANSIT_ALLOC_BUY_VALUE
+              FROM INT_PO_COMMITMENT POC,
+                ORDHEAD OH,
+                ITEM_MASTER ITM,
+                ITEM_MASTER ITM2
+            WHERE OH.ORDER_NO = POC.ORDER_NO
+            AND   POC.ITEM = ITM.ITEM
+            AND   ITM.STATUS = 'A'
+            AND   ITM.ITEM_LEVEL <= ITM.TRAN_LEVEL
+            AND   ITM.SELLABLE_IND = 'Y'
+            AND   ITM.INVENTORY_IND = 'Y'
+            AND   ITM.ITEM_PARENT = ITM2.ITEM
+        GROUP BY TO_CHAR(POC.EXPECTED_DATE_FIRST_LOC,'YYYYMMDD'),
+                 TO_CHAR(POC.EXPECTED_DATE_FINAL_LOC,'YYYYMMDD'),
+                 POC.FIRST_LOC,
+                 POC.FINAL_LOC,
+                 POC.ITEM,
+                 ITM.DIFF_2,
+                 ITM2.DIFF_2,
+                 ITM.ITEM_PARENT,
+                 OH.SUPPLIER,
+                 POC.ORDER_NO,
+                 POC.MASTER_PO_NO,
+                 POC.ASN,
+                 POC.CARRIER_BOOKED_IND,
+                 POC.FC_BOOKED_IND,
+                 POC.OVERDUE_IND;
+             
+   -- 
+   
+   select * from INT_PO_COMMITMENT;
+   select count(distinct(item)) from ordloc where order_no in (select order_no from ordhead where status ='A'); --454578
+
+set serveroutput on;
+set timing on;
+                 
+DECLARE
+  I_THREAD_NO NUMBER;
+  l_count NUMBER;
+  O_ERROR_MESSAGE VARCHAR2(200);
+  I_COMMIT_RESULT BOOLEAN;
+  v_Return BOOLEAN;
+BEGIN
+  I_THREAD_NO := 8;
+  O_ERROR_MESSAGE := NULL;
+  I_COMMIT_RESULT := TRUE;
+
+  v_Return := INT_ASOS.INT_PO_COMMITMENT_SQL.POPULATE_RESULT_TABLE(
+    I_THREAD_NO => I_THREAD_NO,
+    O_ERROR_MESSAGE => O_ERROR_MESSAGE,
+    I_COMMIT_RESULT => I_COMMIT_RESULT
+  );
+  
+IF (v_Return) THEN 
+    DBMS_OUTPUT.PUT_LINE('v_Return = ' || 'Success');
+  ELSE
+    DBMS_OUTPUT.PUT_LINE('v_Return = ' || 'Failure');
+  END IF;
+  DBMS_OUTPUT.PUT_LINE('Thread = ' || I_THREAD_NO);
+DBMS_OUTPUT.PUT_LINE('O_ERROR_MESSAGE = ' || O_ERROR_MESSAGE);
+
+select count(*) into l_count from int_asos.INT_PO_COMMITMENT;
+
+DBMS_OUTPUT.PUT_LINE('Count in  = ' || l_count);
+
+EXCEPTION
+ 
+   when OTHERS THEN
+      dbms_output.put_line('Exception block'||dbms_utility.FORMAT_ERROR_BACKTRACE||dbms_utility.format_error_stack);
+      ROLLBACK;
+ 
+END;
+/
+
+
+
+select count(*) from int_asos.INT_PO_COMMITMENT;
