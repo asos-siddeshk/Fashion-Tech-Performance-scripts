@@ -1,0 +1,6 @@
+---
+execution:
+- scenario: 
+    script: SupplierScenario.jmx
+- scenario: 
+    script: 20sku_PO.jmx 

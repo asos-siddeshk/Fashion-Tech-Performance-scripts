@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,AERIE,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,AERIE,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,AERIE,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,AERIE,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,AERIE,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,AERIE,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,AERIE,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,AERIE,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,AERIE,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,AERIE,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,AERIE,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,AERIE,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,AERIE,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,AERIE,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,AERIE,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,AERIE,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,AERIE,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,AERIE,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,AERIE,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,AERIE,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,AERIE,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,AERIE,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,AERIE,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,AERIE,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,AERIE,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,AERIE,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ALICE TAKE,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ALICE TAKE,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ALICE TAKE,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ALICE TAKE,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ALICE TAKE,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ALICE TAKE,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ALICE TAKE,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ALICE TAKE,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ALICE TAKE,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ALICE TAKE,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ALICE TAKE,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ALICE TAKE,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ALICE TAKE,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ALICE TAKE,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ALICE TAKE,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ALICE TAKE,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ALICE TAKE,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ALICE TAKE,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ALICE TAKE,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ALICE TAKE,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ALICE TAKE,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ALICE TAKE,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ALICE TAKE,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ALICE TAKE,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ALICE TAKE,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ALICE TAKE,2,GBP,2.22,EUR,,N

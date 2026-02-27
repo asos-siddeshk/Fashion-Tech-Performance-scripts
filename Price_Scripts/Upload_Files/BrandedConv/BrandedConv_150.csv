@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,ANYA,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ANYA,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ANYA,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ANYA,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ANYA,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ANYA,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ANYA,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ANYA,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ANYA,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ANYA,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ANYA,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ANYA,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ANYA,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ANYA,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ANYA,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ANYA,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ANYA,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ANYA,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ANYA,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ANYA,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ANYA,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ANYA,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ANYA,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ANYA,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ANYA,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ANYA,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ARR CAT FO,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ARR CAT FO,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ARR CAT FO,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ARR CAT FO,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ARR CAT FO,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ARR CAT FO,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ARR CAT FO,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ARR CAT FO,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ARR CAT FO,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ARR CAT FO,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ARR CAT FO,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ARR CAT FO,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ARR CAT FO,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ARR CAT FO,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ARR CAT FO,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ARR CAT FO,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ARR CAT FO,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ARR CAT FO,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ARR CAT FO,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ARR CAT FO,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ARR CAT FO,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ARR CAT FO,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ARR CAT FO,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ARR CAT FO,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ARR CAT FO,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ARR CAT FO,2,GBP,2.22,EUR,,N

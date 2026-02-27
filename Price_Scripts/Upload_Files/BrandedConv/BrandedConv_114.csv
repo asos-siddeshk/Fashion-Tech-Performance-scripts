@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,AGENT PRO,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,AGENT PRO,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,AGENT PRO,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,AGENT PRO,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,AGENT PRO,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,AGENT PRO,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,AGENT PRO,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,AGENT PRO,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,AGENT PRO,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,AGENT PRO,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,AGENT PRO,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,AGENT PRO,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,AGENT PRO,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,AGENT PRO,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,AGENT PRO,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,AGENT PRO,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,AGENT PRO,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,AGENT PRO,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,AGENT PRO,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,AGENT PRO,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,AGENT PRO,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,AGENT PRO,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,AGENT PRO,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,AGENT PRO,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,AGENT PRO,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,AGENT PRO,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,AMEKO,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,AMEKO,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,AMEKO,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,AMEKO,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,AMEKO,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,AMEKO,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,AMEKO,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,AMEKO,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,AMEKO,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,AMEKO,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,AMEKO,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,AMEKO,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,AMEKO,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,AMEKO,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,AMEKO,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,AMEKO,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,AMEKO,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,AMEKO,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,AMEKO,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,AMEKO,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,AMEKO,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,AMEKO,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,AMEKO,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,AMEKO,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,AMEKO,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,AMEKO,2,GBP,2.22,EUR,,N

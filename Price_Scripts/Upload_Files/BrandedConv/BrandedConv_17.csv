@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,AMERICAN A,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,AMERICAN A,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,AMERICAN A,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,AMERICAN A,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,AMERICAN A,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,AMERICAN A,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,AMERICAN A,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,AMERICAN A,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,AMERICAN A,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,AMERICAN A,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,AMERICAN A,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,AMERICAN A,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,AMERICAN A,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,AMERICAN A,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,AMERICAN A,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,AMERICAN A,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,AMERICAN A,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,AMERICAN A,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,AMERICAN A,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,AMERICAN A,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,AMERICAN A,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,AMERICAN A,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,AMERICAN A,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,AMERICAN A,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,AMERICAN A,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,AMERICAN A,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ARIACOVE,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ARIACOVE,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ARIACOVE,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ARIACOVE,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ARIACOVE,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ARIACOVE,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ARIACOVE,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ARIACOVE,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ARIACOVE,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ARIACOVE,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ARIACOVE,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ARIACOVE,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ARIACOVE,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ARIACOVE,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ARIACOVE,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ARIACOVE,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ARIACOVE,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ARIACOVE,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ARIACOVE,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ARIACOVE,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ARIACOVE,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ARIACOVE,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ARIACOVE,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ARIACOVE,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ARIACOVE,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ARIACOVE,2,GBP,2.22,EUR,,N

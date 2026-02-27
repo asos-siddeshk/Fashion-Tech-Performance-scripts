@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,ARNOLD WIL,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ARNOLD WIL,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ARNOLD WIL,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ARNOLD WIL,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ARNOLD WIL,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ARNOLD WIL,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ARNOLD WIL,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ARNOLD WIL,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ARNOLD WIL,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ARNOLD WIL,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ARNOLD WIL,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ARNOLD WIL,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ARNOLD WIL,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ARNOLD WIL,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ARNOLD WIL,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ARNOLD WIL,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ARNOLD WIL,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ARNOLD WIL,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ARNOLD WIL,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ARNOLD WIL,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ARNOLD WIL,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ARNOLD WIL,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ARNOLD WIL,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ARNOLD WIL,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ARNOLD WIL,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ARNOLD WIL,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ATLANTIS,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ATLANTIS,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ATLANTIS,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ATLANTIS,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ATLANTIS,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ATLANTIS,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ATLANTIS,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ATLANTIS,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ATLANTIS,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ATLANTIS,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ATLANTIS,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ATLANTIS,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ATLANTIS,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ATLANTIS,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ATLANTIS,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ATLANTIS,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ATLANTIS,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ATLANTIS,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ATLANTIS,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ATLANTIS,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ATLANTIS,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ATLANTIS,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ATLANTIS,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ATLANTIS,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ATLANTIS,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ATLANTIS,2,GBP,2.22,EUR,,N

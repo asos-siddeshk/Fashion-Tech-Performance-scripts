@@ -1,0 +1,13 @@
+---
+execution:
+- scenario: 
+    script: ItemScenario.jmx
+- scenario: 
+    script: PO_Scenario.jmx
+- scenario: 
+    script: Price_Scenario.jmx
+- scenario: 
+    script: SupplierScenario.jmx
+- scenario: 
+    script: POCreate20Sku_New.jmx
+  

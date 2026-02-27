@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,A CHILD OF,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,A CHILD OF,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,A CHILD OF,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,A CHILD OF,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,A CHILD OF,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,A CHILD OF,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,A CHILD OF,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,A CHILD OF,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,A CHILD OF,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,A CHILD OF,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,A CHILD OF,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,A CHILD OF,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,A CHILD OF,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,A CHILD OF,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,A CHILD OF,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,A CHILD OF,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,A CHILD OF,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,A CHILD OF,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,A CHILD OF,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,A CHILD OF,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,A CHILD OF,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,A CHILD OF,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,A CHILD OF,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,A CHILD OF,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,A CHILD OF,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,A CHILD OF,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ALMOST FAM,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ALMOST FAM,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ALMOST FAM,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ALMOST FAM,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ALMOST FAM,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ALMOST FAM,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ALMOST FAM,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ALMOST FAM,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ALMOST FAM,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ALMOST FAM,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ALMOST FAM,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ALMOST FAM,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ALMOST FAM,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ALMOST FAM,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ALMOST FAM,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ALMOST FAM,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ALMOST FAM,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ALMOST FAM,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ALMOST FAM,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ALMOST FAM,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ALMOST FAM,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ALMOST FAM,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ALMOST FAM,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ALMOST FAM,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ALMOST FAM,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ALMOST FAM,2,GBP,2.22,EUR,,N

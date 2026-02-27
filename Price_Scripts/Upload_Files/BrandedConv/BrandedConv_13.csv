@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,ACNE,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ACNE,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ACNE,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ACNE,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ACNE,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ACNE,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ACNE,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ACNE,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ACNE,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ACNE,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ACNE,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ACNE,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ACNE,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ACNE,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ACNE,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ACNE,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ACNE,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ACNE,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ACNE,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ACNE,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ACNE,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ACNE,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ACNE,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ACNE,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ACNE,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ACNE,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,A.M EYEWEA,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,A.M EYEWEA,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,A.M EYEWEA,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,A.M EYEWEA,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,A.M EYEWEA,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,A.M EYEWEA,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,A.M EYEWEA,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,A.M EYEWEA,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,A.M EYEWEA,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,A.M EYEWEA,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,A.M EYEWEA,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,A.M EYEWEA,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,A.M EYEWEA,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,A.M EYEWEA,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,A.M EYEWEA,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,A.M EYEWEA,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,A.M EYEWEA,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,A.M EYEWEA,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,A.M EYEWEA,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,A.M EYEWEA,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,A.M EYEWEA,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,A.M EYEWEA,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,A.M EYEWEA,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,A.M EYEWEA,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,A.M EYEWEA,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,A.M EYEWEA,2,GBP,2.22,EUR,,N

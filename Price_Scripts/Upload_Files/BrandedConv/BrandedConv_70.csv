@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,ALEX AND C,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ALEX AND C,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ALEX AND C,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ALEX AND C,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ALEX AND C,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ALEX AND C,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ALEX AND C,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ALEX AND C,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ALEX AND C,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ALEX AND C,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ALEX AND C,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ALEX AND C,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ALEX AND C,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ALEX AND C,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ALEX AND C,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ALEX AND C,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ALEX AND C,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ALEX AND C,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ALEX AND C,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ALEX AND C,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ALEX AND C,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ALEX AND C,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ALEX AND C,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ALEX AND C,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ALEX AND C,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ALEX AND C,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ANOUK,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ANOUK,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ANOUK,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ANOUK,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ANOUK,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ANOUK,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ANOUK,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ANOUK,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ANOUK,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ANOUK,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ANOUK,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ANOUK,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ANOUK,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ANOUK,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ANOUK,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ANOUK,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ANOUK,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ANOUK,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ANOUK,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ANOUK,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ANOUK,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ANOUK,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ANOUK,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ANOUK,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ANOUK,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ANOUK,2,GBP,2.22,EUR,,N

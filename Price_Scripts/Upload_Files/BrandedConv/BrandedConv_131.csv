@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,ALICE FOR,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ALICE FOR,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ALICE FOR,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ALICE FOR,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ALICE FOR,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ALICE FOR,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ALICE FOR,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ALICE FOR,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ALICE FOR,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ALICE FOR,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ALICE FOR,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ALICE FOR,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ALICE FOR,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ALICE FOR,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ALICE FOR,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ALICE FOR,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ALICE FOR,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ALICE FOR,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ALICE FOR,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ALICE FOR,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ALICE FOR,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ALICE FOR,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ALICE FOR,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ALICE FOR,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ALICE FOR,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ALICE FOR,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ALIFE,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ALIFE,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ALIFE,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ALIFE,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ALIFE,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ALIFE,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ALIFE,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ALIFE,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ALIFE,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ALIFE,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ALIFE,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ALIFE,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ALIFE,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ALIFE,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ALIFE,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ALIFE,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ALIFE,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ALIFE,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ALIFE,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ALIFE,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ALIFE,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ALIFE,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ALIFE,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ALIFE,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ALIFE,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ALIFE,2,GBP,2.22,EUR,,N

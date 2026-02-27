@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,AGON,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,AGON,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,AGON,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,AGON,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,AGON,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,AGON,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,AGON,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,AGON,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,AGON,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,AGON,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,AGON,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,AGON,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,AGON,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,AGON,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,AGON,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,AGON,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,AGON,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,AGON,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,AGON,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,AGON,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,AGON,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,AGON,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,AGON,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,AGON,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,AGON,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,AGON,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ANDY WARHO,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ANDY WARHO,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ANDY WARHO,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ANDY WARHO,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ANDY WARHO,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ANDY WARHO,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ANDY WARHO,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ANDY WARHO,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ANDY WARHO,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ANDY WARHO,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ANDY WARHO,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ANDY WARHO,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ANDY WARHO,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ANDY WARHO,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ANDY WARHO,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ANDY WARHO,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ANDY WARHO,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ANDY WARHO,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ANDY WARHO,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ANDY WARHO,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ANDY WARHO,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ANDY WARHO,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ANDY WARHO,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ANDY WARHO,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ANDY WARHO,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ANDY WARHO,2,GBP,2.22,EUR,,N

@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,ADA ZANDIT,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ADA ZANDIT,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ADA ZANDIT,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ADA ZANDIT,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ADA ZANDIT,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ADA ZANDIT,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ADA ZANDIT,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ADA ZANDIT,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ADA ZANDIT,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ADA ZANDIT,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ADA ZANDIT,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ADA ZANDIT,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ADA ZANDIT,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ADA ZANDIT,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ADA ZANDIT,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ADA ZANDIT,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ADA ZANDIT,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ADA ZANDIT,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ADA ZANDIT,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ADA ZANDIT,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ADA ZANDIT,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ADA ZANDIT,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ADA ZANDIT,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ADA ZANDIT,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ADA ZANDIT,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ADA ZANDIT,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,AERYNE,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,AERYNE,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,AERYNE,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,AERYNE,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,AERYNE,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,AERYNE,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,AERYNE,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,AERYNE,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,AERYNE,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,AERYNE,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,AERYNE,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,AERYNE,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,AERYNE,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,AERYNE,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,AERYNE,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,AERYNE,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,AERYNE,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,AERYNE,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,AERYNE,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,AERYNE,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,AERYNE,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,AERYNE,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,AERYNE,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,AERYNE,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,AERYNE,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,AERYNE,2,GBP,2.22,EUR,,N

@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,AMELIA R T,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,AMELIA R T,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,AMELIA R T,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,AMELIA R T,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,AMELIA R T,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,AMELIA R T,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,AMELIA R T,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,AMELIA R T,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,AMELIA R T,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,AMELIA R T,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,AMELIA R T,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,AMELIA R T,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,AMELIA R T,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,AMELIA R T,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,AMELIA R T,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,AMELIA R T,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,AMELIA R T,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,AMELIA R T,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,AMELIA R T,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,AMELIA R T,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,AMELIA R T,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,AMELIA R T,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,AMELIA R T,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,AMELIA R T,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,AMELIA R T,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,AMELIA R T,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ANTOINE AN,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ANTOINE AN,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ANTOINE AN,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ANTOINE AN,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ANTOINE AN,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ANTOINE AN,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ANTOINE AN,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ANTOINE AN,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ANTOINE AN,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ANTOINE AN,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ANTOINE AN,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ANTOINE AN,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ANTOINE AN,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ANTOINE AN,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ANTOINE AN,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ANTOINE AN,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ANTOINE AN,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ANTOINE AN,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ANTOINE AN,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ANTOINE AN,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ANTOINE AN,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ANTOINE AN,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ANTOINE AN,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ANTOINE AN,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ANTOINE AN,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ANTOINE AN,2,GBP,2.22,EUR,,N

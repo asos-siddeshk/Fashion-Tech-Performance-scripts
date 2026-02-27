@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,ARAY,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ARAY,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ARAY,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ARAY,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ARAY,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ARAY,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ARAY,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ARAY,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ARAY,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ARAY,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ARAY,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ARAY,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ARAY,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ARAY,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ARAY,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ARAY,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ARAY,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ARAY,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ARAY,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ARAY,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ARAY,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ARAY,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ARAY,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ARAY,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ARAY,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ARAY,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ALWAYS OUT OF,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ALWAYS OUT OF,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ALWAYS OUT OF,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ALWAYS OUT OF,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ALWAYS OUT OF,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ALWAYS OUT OF,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ALWAYS OUT OF,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ALWAYS OUT OF,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ALWAYS OUT OF,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ALWAYS OUT OF,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ALWAYS OUT OF,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ALWAYS OUT OF,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ALWAYS OUT OF,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ALWAYS OUT OF,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ALWAYS OUT OF,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ALWAYS OUT OF,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ALWAYS OUT OF,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ALWAYS OUT OF,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ALWAYS OUT OF,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ALWAYS OUT OF,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ALWAYS OUT OF,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ALWAYS OUT OF,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ALWAYS OUT OF,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ALWAYS OUT OF,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ALWAYS OUT OF,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ALWAYS OUT OF,2,GBP,2.22,EUR,,N

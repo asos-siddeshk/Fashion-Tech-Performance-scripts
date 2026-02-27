@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,AVEDA,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,AVEDA,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,AVEDA,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,AVEDA,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,AVEDA,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,AVEDA,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,AVEDA,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,AVEDA,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,AVEDA,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,AVEDA,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,AVEDA,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,AVEDA,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,AVEDA,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,AVEDA,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,AVEDA,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,AVEDA,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,AVEDA,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,AVEDA,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,AVEDA,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,AVEDA,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,AVEDA,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,AVEDA,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,AVEDA,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,AVEDA,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,AVEDA,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,AVEDA,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ANAYA TALL,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ANAYA TALL,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ANAYA TALL,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ANAYA TALL,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ANAYA TALL,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ANAYA TALL,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ANAYA TALL,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ANAYA TALL,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ANAYA TALL,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ANAYA TALL,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ANAYA TALL,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ANAYA TALL,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ANAYA TALL,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ANAYA TALL,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ANAYA TALL,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ANAYA TALL,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ANAYA TALL,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ANAYA TALL,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ANAYA TALL,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ANAYA TALL,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ANAYA TALL,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ANAYA TALL,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ANAYA TALL,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ANAYA TALL,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ANAYA TALL,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ANAYA TALL,2,GBP,2.22,EUR,,N

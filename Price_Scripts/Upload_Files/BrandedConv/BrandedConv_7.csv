@@ -1,0 +1,53 @@
+New/Maintain,Pricing Method,Zone Group,Base Zone,Zones,Product Group,Category,Sub-Category,Business Model,Buying Group,Buying Sub-Group,Buying Set,Brand,Base Zone Price,Base Zone Currency,Converted Price,Converted Price Currency,Conversion Factor,Reprice Existing
+New,1,2,99,99,,,,,,,,AT HATS,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,AT HATS,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,AT HATS,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,AT HATS,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,AT HATS,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,AT HATS,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,AT HATS,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,AT HATS,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,AT HATS,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,AT HATS,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,AT HATS,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,AT HATS,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,AT HATS,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,AT HATS,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,AT HATS,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,AT HATS,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,AT HATS,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,AT HATS,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,AT HATS,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,AT HATS,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,AT HATS,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,AT HATS,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,AT HATS,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,AT HATS,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,AT HATS,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,AT HATS,2,GBP,2.22,EUR,,N
+New,1,2,99,99,,,,,,,,ABS BY ALA,1,GBP,1,GBP,,N
+New,1,2,99,100,,,,,,,,ABS BY ALA,1,GBP,1,GBP,,N
+New,1,2,99,101,,,,,,,,ABS BY ALA,1,GBP,1,GBP,,N
+New,1,2,99,102,,,,,,,,ABS BY ALA,1,GBP,2,USD,,N
+New,1,2,99,103,,,,,,,,ABS BY ALA,1,GBP,1.12,EUR,,N
+New,1,2,99,104,,,,,,,,ABS BY ALA,1,GBP,1.12,EUR,,N
+New,1,2,99,105,,,,,,,,ABS BY ALA,1,GBP,1.12,EUR,,N
+New,1,2,99,106,,,,,,,,ABS BY ALA,1,GBP,1.12,EUR,,N
+New,1,2,99,107,,,,,,,,ABS BY ALA,1,GBP,85,RUB,,N
+New,1,2,99,108,,,,,,,,ABS BY ALA,1,GBP,2,AUD,,N
+New,1,2,99,109,,,,,,,,ABS BY ALA,1,GBP,1.12,EUR,,N
+New,1,2,99,110,,,,,,,,ABS BY ALA,1,GBP,12,SEK,,N
+New,1,2,99,111,,,,,,,,ABS BY ALA,1,GBP,1.12,EUR,,N
+New,1,2,99,99,,,,,,,,ABS BY ALA,2,GBP,2,GBP,,N
+New,1,2,99,100,,,,,,,,ABS BY ALA,2,GBP,2,GBP,,N
+New,1,2,99,101,,,,,,,,ABS BY ALA,2,GBP,2,GBP,,N
+New,1,2,99,102,,,,,,,,ABS BY ALA,2,GBP,4,USD,,N
+New,1,2,99,103,,,,,,,,ABS BY ALA,2,GBP,2.22,EUR,,N
+New,1,2,99,104,,,,,,,,ABS BY ALA,2,GBP,2.22,EUR,,N
+New,1,2,99,105,,,,,,,,ABS BY ALA,2,GBP,2.22,EUR,,N
+New,1,2,99,106,,,,,,,,ABS BY ALA,2,GBP,2.22,EUR,,N
+New,1,2,99,107,,,,,,,,ABS BY ALA,2,GBP,170,RUB,,N
+New,1,2,99,108,,,,,,,,ABS BY ALA,2,GBP,4,AUD,,N
+New,1,2,99,109,,,,,,,,ABS BY ALA,2,GBP,2.22,EUR,,N
+New,1,2,99,110,,,,,,,,ABS BY ALA,2,GBP,24,SEK,,N
+New,1,2,99,111,,,,,,,,ABS BY ALA,2,GBP,2.22,EUR,,N
